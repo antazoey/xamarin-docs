@@ -85,7 +85,7 @@ For more information about cancellation, see [Fine-Tuning Your Async Application
 
 ## Example
 
-Download the [example Xamarin solution](/samples/xamarin/mobile-samples/asyncawait/) (for both iOS and Android) to see a working example of `async` and `await` in mobile apps. The example code is discussed in more detail in this section.
+Download the sample (for both iOS and Android) to see a working example of `async` and `await` in mobile apps. The example code is discussed in more detail in this section.
 
 ### Writing an async method
 
@@ -187,10 +187,7 @@ This document has given an overview of the new language keywords and examples fo
 
 ## Related Links
 
-- [AsyncAwait (sample)](/samples/xamarin/mobile-samples/asyncawait/)
 - [Callbacks as our Generations' Go To Statement](https://tirania.org/blog/archive/2013/Aug-15.html)
-- [Data (iOS) (sample)](/samples/xamarin/ios-samples/data/)
-- [HttpClient (iOS) (sample)](/samples/xamarin/ios-samples/httpclient/)
 - [MapKitSearch (iOS) (sample)](https://github.com/xamarin/monotouch-samples/tree/master/MapKitSearch)
 - [Asynchronous programming](/dotnet/csharp/async)
 - [Fine-Tuning Your Async Application (C#)](/dotnet/csharp/programming-guide/concepts/async/fine-tuning-your-async-application)

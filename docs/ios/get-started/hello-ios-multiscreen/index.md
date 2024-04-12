@@ -22,5 +22,4 @@ The second part of this document explains what was built and discusses architect
 
 ## Related Links
 
-- [Hello, iOS (sample)](/samples/xamarin/ios-samples/hello-ios)
 - [iOS Human Interface Guidelines](https://developer.apple.com/library/ios/#documentation/UserExperience/Conceptual/MobileHIG/Introduction/Introduction.html)

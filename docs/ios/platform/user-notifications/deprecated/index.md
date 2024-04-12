@@ -46,7 +46,3 @@ In this section we'll walk through how to use local notifications in a
 This section will cover push notifications in iOS. It introduces the Apple Push
     Notifications Gateway Service (APNS) and the role it plays in publishing notifications to iOS applications. It will explain how to create the security certificates
     necessary to enable push notifications and discuss. Finally this section will discuss some of the housekeeping tasks that application servers must perform to keep track of the client mobile devices.
-
-## Related Links
-
-- [Notifications (sample)](/samples/xamarin/ios-samples/notifications)

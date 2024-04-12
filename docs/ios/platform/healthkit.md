@@ -433,5 +433,4 @@ Finally, we've taking a look at a simple implementation of Health Kit using the 
 
 ## Related Links
 
-- [HKWork (sample)](/samples/xamarin/ios-samples/ios8-introtohealthkit)
 - [Introduction to iOS 8](~/ios/platform/introduction-to-ios8.md)

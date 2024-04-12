@@ -692,7 +692,3 @@ Apple has the following suggestions:
 ## Summary
 
 This article has covered the enhancements Apple has made to watchOS and how they can be used to keep a watch app up-to-date. First, it covered all of the new Background Task Apple has added in watchOS 3. Then, it covered the Background API Lifecycle and how to implement Background Tasks in a Xamarin watchOS app. Finally, it covered how scheduling works and gave some best practices.
-
-## Related Links
-
-- [iOS 10 Samples](/samples/browse/?products=xamarin&term=Xamarin.iOS%2biOS10)

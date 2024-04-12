@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms Text Styles
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-text)
-
 _Styling text in Xamarin.Forms_
 
 Styles can be used to adjust the appearance of labels, entries, and editors. Styles can be defined once and used by many views, but a style can only be used with views of one type.
@@ -139,5 +137,4 @@ To ensure accessibility, make sure that built-in styles are used as the basis fo
 
 - [Creating Mobile Apps with Xamarin.Forms, Chapter 12 free download](https://aka.ms/xamformsebook)
 - [Styles](~/xamarin-forms/user-interface/styles/index.md)
-- [Text (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-text)
 - [Style](xref:Xamarin.Forms.Style)

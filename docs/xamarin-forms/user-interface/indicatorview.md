@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms IndicatorView
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-indicatorviewdemos/)
-
 The [`IndicatorView`](xref:Xamarin.Forms.IndicatorView) is a control that displays indicators that represent the number of items, and current position, in a [`CarouselView`](xref:Xamarin.Forms.CarouselView):
 
 [![Screenshot of a CarouselView and IndicatorView, on iOS and Android](indicatorview-images/circles.png "IndicatorView circles")](indicatorview-images/circles-large.png#lightbox "IndicatorView circles")
@@ -186,6 +184,5 @@ For more information about visual states, see [Xamarin.Forms Visual State Manage
 
 ## Related links
 
-- [IndicatorView (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-indicatorviewdemos/)
 - [Xamarin.Forms CarouselView](~/xamarin-forms/user-interface/carouselview/index.md)
 - [Xamarin.Forms Visual State Manager](visual-state-manager.md)

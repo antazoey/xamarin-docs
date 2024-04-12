@@ -103,7 +103,7 @@ Or like this if opened in a text editor:
 
 <a name="Managing-the-Apps-Icon"></a>
 
-## Managing the App's Icon 
+## Managing the App's Icon
 
 With the icon images included in the Xamarin.iOS project and the **Info.plist** file correctly configured, the developer can use one of many new features added to iOS 10.3 to control the app's icon.
 
@@ -165,7 +165,3 @@ If the user switches back to the primary icon, an alert like the following will 
 ## Summary
 
 This article has covered adding alternate app icons to a Xamarin.iOS project and using them inside of the app.
-
-## Related Links
-
-- [iOSTenThree Sample](/samples/xamarin/ios-samples/ios10-iostenthree/)

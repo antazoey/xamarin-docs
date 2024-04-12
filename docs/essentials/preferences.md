@@ -75,7 +75,6 @@ The following data types are supported in **Preferences**:
 Preferences are stored natively, which allows you to integrate your settings into the native system settings. Follow the platform documentation and samples to integrate with the platform:
 
 * Apple: [Implementing an iOS Settings Bundle](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/UserDefaults/Preferences/Preferences.html)
-* [iOS Applicaton Preferences Sample](/samples/xamarin/ios-samples/appprefs/)
 * [watchOS Settings](https://developer.xamarin.com/guides/ios/watch/working-with/settings/)
 * Android: [Getting Started with Settings Screens](https://developer.android.com/guide/topics/ui/settings.html)
 

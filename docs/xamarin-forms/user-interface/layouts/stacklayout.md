@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms StackLayout
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-stacklayoutdemos)
-
 [![Xamarin.Forms StackLayout](stacklayout-images/layouts.png "Xamarin.Forms StackLayout")](stacklayout-images/layouts-large.png#lightbox "Xamarin.Forms StackLayout")
 
 A [`StackLayout`](xref:Xamarin.Forms.StackLayout) organizes child views in a one-dimensional stack, either horizontally or vertically. By default, a `StackLayout` is oriented vertically. In addition, a `StackLayout` can be used as a parent layout that contains other child layouts.
@@ -464,7 +462,6 @@ public class CombinedStackLayoutPageCS : ContentPage
 
 ## Related links
 
-- [StackLayout demos (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-stacklayoutdemos)
 - [Layout Options in Xamarin.Forms](layout-options.md)
 - [Choose a Xamarin.Forms Layout](choose-layout.md)
 - [Improve Xamarin.Forms App Performance](~/xamarin-forms/deploy-test/performance.md)

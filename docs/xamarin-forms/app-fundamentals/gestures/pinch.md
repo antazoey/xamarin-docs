@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Add a pinch gesture recognizer
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/workingwithgestures-pinchgesture)
-
 _The pinch gesture is used for performing interactive zoom and is implemented with the PinchGestureRecognizer class. A common scenario for the pinch gesture is to perform interactive zoom of an image at the pinch location. This is accomplished by scaling the content of the viewport, and is demonstrated in this article._
 
 To make a user interface element zoomable with the pinch gesture, create a [`PinchGestureRecognizer`](xref:Xamarin.Forms.PinchGestureRecognizer) instance, handle the [`PinchUpdated`](xref:Xamarin.Forms.PinchGestureRecognizer.PinchUpdated) event, and add the new gesture recognizer to the [`GestureRecognizers`](xref:Xamarin.Forms.View.GestureRecognizers) collection on the user interface element. The following code example shows a `PinchGestureRecognizer` attached to an [`Image`](xref:Xamarin.Forms.Image) element:
@@ -160,6 +158,5 @@ This method updates the zoom level of the wrapped user interface element based o
 
 ## Related Links
 
-- [PinchGesture (sample)](/samples/xamarin/xamarin-forms-samples/workingwithgestures-pinchgesture)
 - [GestureRecognizer](xref:Xamarin.Forms.GestureRecognizer)
 - [PinchGestureRecognizer](xref:Xamarin.Forms.PinchGestureRecognizer)

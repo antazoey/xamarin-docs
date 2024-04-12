@@ -31,7 +31,7 @@ Implement a picker by instantiating a new `UIPickerView`:
 ```csharp
 UIPickerView pickerView = new UIPickerView(
     new CGRect(
-        UIScreen.MainScreen.Bounds.X - UIScreen.MainScreen.Bounds.Width, 
+        UIScreen.MainScreen.Bounds.X - UIScreen.MainScreen.Bounds.Width,
         UIScreen.MainScreen.Bounds.Height - 230,
         UIScreen.MainScreen.Bounds.Width,
         180
@@ -59,7 +59,7 @@ public override void ViewDidLoad()
 }
 ```
 
-The [`UIPickerViewModel`](xref:UIKit.UIPickerViewModel) 
+The [`UIPickerViewModel`](xref:UIKit.UIPickerViewModel)
 base class implements two interfaces,
 [`IUIPickerDataSource`](xref:UIKit.IUIPickerViewDataSource)
 and [`IUIPickerViewDelegate`](xref:UIKit.IUIPickerViewDelegate),
@@ -132,8 +132,8 @@ selection:
 
 ![Picker with two components](picker-images/image3.png "Picker with two components")
 
-To specify the number of components in a picker, use the 
-[`GetComponentCount`](xref:UIKit.UIPickerViewModel.GetComponentCount(UIKit.UIPickerView)) 
+To specify the number of components in a picker, use the
+[`GetComponentCount`](xref:UIKit.UIPickerViewModel.GetComponentCount(UIKit.UIPickerView))
 method.
 
 ### Customizing a picker's appearance
@@ -171,8 +171,8 @@ the **Toolbox** to the design surface.
 
 #### Minimum and maximum date
 
-[`MinimumDate`](xref:UIKit.UIDatePicker.MinimumDate) 
-and [`MaximumDate`](xref:UIKit.UIDatePicker.MaximumDate) 
+[`MinimumDate`](xref:UIKit.UIDatePicker.MinimumDate)
+and [`MaximumDate`](xref:UIKit.UIDatePicker.MaximumDate)
 limit the range of dates available in the date picker. For example, the
 following code constrains a date picker to the sixty years leading up to
 the present moment:
@@ -197,7 +197,7 @@ datePickerView.MaximumDate = currentDate;
 
 #### Minute interval
 
-The [`MinuteInterval`](xref:UIKit.UIDatePicker.MinuteInterval) 
+The [`MinuteInterval`](xref:UIKit.UIDatePicker.MinuteInterval)
 property sets the interval at which the picker will display minutes:
 
 ```csharp
@@ -206,13 +206,13 @@ datePickerView.MinuteInterval = 10;
 
 #### Mode
 
-Date pickers support four 
+Date pickers support four
 [modes](xref:UIKit.UIDatePickerMode),
 described below:
 
 ##### UIDatePickerMode.Time
 
-`UIDatePickerMode.Time` displays the time with an hour and minute selector 
+`UIDatePickerMode.Time` displays the time with an hour and minute selector
 and an optional AM or PM designation:
 
 ```csharp
@@ -291,7 +291,7 @@ dateLabel.Text = "Alarm set for:" + coundownTimeformat.ToString(finishCountdown)
 To format an `NSDate`, use an
 [`NSDateFormatter`](xref:Foundation.NSDateFormatter).
 
-To use an `NSDateFormatter`, call its [`ToString`](xref:Foundation.NSDateFormatter.ToString(Foundation.NSDate)) 
+To use an `NSDateFormatter`, call its [`ToString`](xref:Foundation.NSDateFormatter.ToString(Foundation.NSDate))
 method. For example:
 
 ```csharp
@@ -316,9 +316,9 @@ dateFormat.DateFormat = "yyyy-MM-dd";
 
 ##### TimeStyle
 
-The [`TimeStyle`](xref:Foundation.NSDateFormatter.TimeStyle) 
-property (an [`NSDateFormatterStyle`](xref:Foundation.NSDateFormatterStyle) 
-of an `NSDateFormatter` specifies time formatting based on predetermined 
+The [`TimeStyle`](xref:Foundation.NSDateFormatter.TimeStyle)
+property (an [`NSDateFormatterStyle`](xref:Foundation.NSDateFormatterStyle)
+of an `NSDateFormatter` specifies time formatting based on predetermined
 styles:
 
 ```csharp
@@ -355,7 +355,3 @@ Various `NSDateFormatterStyle` values display dates as follows:
 > `DateFormat` and `DateStyle`/`TimeStyle` provide different ways of
 > specifying date and time formatting. The most recently set properties
 > determine the date formatter's output.
-
-## Related links
-
-- [PickerControl (sample)](/samples/xamarin/ios-samples/pickercontrol)

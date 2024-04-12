@@ -16,17 +16,6 @@ and the Settings app to an app's notification management screen. This
 screen should allow users to opt in and out of the various types of
 notifications the app sends.
 
-## Sample app: RedGreenNotifications
-
-To see an example of how notification management works, take a look at the
-[RedGreenNotifications](/samples/xamarin/ios-samples/ios12-redgreennotifications)
-sample app.
-
-This sample app sends two types of notifications – red and green – and
-provides a screen that allows users to opt in or out of either kind.
-
-Code snippets in this guide come from this sample app.
-
 ## Notification management screen
 
 In the sample app, `ManageNotificationsViewController` defines a user
@@ -136,7 +125,6 @@ public void OpenSettings(UNUserNotificationCenter center, UNNotification notific
 
 ## Related links
 
-- [Sample app – RedGreenNotifications](/samples/xamarin/ios-samples/ios12-redgreennotifications)
 - [User Notifications framework in Xamarin.iOS](~/ios/platform/user-notifications/index.md)
 - [UserNotifications (Apple)](https://developer.apple.com/documentation/usernotifications?language=objc)
 - [What's New in User Notifications (WWDC 2018)](https://developer.apple.com/videos/play/wwdc2018/710/)

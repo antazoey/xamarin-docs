@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Automation Properties in Xamarin.Forms
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-accessibility)
-
 _Xamarin.Forms allows accessibility values to be set on user interface elements by using attached properties from the AutomationProperties class, which in turn set native accessibility values. This article explains how to use the AutomationProperties class, so that a screen reader can speak about the elements on the page._
 
 Xamarin.Forms allows automation properties to be set on user interface elements via the following attached properties:
@@ -170,4 +168,3 @@ On Android, the `AutomationProperties.Name` and/or `AutomationProperties.HelpTex
 ## Related Links
 
 - [Attached Properties](~/xamarin-forms/xaml/attached-properties.md)
-- [Accessibility (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-accessibility)

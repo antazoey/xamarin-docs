@@ -29,8 +29,7 @@ The **Info.plist** file lets you configure some aspects of an iOS
 application's renderering, such as how (and whether) the status bar is
 shown.
 
-For example, the [Todo sample](/samples/xamarin/xamarin-forms-samples/todo) uses the following
-code to set the navigation bar color and text color on all platforms:
+For example, use the following code to set the navigation bar color and text color on all platforms:
 
 ```csharp
 var nav = new NavigationPage (new TodoListPage ());
@@ -123,8 +122,7 @@ UISwitch.Appearance.OnTintColor = UIColor.FromRGB(0x91, 0xCA, 0x47); // green
 ```
 
 These two screen captures show the default `UISwitch` control on the left
-and the customized version (setting `Appearance`) on the right in the
-[Todo sample](/samples/xamarin/xamarin-forms-samples/todo):
+and the customized version (setting `Appearance`) on the right:
 
 ![Default UISwitch Color](theme-images/switch-default.png) ![Customized UISwitch Color](theme-images/switch-custom.png)
 

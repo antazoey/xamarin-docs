@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Colors in Xamarin.Forms
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/workingwithcolors)
-
 The [`Color`](xref:Xamarin.Forms.Color) structure lets you specify colors as Red-Green-Blue (RGB) values, Hue-Saturation-Luminosity (HSL) values, Hue-Saturation-Value (HSV) values, or with a color name. An Alpha channel is also available to indicate transparency.
 
 [`Color`](xref:Xamarin.Forms.Color) objects can be created with the `Color` constructors, which can be used to specify a [gray shade](xref:Xamarin.Forms.Color.%23ctor(System.Double)), an [RGB value](xref:Xamarin.Forms.Color.%23ctor(System.Double,System.Double,System.Double)), or an [RGB value with transparency](xref:Xamarin.Forms.Color.%23ctor(System.Double,System.Double,System.Double,System.Double)). In all cases, arguments are `double` values ranging from 0 to 1.
@@ -138,8 +136,3 @@ ActivityIndicator activityIndicator = new ActivityIndicator
     IsRunning = true
 };
 ```
-
-## Related links
-
-- [ColorsSample](/samples/xamarin/xamarin-forms-samples/workingwithcolors)
-- [Bindable Picker (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-bindablepicker)

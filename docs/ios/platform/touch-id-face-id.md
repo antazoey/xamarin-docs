@@ -12,8 +12,6 @@ no-loc: [Objective-C]
 
 # Use Touch ID and Face ID with Xamarin.iOS
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/ios-samples/ios11-faceidsample/)
-
 iOS supports two biometric authentication systems:
 
 1. **Touch ID** uses a fingerprint sensor under the Home button.
@@ -50,7 +48,7 @@ partial class AuthenticationViewController: UIViewController
     {
         base.ViewWillAppear(animated);
         unAuthenticatedLabel.Text = "";
-    
+
         var context = new LAContext();
         var buttonText = "";
 
@@ -109,11 +107,11 @@ partial class AuthenticationViewController: UIViewController
         var context = new LAContext();
         NSError AuthError;
         var localizedReason = new NSString("To access secrets");
-    
+
         // Because LocalAuthentication APIs have been extended over time,
         // you must check iOS version before setting some properties
         context.LocalizedFallbackTitle = "Fallback";
-    
+
         if (UIDevice.CurrentDevice.CheckSystemVersion(10, 0))
         {
             context.LocalizedCancelTitle = "Cancel";
@@ -123,7 +121,7 @@ partial class AuthenticationViewController: UIViewController
             context.LocalizedReason = "Authorize for access to secrets";
             BiometryType = context.BiometryType == LABiometryType.TouchId ? "TouchID" : "FaceID";
         }
-    
+
         // Check if biometric authentication is possible
         if (context.CanEvaluatePolicy(LAPolicy.DeviceOwnerAuthenticationWithBiometrics, out AuthError))
         {
@@ -141,7 +139,7 @@ partial class AuthenticationViewController: UIViewController
                         unAuthenticatedLabel.Text = $"{BiometryType} Authentication Failed";
                     }
                 });
-    
+
             });
             context.EvaluatePolicy(LAPolicy.DeviceOwnerAuthenticationWithBiometrics, localizedReason, replyHandler);
         }
@@ -164,7 +162,7 @@ partial class AuthenticationViewController: UIViewController
                         AuthenticateButton.Hidden = true;
                     }
                 });
-    
+
             });
             context.EvaluatePolicy(LAPolicy.DeviceOwnerAuthentication, localizedReason, replyHandler);
         }
@@ -178,7 +176,7 @@ partial class AuthenticationViewController: UIViewController
             okCancelAlertController.AddAction(UIAlertAction.Create("Cancel", UIAlertActionStyle.Cancel, alert => Console.WriteLine("Cancel was clicked")));
             PresentViewController(okCancelAlertController, true, null);
         }
-    } 
+    }
 }
 ```
 
@@ -190,6 +188,5 @@ The sample project contains mock data and a view to display the data if authenti
 
 ## Related links
 
-- [Local Authentication using Touch ID or Face ID sample](/samples/xamarin/ios-samples/ios11-faceidsample/)
 - [About Touch ID](https://support.apple.com/en-us/HT204587) on support.apple.com
 - [About Face ID](https://support.apple.com/en-us/HT208108) on support.apple.com

@@ -423,7 +423,6 @@ In this article we looked at the graphics capabilities provided via the *Core Gr
 
 ## Related Links
 
-- [Core Graphics Sample](/samples/xamarin/ios-samples/graphicsandanimation)
 - [Graphics and Animation Walkthrough](~/ios/platform/graphics-animation-ios/graphics-animation-walkthrough.md)
 - [Core Animation](~/ios/platform/graphics-animation-ios/core-animation.md)
 - [Core Animation recipes](https://github.com/xamarin/recipes/tree/master/Recipes/ios/animation/coreanimation)

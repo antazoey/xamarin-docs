@@ -385,7 +385,6 @@ This article has taken a detailed look at creating a reusable Custom User Interf
 
 ## Related Links
 
-- [MacCustomControl (sample)](/samples/xamarin/mac-samples/maccustomcontrol)
 - [Hello, Mac](~/mac/get-started/hello-mac.md)
 - [Data Binding and Key-Value Coding](~/mac/app-fundamentals/databinding.md)
 - [OS X Human Interface Guidelines](https://developer.apple.com/library/mac/documentation/UserExperience/Conceptual/OSXHIGuidelines/)

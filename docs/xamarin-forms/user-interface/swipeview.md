@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms SwipeView
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-swipeviewdemos/)
-
 The `SwipeView` is a container control that wraps around an item of content, and provides context menu items that are revealed by a swipe gesture:
 
 [![Screenshot of SwipeView swipe items in a CollectionView, on iOS and Android](swipeview-images/swipeview-collectionview.png "SwipeView swipe items")](swipeview-images/swipeview-collectionview-large.png#lightbox "SwipeView swipe items")
@@ -372,5 +370,4 @@ In addition, when defining the `Command` property of a `SwipeItem` or `SwipeItem
 
 ## Related links
 
-- [SwipeView (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-swipeviewdemos/)
 - [Xamarin.Forms MenuItem](~/xamarin-forms/user-interface/menuitem.md)

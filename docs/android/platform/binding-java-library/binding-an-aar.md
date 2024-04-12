@@ -387,4 +387,3 @@ resource that resides in the .AAR file.
 - [Building a Java Bindings Library (video)](https://university.xamarin.com/classes#10090)
 - [Binding a .JAR](~/android/platform/binding-java-library/binding-a-jar.md)
 - [Binding a Java Library](~/android/platform/binding-java-library/index.md)
-- [AarBinding (sample)](/samples/xamarin/monodroid-samples/javaintegration-aarbinding)

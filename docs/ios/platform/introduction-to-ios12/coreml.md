@@ -19,16 +19,6 @@ In iOS 12, Core ML includes a batch processing API. This API makes Core
 ML more efficient and provides performance improvements in scenarios where
 a model is used to make a sequence of predictions.
 
-## Sample app: MarsHabitatCoreMLTimer
-
-To demonstrate batch predictions with Core ML, take a look at the
-[MarsHabitatCoreMLTimer](/samples/xamarin/ios-samples/ios12-marshabitatcoremltimer)
-sample app. This sample uses a Core ML model trained to predict the cost
-of building a habitat on Mars, based on various inputs: number of solar
-panels, number of greenhouses, and number of acres.
-
-The code snippets in this document come from this sample.
-
 ## Generate sample data
 
 In `ViewController`, the sample app's `ViewDidLoad` method calls
@@ -140,7 +130,6 @@ the loop-based Core ML predictions.
 
 ## Related links
 
-- [Sample app – MarsHabitatCoreMLTimer](/samples/xamarin/ios-samples/ios12-marshabitatcoremltimer)
 - [What's new in Core ML, Part 1 (WWDC 2018)](https://developer.apple.com/videos/play/wwdc2018/708/)
 - [What's new in Core ML, Part 2 (WWDC 2018)](https://developer.apple.com/videos/play/wwdc2018/709/)
 - [Introduction to Core ML in Xamarin.iOS](../introduction-to-ios11/coreml.md)

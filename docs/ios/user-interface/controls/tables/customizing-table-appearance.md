@@ -187,7 +187,3 @@ public override UITableViewCell GetCell (UITableView tableView, NSIndexPath inde
     return cell;
 }
 ```
-
-## Related Links
-
-- [WorkingWithTables (sample)](/samples/xamarin/ios-samples/workingwithtables)

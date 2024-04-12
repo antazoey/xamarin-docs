@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms SearchBar
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-searchbardemos/)
-
 The Xamarin.Forms [`SearchBar`](xref:Xamarin.Forms.SearchBar) is a user input control used to initiating a search. The `SearchBar` control supports placeholder text, query input, search execution, and cancellation. The following screenshot shows a `SearchBar` query with results displayed in a `ListView`:
 
 [![Screenshot of SearchBar on iOS and Android](searchbar-images/device-searchbars-cropped.png "SearchBar on iOS and Android")](searchbar-images/device-searchbars.png#lightbox "SearchBar on iOS and Android")
@@ -188,7 +186,6 @@ For more information about the `ICommand` Interface and bindings, see [Xamarin.F
 
 ## Related links
 
-* [SearchBar Demos](/samples/xamarin/xamarin-forms-samples/userinterface-searchbardemos/)
 * [Xamarin.Forms Text controls](~/xamarin-forms/user-interface/text/index.md)
 * [Fonts in Xamarin.Forms](~/xamarin-forms/user-interface/text/fonts.md)
 * [Xamarin.Forms data binding](~/xamarin-forms/app-fundamentals/data-binding/index.md)

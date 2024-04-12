@@ -14,9 +14,9 @@ no-loc: [Objective-C]
 
 # Hello, iOS Multiscreen – Quickstart
 > [!WARNING]
-> The iOS Designer was deprecated in Visual Studio 2019 version 16.8 and Visual Studio 2019 for Mac version 8.8, and 
+> The iOS Designer was deprecated in Visual Studio 2019 version 16.8 and Visual Studio 2019 for Mac version 8.8, and
 > removed in Visual Studio 2019 version 16.9 and Visual Studio for Mac version 8.9.
-> The recommended way to build iOS user interfaces is directly on a Mac running Xcode's Interface Builder. For more information, see [Designing user interfaces with Xcode](~/ios/user-interface/storyboards/index.md). 
+> The recommended way to build iOS user interfaces is directly on a Mac running Xcode's Interface Builder. For more information, see [Designing user interfaces with Xcode](~/ios/user-interface/storyboards/index.md).
 
 This part of the walkthrough will add a second screen to the Phoneword application that displays a history of the phone numbers that were called with the app. The final application will have a second screen that displays the call history, as illustrated by the following screenshot:
 
@@ -26,7 +26,7 @@ The [accompanying Deep Dive](~/ios/get-started/hello-ios-multiscreen/hello-ios-m
 
 ## Requirements
 
-This guide resumes where the Hello, iOS document left off, and requires completion of the [Hello, iOS Quickstart](~/ios/get-started/hello-ios/index.md). Download the completed version of the Phoneword app from the [Hello, iOS sample](/samples/xamarin/ios-samples/hello-ios).
+This guide resumes where the Hello, iOS document left off, and requires completion of the [Hello, iOS Quickstart](~/ios/get-started/hello-ios/index.md).
 
 ::: zone pivot="macos"
 
@@ -34,7 +34,7 @@ This guide resumes where the Hello, iOS document left off, and requires completi
 
 This walkthrough will add a Call History screen to our **Phoneword** application.
 
-1. Open the **Phoneword** application in Visual Studio for Mac. If necessary, the completed Phoneword application from the [Hello, iOS walkthrough](~/ios/get-started/hello-ios/index.md) guide can be downloaded from [here](/samples/xamarin/ios-samples/hello-ios).
+1. Open the **Phoneword** application in Visual Studio for Mac.
 
 2. Open the **Main.storyboard** file from the **Solution Pad**:
 
@@ -284,7 +284,7 @@ Congratulations on completing your first multi-screen Xamarin.iOS application!
 
 This walkthrough will add a Call History screen to our **Phoneword** application.
 
-1. Open the **Phoneword** application in Visual Studio. If necessary, download the [completed Phoneword application](/samples/xamarin/ios-samples/hello-ios) from the [Hello, iOS walkthrough](~/ios/get-started/hello-ios/index.md) guide. Recall that it is necessary to connect to a [Mac](~/ios/get-started/installation/windows/connecting-to-mac/index.md) to use the iOS Designer, and iOS simulator.
+1. Open the **Phoneword** application in Visual Studio. Recall that it is necessary to connect to a [Mac](~/ios/get-started/installation/windows/connecting-to-mac/index.md) to use the iOS Designer, and iOS simulator.
 
 2. Start by editing the user interface. Open the **Main.storyboard** file from the **Solution Explorer**, making sure that **View As** is set to _iPhone 6_:
 
@@ -537,5 +537,4 @@ learned in the [Hello, iOS Multiscreen Deep Dive](~/ios/get-started/hello-ios-mu
 
 ## Related Links
 
-- [Hello, iOS (sample)](/samples/xamarin/ios-samples/hello-ios)
 - [iOS Human Interface Guidelines](https://developer.apple.com/library/ios/#documentation/UserExperience/Conceptual/MobileHIG/Introduction/Introduction.html)

@@ -40,7 +40,3 @@ Sample app referenced by the following:
 * [.NET Microservices ebook](https://aka.ms/microservicesebook)
 * [Containerized Docker Application Lifecycle ebook](https://aka.ms/dockerlifecycleebook)
 * [Enterprise Application Patterns Using Xamarin.Forms ebook](~/xamarin-forms/enterprise-application-patterns/index.md)
-
-## Mobile App Samples
-
-* Other [Xamarin Samples](/samples/browse/?products=xamarin)

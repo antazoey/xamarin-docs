@@ -44,14 +44,14 @@ First, we are going to create a new document based Xamarin.Mac app that we will 
 Do the following:
 
 1. Start Visual Studio for Mac and click the **New Project...** link.
-2. Select **Mac** > **App** > **Cocoa App**, then click the **Next** button: 
+2. Select **Mac** > **App** > **Cocoa App**, then click the **Next** button:
 
     [![Creating a new Cocoa app project](copy-paste-images/sample01.png "Creating a new Cocoa app project")](copy-paste-images/sample01-large.png#lightbox)
-3. Enter `MacCopyPaste` for the **Project Name** and keep everything else as default. Click Next: 
+3. Enter `MacCopyPaste` for the **Project Name** and keep everything else as default. Click Next:
 
     [![Setting the name of the project](copy-paste-images/sample01a.png "Setting the name of the project")](copy-paste-images/sample01a-large.png#lightbox)
 
-4. Click the **Create** button: 
+4. Click the **Create** button:
 
     [![Confirming the new project settings](copy-paste-images/sample02.png "Confirming the new project settings")](copy-paste-images/sample02-large.png#lightbox)
 
@@ -537,7 +537,7 @@ For each menu item, we get the current, topmost, key window and cast it to our `
 var window = NSApplication.SharedApplication.KeyWindow as ImageWindow;
 ```
 
-From there we call the `ImageDocument` class instance of that window to handle the copy and paste actions. For example: 
+From there we call the `ImageDocument` class instance of that window to handle the copy and paste actions. For example:
 
 ```csharp
 window.Document.CopyImage (sender);
@@ -673,7 +673,7 @@ Each piece of data that an application writes to a pasteboard is considered a _P
 
 Pasteboard operations typically take place between two (or more) applications that have no knowledge of each other or the types of data that each can handle. As stated in the section above, to maximize the potential for sharing information, a pasteboard can hold multiple representations of the data being copied and pasted.
 
-Each representation is identified via a Uniform Type Identifier (UTI), which is nothing more than a simple string that uniquely identifies the type of date being presented (for more information, please see Apple's [Uniform Type Identifiers Overview](https://developer.apple.com/library/prerelease/mac/documentation/FileManagement/Conceptual/understanding_utis/understand_utis_intro/understand_utis_intro.html#//apple_ref/doc/uid/TP40001319) documentation). 
+Each representation is identified via a Uniform Type Identifier (UTI), which is nothing more than a simple string that uniquely identifies the type of date being presented (for more information, please see Apple's [Uniform Type Identifiers Overview](https://developer.apple.com/library/prerelease/mac/documentation/FileManagement/Conceptual/understanding_utis/understand_utis_intro/understand_utis_intro.html#//apple_ref/doc/uid/TP40001319) documentation).
 
 If you are creating a custom data type (for example, a drawing object in a vector drawing app), you can create your own UTI to uniquely identify it in copy and paste operations.
 
@@ -832,7 +832,7 @@ namespace MacCopyPaste
         public ImageInfo ()
         {
         }
-        
+
         public ImageInfo (IntPtr p) : base (p)
         {
         }
@@ -918,7 +918,7 @@ namespace MacCopyPaste
         #endregion
     }
 }
-    
+
 ```
 
 In the following sections we'll take a detailed look at this class.
@@ -943,7 +943,7 @@ public string Name { get; set; }
 public string ImageType { get; set; }
 ```
 
-We are exposing the two fields of data that this class will contain - the image's name and its type (jpg, png, etc.). 
+We are exposing the two fields of data that this class will contain - the image's name and its type (jpg, png, etc.).
 
 For more information, see the [Exposing C# classes / methods to Objective-C](~/mac/internals/how-it-works.md) section of the [Xamarin.Mac Internals](~/mac/internals/how-it-works.md) documentation, it explains the `Register` and `Export` attributes used to wire up your C# classes to Objective-C objects and UI elements.
 
@@ -992,7 +992,7 @@ public virtual string[] GetWritableTypesForPasteboard (NSPasteboard pasteboard) 
 
 Each representation is identified via a Uniform Type Identifier (UTI), which is nothing more than a simple string that uniquely identifies the type of data being presented (for more information, please see Apple's [Uniform Type Identifiers Overview](https://developer.apple.com/library/prerelease/mac/documentation/FileManagement/Conceptual/understanding_utis/understand_utis_intro/understand_utis_intro.html#//apple_ref/doc/uid/TP40001319) documentation).
 
-For our custom format, we are creating our own UTI: "com.xamarin.image-info" (note that is in reverse notation just like an App Identifier). Our class is also capable of writing a standard string to the pasteboard (`public.text`). 
+For our custom format, we are creating our own UTI: "com.xamarin.image-info" (note that is in reverse notation just like an App Identifier). Our class is also capable of writing a standard string to the pasteboard (`public.text`).
 
 Next, we need to create the object in the requested format that actually gets written to the pasteboard:
 
@@ -1175,7 +1175,7 @@ namespace MacCopyPaste
         [Export ("pasteboardFinishedWithDataProvider:")]
         public override void FinishedWithDataProvider (NSPasteboard pasteboard)
         {
-            
+
         }
 
         [Export ("pasteboard:item:provideDataForType:")]
@@ -1185,7 +1185,7 @@ namespace MacCopyPaste
             // Take action based on the type
             switch (type) {
             case "public.text":
-                // Encode the data to string 
+                // Encode the data to string
                 item.SetStringForType(string.Format("{0}.{1}", Name, ImageType),type);
                 break;
             }
@@ -1208,7 +1208,7 @@ public override void ProvideDataForType (NSPasteboard pasteboard, NSPasteboardIt
     // Take action based on the type
     switch (type) {
     case "public.text":
-        // Encode the data to string 
+        // Encode the data to string
         item.SetStringForType(string.Format("{0}.{1}", Name, ImageType),type);
         break;
     }
@@ -1256,13 +1256,13 @@ if (ok) {
     // Do something with data
     ...
 }
-            
+
 Class [] classArray2 = { new Class ("ImageInfo") };
 ok = pasteboard.CanReadObjectForClasses (classArray2, null);
 if (ok) {
     // Read the image off of the pasteboard
     NSObject [] objectsToPaste = pasteboard.ReadObjectsForClasses (classArray2, null);
-    
+
     // Do something with data
     ...
 }
@@ -1274,7 +1274,6 @@ This article has taken a detailed look at working with the pasteboard in a Xamar
 
 ## Related Links
 
-- [MacCopyPaste (sample)](/samples/xamarin/mac-samples/maccopypaste)
 - [Hello, Mac](~/mac/get-started/hello-mac.md)
 - [Pasteboard Programming Guide](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/PasteboardGuide106/Articles/pbGettingStarted.html)
 - [macOS Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/designing-for-macos)

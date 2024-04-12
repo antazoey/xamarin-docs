@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms ToolbarItem
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-toolbaritem/)
-
 The Xamarin.Forms [`ToolbarItem`](xref:Xamarin.Forms.ToolbarItem) class is a special type of button that can be added to a `Page` object's `ToolbarItems` collection. Each `ToolbarItem` object will appear as a button in the application's navigation bar. A `ToolbarItem` instance can have an icon and appear as a primary or secondary menu item. The `ToolbarItem` class inherits from [`MenuItem`](xref:Xamarin.Forms.MenuItem).
 
 The following screenshots show `ToolbarItem` objects in the navigation bar on iOS and Android:
@@ -121,6 +119,5 @@ When the `Order` property is set to `Secondary`, behavior varies across platform
 
 ## Related links
 
-* [ToolbarItem Demos](/samples/xamarin/xamarin-forms-samples/userinterface-toolbaritem/)
 * [Images in Xamarin.Forms](~/xamarin-forms/user-interface/images.md)
 * [Xamarin.Forms MenuItem](~/xamarin-forms/user-interface/menuitem.md)

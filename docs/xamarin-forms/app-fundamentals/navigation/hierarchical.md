@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Hierarchical Navigation
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/navigation-hierarchical)
-
 _The NavigationPage class provides a hierarchical navigation experience where the user is able to navigate through pages, forwards and backwards, as desired. The class implements navigation as a last-in, first-out (LIFO) stack of Page objects. This article demonstrates how to use the NavigationPage class to perform navigation in a stack of pages._
 
 To move from one page to another, an application will push a new page onto the navigation stack, where it will become the active page, as shown in the following diagram:
@@ -300,7 +298,7 @@ Provided that the user's credentials are correct, the `MainPage` instance is ins
 
 Any Xamarin.Forms [`View`](xref:Xamarin.Forms.View) can be displayed in the navigation bar of a [`NavigationPage`](xref:Xamarin.Forms.NavigationPage). This is accomplished by setting the [`NavigationPage.TitleView`](xref:Xamarin.Forms.NavigationPage.TitleViewProperty) attached property to a `View`. This attached property can be set on any [`Page`](xref:Xamarin.Forms.Page), and when the `Page` is pushed onto a `NavigationPage`, the `NavigationPage` will respect the value of the property.
 
-The following example, taken from the [Title View sample](/samples/xamarin/xamarin-forms-samples/navigation-titleview), shows how to set the [`NavigationPage.TitleView`](xref:Xamarin.Forms.NavigationPage.TitleViewProperty) attached property from XAML:
+The following example shows how to set the [`NavigationPage.TitleView`](xref:Xamarin.Forms.NavigationPage.TitleViewProperty) attached property from XAML:
 
 ```xaml
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
@@ -352,9 +350,5 @@ There are a number of limitations to be aware of when displaying a [`View`](xref
 ## Related Links
 
 - [Page Navigation (chapter 24)](https://developer.xamarin.com/r/xamarin-forms/book/)
-- [Hierarchical (sample)](/samples/xamarin/xamarin-forms-samples/navigation-hierarchical)
-- [PassingData (sample)](/samples/xamarin/xamarin-forms-samples/navigation-passingdata)
-- [LoginFlow (sample)](/samples/xamarin/xamarin-forms-samples/navigation-loginflow)
-- [TitleView (sample)](/samples/xamarin/xamarin-forms-samples/navigation-titleview)
 - [How to Create a Sign In Screen Flow in Xamarin.Forms video](https://www.youtube.com/watch?v=qKQ7pyyG1fo)
 - [NavigationPage](xref:Xamarin.Forms.NavigationPage)

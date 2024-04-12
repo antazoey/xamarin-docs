@@ -682,8 +682,6 @@ This article has taken a detailed look at working with Outline Views in a Xamari
 
 ## Related Links
 
-- [MacOutlines (sample)](/samples/xamarin/mac-samples/macoutlines)
-- [MacImages (sample)](/samples/xamarin/mac-samples/macimages)
 - [Hello, Mac](~/mac/get-started/hello-mac.md)
 - [Table Views](~/mac/user-interface/table-view.md)
 - [Source Lists](~/mac/user-interface/source-list.md)

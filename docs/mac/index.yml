@@ -25,7 +25,7 @@ landingContent:
       - linkListType: download
         links:
           - text: Xamarin.Mac samples
-            url: /samples/browse/?products=xamarin&term=Xamarin.Mac
+            url: https://github.com/xamarin/mac-samples
           - text: Visual Studio for Mac
             url: /visualstudio/mac/installation/
       - linkListType: get-started

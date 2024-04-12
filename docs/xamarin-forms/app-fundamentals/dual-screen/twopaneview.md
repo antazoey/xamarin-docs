@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms TwoPaneView layout
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-dualscreendemos/)
-
 The `TwoPaneView` class represents a container with two views that size and position content in the available space, either side-by-side or top-to-bottom. `TwoPaneView` inherits from `Grid` so the easiest way to think about these properties is as if they are being applied to a grid.
 
 ## Set up TwoPaneView
@@ -71,7 +69,3 @@ The following properties apply when the `TwoPaneView` is occupying a single scre
 - `TallModeConfiguration` indicates, when in tall mode, the Top/Bottom arrangement or if you only want a single pane visible as defined by the TwoPaneViewPriority.
 - `WideModeConfiguration` indicates, when in wide mode, the Left/Right arrangement or if you only want a single pane visible as defined by the TwoPaneViewPriority.
 - `PanePriority` determines whether to show Pane1 or Pane2 if in SinglePane mode.
-
-## Related links
-
-- [DualScreen (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-dualscreendemos/)

@@ -13,8 +13,6 @@ ms.custom: video
 
 # Xamarin.Forms resource dictionaries
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/xaml-resourcedictionaries)
-
 A [`ResourceDictionary`](xref:Xamarin.Forms.ResourceDictionary) is a repository for resources that are used by a Xamarin.Forms application. Typical resources that are stored in a `ResourceDictionary` include [styles](~/xamarin-forms/user-interface/styles/index.md), [control templates](~/xamarin-forms/app-fundamentals/templates/control-template.md), [data templates](~/xamarin-forms/app-fundamentals/templates/data-templates/index.md), colors, and converters.
 
 In XAML, resources that are stored in a [`ResourceDictionary`](xref:Xamarin.Forms.ResourceDictionary) can be referenced and applied to elements by using the `StaticResource` or `DynamicResource` markup extension. In C#, resources can also be defined in a `ResourceDictionary` and then referenced and applied to elements by using a string-based indexer. However, there's little advantage to using a `ResourceDictionary` in C#, as shared objects can be stored as fields or properties, and accessed directly without having to first retrieve them from a dictionary.
@@ -240,7 +238,6 @@ When merged [`ResourceDictionary`](xref:Xamarin.Forms.ResourceDictionary) resour
 
 ## Related links
 
-- [Resource Dictionaries (sample)](/samples/xamarin/xamarin-forms-samples/xaml-resourcedictionaries)
 - [XAML Markup Extensions](~/xamarin-forms/xaml/markup-extensions/index.md)
 - [Xamarin.Forms Styles](~/xamarin-forms/user-interface/styles/index.md)
 - [Linking Xamarin.iOS apps](~/ios/deploy-test/linker.md)

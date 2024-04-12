@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Integrating Text and Graphics
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)
-
 _See how to determine the size of rendered text string to integrate text with SkiaSharp graphics_
 
 This article demonstrates how to measure text, scale the text to a particular size, and integrate text with other graphics:
@@ -173,4 +171,3 @@ Another common graphical object is the bitmap. That's a large topic covered in d
 ## Related Links
 
 - [SkiaSharp APIs](/dotnet/api/skiasharp)
-- [SkiaSharpFormsDemos (sample)](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)

@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # ListView appearance
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-listview-grouping)
-
 The Xamarin.Forms [`ListView`](xref:Xamarin.Forms.ListView) allows you to customize the presentation of the list, in addition to the [`ViewCell`](xref:Xamarin.Forms.ViewCell) instances for each row in the list.
 
 ## Grouping
@@ -339,8 +337,5 @@ The `OnImageTapped` event handler is executed in response to an [`Image`](xref:X
 
 ## Related links
 
-- [Grouping (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-listview-grouping)
-- [Custom Renderer View (sample)](/samples/xamarin/xamarin-forms-samples/workingwithlistviewnative)
-- [Dynamic Resizing of Rows (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-listview-dynamicunevenlistcells)
 - [1.4 release notes](https://forums.xamarin.com/discussion/35451/xamarin-forms-1-4-0-released/)
 - [1.3 release notes](https://forums.xamarin.com/discussion/29934/xamarin-forms-1-3-0-released/)

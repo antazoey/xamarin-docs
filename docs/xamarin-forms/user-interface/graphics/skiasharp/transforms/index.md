@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # SkiaSharp Transforms
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)
-
 _Learn about transforms for displaying SkiaSharp graphics_
 
 SkiaSharp supports traditional graphics transforms that are implemented as methods of the [`SKCanvas`](xref:SkiaSharp.SKCanvas) object. Mathematically, transforms alter the coordinates and sizes that you specify in `SKCanvas` drawing functions as the graphical objects are rendered. Transforms are often convenient for drawing repetitive graphics or for animation. Some techniques &mdash; such as rotating bitmaps or text &mdash; are not possible without the use of transforms.
@@ -47,7 +45,7 @@ The SkiaSharp transforms are relative to the upper-left corner of the `SKCanvas`
 
 The really big difference is that SKiaSharp transforms are *methods* while the Xamarin.Forms transforms are *properties*. This is a semantic difference beyond the syntactical difference: SkiaSharp transforms perform an operation while Xamarin.Forms transforms set a state. SkiaSharp transforms apply to subsequently drawn graphics objects, but not to graphics objects that are drawn before the transform is applied. In contrast, a Xamarin.Forms transform applies to a previously rendered element as soon as the property is set. SkiaSharp transforms are cumulative as the methods are called; Xamarin.Forms transforms are replaced when the property is set with another value.
 
-All the sample programs in this section appear in the **SkiaSharp Transforms** section of the [**SkiaSharpFormsDemos**](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos) program. Source code can be found in the [**Transforms**](https://github.com/xamarin/xamarin-forms-samples/tree/master/SkiaSharpForms/Demos/Demos/SkiaSharpFormsDemos/Transforms) folder of the solution.
+All the sample programs in this section appear in the **SkiaSharp Transforms** section of the sample program. Source code can be found in the [**Transforms**](https://github.com/xamarin/xamarin-forms-samples/tree/master/SkiaSharpForms/Demos/Demos/SkiaSharpFormsDemos/Transforms) folder of the solution.
 
 ## [The Translate Transform](translate.md)
 
@@ -84,4 +82,3 @@ Use non-affine transforms to rotate 2D objects in 3D space.
 ## Related Links
 
 - [SkiaSharp APIs](/dotnet/api/skiasharp)
-- [SkiaSharpFormsDemos (sample)](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)

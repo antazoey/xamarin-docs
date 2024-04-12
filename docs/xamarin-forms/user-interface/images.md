@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Images in Xamarin.Forms
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/workingwithimages)
-
 _Images can be shared across platforms with Xamarin.Forms, they can be loaded specifically for each platform, or they can be downloaded for display._
 
 Images are a crucial part of application navigation, usability, and branding. Xamarin.Forms applications need to be able to share images across all platforms, but also potentially display different images on each platform.
@@ -342,7 +340,6 @@ Refer to the documentation for [iOS Working with Images](~/ios/app-fundamentals/
 
 ## Related links
 
-- [WorkingWithImages (sample)](/samples/xamarin/xamarin-forms-samples/workingwithimages)
 - [iOS Working with Images](~/ios/app-fundamentals/images-icons/index.md)
 - [Android Iconography](https://developer.android.com/design/style/iconography.html)
 - [Guidelines for tile and icon assets](/windows/uwp/controls-and-patterns/tiles-and-notifications-app-assets/)

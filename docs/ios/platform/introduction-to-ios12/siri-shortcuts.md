@@ -30,7 +30,7 @@ common task – in many cases without even opening the app in question.
 
 ## Sample app: Soup Chef
 
-To better understand Siri Shortcuts, take a look at the [Soup Chef](/samples/xamarin/ios-samples/ios12-soupchef)
+To better understand Siri Shortcuts, take a look at the Soup Chef
 sample app. Soup Chef allows users to place orders from an imaginary soup
 restaurant, view their order history, and define phrases to use when
 ordering soup by interacting with Siri.
@@ -264,7 +264,7 @@ Notice the following features:
 
 - The intent has a **Category** of **Order**. There are various pre-defined
 categories that can be used for custom intents; select the one that most
-closely matches the task your custom intent will enable. Since this solution 
+closely matches the task your custom intent will enable. Since this solution
 is a soup ordering app, **OrderSoupIntent** uses **Order**.
 - The **Confirmation** checkbox indicates whether or not Siri must request
 confirmation before executing the task. For the **Order Soup**
@@ -542,7 +542,7 @@ Siri does not make unhelpful or confusing shortcut suggestions.
 In Soup Chef, the **Configure Menu** screen can be used to mark a menu item
 as unavailable. Siri should no longer suggest a shortcut to order the
 unavailable menu item, so the `RemoveDonation` method of `SoupMenuManager`
-deletes donations for menu items that are no longer available. The app implements 
+deletes donations for menu items that are no longer available. The app implements
 this functionality by:
 
 - Finding orders associated with the now-unavailable menu item.
@@ -809,8 +809,8 @@ In this storyboard, there is a single view controller, of type
 
 > [!NOTE]
 > The interfaces for **invoiceView** and **confirmationView** are defined
-> in **Main.storyboard** as secondary views. Visual Studio for Mac and 
-> Visual Studio 2017 does not provide support for viewing or editing 
+> in **Main.storyboard** as secondary views. Visual Studio for Mac and
+> Visual Studio 2017 does not provide support for viewing or editing
 > secondary views; to do so, open **Main.storyboard**
 > in Xcode's Interface Builder.
 
@@ -1002,7 +1002,6 @@ and download and install them.
 
 ## Related links
 
-- [Soup Chef (Xamarin)](/samples/xamarin/ios-samples/ios12-soupchef)
 - [Soup Chef (Swift)](https://developer.apple.com/documentation/sirikit/accelerating_app_interactions_with_shortcuts?language=objc)
 - [SiriKit (Apple)](https://developer.apple.com/sirikit/)
 - [Introduction to Siri Shortcuts – WWDC 2018](https://developer.apple.com/videos/play/wwdc2018/211/)

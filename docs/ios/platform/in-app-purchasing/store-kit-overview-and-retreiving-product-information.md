@@ -125,7 +125,7 @@ servers):
 
 ### Displaying Product Information Example
 
-The [InAppPurchaseSample](/samples/xamarin/ios-samples/storekit) *Consumables* sample-code demonstrates how
+The *Consumables* sample-code demonstrates how
 product information can be retrieved. The main screen of the sample displays
 information for two products that is retrieved from the App Store:   
 

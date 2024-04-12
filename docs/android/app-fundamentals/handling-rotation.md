@@ -391,7 +391,6 @@ manually.
 
 ## Related Links
 
-- [Rotation Demo (sample)](/samples/xamarin/monodroid-samples/applicationfundamentals-rotationdemo)
 - [Activity Lifecycle](~/android/app-fundamentals/activity-lifecycle/index.md)
 - [Handling Runtime Changes](https://developer.android.com/guide/topics/resources/runtime-changes.html)
 - [Fast Screen Orientation Change](https://android-developers.blogspot.com/2009/02/faster-screen-orientation-change.html)

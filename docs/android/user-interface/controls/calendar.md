@@ -347,7 +347,3 @@ there as well:
 As you can see, Android allows powerful and easy access to retrieve and
 persist calendar data, allowing applications to seamlessly integrate
 calendar capabilities.
-
-## Related Links
-
-- [Calendar Demo (sample)](/samples/xamarin/monodroid-samples/calendardemo)

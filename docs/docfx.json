@@ -41,7 +41,7 @@
     "externalReference": [],
     "globalMetadata": {
       "uhfHeaderId":"MSDocsHeader-Xamarin",
-      "breadcrumb_path": "/xamarin/breadcrumb/toc.json",
+      "breadcrumb_path": "/previous-versions/xamarin/breadcrumb/toc.json",
       "titleSuffix": "Xamarin",
       "manager": "crdun",
       "audience": "developer",
@@ -49,7 +49,10 @@
       "ms.service": "xamarin",
       "ms.subservice": "xamarin-crossplatform",
       "searchScope": ["Xamarin"],
-      "feedback_system": "None"
+      "ROBOTS": "NOINDEX,NOFOLLOW",
+      "is_retired": true,
+      "feedback_system": "None",
+      "learn_archive": "manual"
     },
     "fileMetadata": {
       "ms.subservice": {

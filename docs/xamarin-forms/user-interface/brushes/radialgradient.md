@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms Brushes: Radial gradients
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-brushdemos/)
-
 The `RadialGradientBrush` class derives from the `GradientBrush` class, and paints an area with a radial gradient, which blends two or more colors across a circle. `GradientStop` objects are used to specify the colors in the gradient and their positions. For more information about `GradientStop` objects, see [Xamarin.Forms Brushes: Gradients](gradient.md).
 
 The `RadialGradientBrush` class defines the following properties:
@@ -93,5 +91,4 @@ In this example, the background of the [`Frame`](xref:Xamarin.Forms.Frame) is pa
 
 ## Related links
 
-- [BrushesDemos (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-brushdemos/)
 - [Xamarin.Forms Brushes: Gradients](gradient.md)

@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Matrix Transforms in SkiaSharp
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)
-
 _Dive deeper into SkiaSharp transforms with the versatile transform matrix_
 
 All the transforms applied to the `SKCanvas` object are consolidated in a single instance of the [`SKMatrix`](xref:SkiaSharp.SKMatrix) structure. This is a standard 3-by-3 transform matrix similar to those in all modern 2D graphics systems.
@@ -650,4 +648,3 @@ Non-zero values of `Persp0` and `Persp1` result in transforms that move objects 
 ## Related Links
 
 - [SkiaSharp APIs](/dotnet/api/skiasharp)
-- [SkiaSharpFormsDemos (sample)](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)

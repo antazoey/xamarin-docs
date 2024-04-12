@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Polylines and Parametric Equations
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)
-
 _Use SkiaSharp to render any line that you can define with parametric equations_
 
 In the [**SkiaSharp Curves and Paths**](../curves/index.md) section of this guide, you'll see the various methods that [`SKPath`](xref:SkiaSharp.SKPath) defines to render certain types of curves. However, it's sometimes necessary to draw a type of curve that isn't directly supported by `SKPath`. In such a case, you can use a polyline (a collection of connected lines) to draw any curve that you can mathematically define. If you make the lines small enough and numerous enough, the result will look like a curve. This spiral is actually 3,600 little lines:
@@ -120,4 +118,3 @@ Notice that the `SKPath` is created in a `using` block. This `SKPath` consumes m
 ## Related Links
 
 - [SkiaSharp APIs](/dotnet/api/skiasharp)
-- [SkiaSharpFormsDemos (sample)](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)

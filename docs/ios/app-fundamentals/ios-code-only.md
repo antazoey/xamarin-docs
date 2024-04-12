@@ -623,7 +623,3 @@ This article discussed how to develop iOS applications programmatically in Visua
 This article discussed how to develop iOS applications programmatically in Visual Studio for Mac. We looked at how to build up a project from a Single View template, discussing how to create and add a root view controller to the window. We then showed how to use controls from UIKit to create a view hierarchy within a controller to develop an application screen. Next we examined how to make the views lay out appropriately in different orientations and we saw how to create a custom view by subclassing `UIView`, as well as how to load the view within a controller. Finally we explored how to add a launch screen to an application.
 
 -----
-
-## Related Links
-
-- [SimpleLogin (sample)](/samples/xamarin/ios-samples/simplelogin)

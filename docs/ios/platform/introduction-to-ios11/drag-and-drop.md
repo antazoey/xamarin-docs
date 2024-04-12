@@ -55,8 +55,7 @@ There are two interfaces involved:
 - `IUITableViewDragDelegate` – Packages information when a drag is initiated in the table view.
 - `IUITableViewDropDelegate` – Processes information when a drop is being attempted and completed.
 
-In the [DragAndDropTableView sample](/samples/xamarin/ios-samples/ios11-draganddroptableview)
-these two interfaces are both implemented on the `UITableViewController`
+In the sample these two interfaces are both implemented on the `UITableViewController`
 class, along with the delegate and data source. They're assigned in the
 `ViewDidLoad` method:
 
@@ -207,18 +206,8 @@ public void PerformDrop(UITableView tableView, IUITableViewDropCoordinator coord
 
 Additional code can be added to asynchronously load large data objects.
 
-### Testing Drag and Drop
-
-You must use an iPad to test the [sample](/samples/xamarin/ios-samples/ios11-draganddroptableview).
-Open the sample alongside another app (such as Notes) and
-drag rows and text between them:
-
-![screenshot of drag operation in progress](drag-and-drop-images/01-sml.png)
-
 ## Related Links
 
 - [Drag and Drop Human Interface Guidelines (Apple)](https://developer.apple.com/design/human-interface-guidelines/drag-and-drop)
-- [Drag and Drop Table View Sample](/samples/xamarin/ios-samples/ios11-draganddroptableview)
-- [Drag and Drop Collection View Sample](/samples/xamarin/ios-samples/ios11-draganddropcollectionview)
 - [Introducing Drag and Drop (WWDC) (video)](https://developer.apple.com/videos/play/wwdc2017/203/)
 - [Drag and Drop with Collection and Table View (WWDC) (video)](https://developer.apple.com/videos/play/wwdc2017/223/)

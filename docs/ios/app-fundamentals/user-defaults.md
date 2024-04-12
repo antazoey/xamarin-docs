@@ -24,7 +24,7 @@ When used with App Groups, `NSUserDefaults` also provides a way to communicate b
 
 As stated above, User Defaults (`NSUserDefaults`) can be added to an App (or Extension) and used to provide configurable options that the end user can modify to adjust the look or operation of the app at runtime.
 
-When your app first executes, `NSUserDefaults` reads the keys and values from the app's User Defaults Database and caches them to memory to avoid opening and reading the database each time a value is required. 
+When your app first executes, `NSUserDefaults` reads the keys and values from the app's User Defaults Database and caches them to memory to avoid opening and reading the database each time a value is required.
 
 > [!IMPORTANT]
 > Apple no longer recommends that the developer call the `Synchronize` method to sync the in-memory cache with the database directly. Instead, it will be automatically called at periodic intervals to keep the in-memory cache in sync with a user’s defaults database.
@@ -33,7 +33,7 @@ The `NSUserDefaults` class contains several convenience methods for reading and 
 
 <a name="Accessing-the-Shared-NSUserDefaults-Instance"></a>
 
-## Accessing the Shared NSUserDefaults Instance 
+## Accessing the Shared NSUserDefaults Instance
 
 The Shared User Defaults Instance provides access to the User Defaults for the current user of the device. If the Shared Defaults object doesn't exist, it is created the first time it is accessed and initialized with the following information:
 
@@ -132,6 +132,5 @@ This article has covered the `NSUserDefaults` class and how it can be used to pr
 
 ## Related Links
 
-- [tvOS Samples](/samples/browse/?products=xamarin&term=Xamarin.iOS%2btvOS)
 - [Preferences and Settings Programming Guide](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/UserDefaults/Introduction/Introduction.html#//apple_ref/doc/uid/10000059i)
 - [NSUserDefaults](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSUserDefaults_Class/#//apple_ref/doc/constant_group/NSUserDefaults_Domains)

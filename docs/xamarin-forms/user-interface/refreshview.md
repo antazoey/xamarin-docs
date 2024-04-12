@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials, RefreshView, Universal Windows Platf
 
 # Xamarin.Forms RefreshView
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-refreshviewdemo/)
-
 The `RefreshView` is a container control that provides pull to refresh functionality for scrollable content. Therefore, the child of a `RefreshView` must be a scrollable control, such as [`ScrollView`](xref:Xamarin.Forms.ScrollView), [`CollectionView`](xref:Xamarin.Forms.CollectionView), or [`ListView`](xref:Xamarin.Forms.ListView).
 
 `RefreshView` defines the following properties:
@@ -101,6 +99,5 @@ Alternatively, when defining the `Command` property, the `CanExecute` delegate o
 
 ## Related links
 
-- [RefreshView (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-refreshviewdemo/)
 - [Bindable Layouts in Xamarin.Forms](~/xamarin-forms/user-interface/layouts/bindable-layouts.md)
 - [RefreshView Pull Direction platform-specific](~/xamarin-forms/platform/windows/refreshview-pulldirection.md)

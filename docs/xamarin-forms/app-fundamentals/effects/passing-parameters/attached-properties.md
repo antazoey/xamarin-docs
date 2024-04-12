@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Passing Effect Parameters as Attached Properties
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/effects-shadoweffectruntimechange)
-
 _Attached properties can be used to define effect parameters that respond to runtime property changes. This article demonstrates using attached properties to pass parameters to an effect, and changing a parameter at runtime._
 
 The process for creating effect parameters that respond to runtime property changes is as follows:
@@ -435,4 +433,3 @@ This article has demonstrated using attached properties to pass parameters to an
 - [Effect](xref:Xamarin.Forms.Effect)
 - [PlatformEffect](xref:Xamarin.Forms.PlatformEffect`2)
 - [RoutingEffect](xref:Xamarin.Forms.RoutingEffect)
-- [Shadow Effect (sample)](/samples/xamarin/xamarin-forms-samples/effects-shadoweffectruntimechange)

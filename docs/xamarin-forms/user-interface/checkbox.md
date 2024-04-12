@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms CheckBox
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-checkboxdemos/)
-
 The Xamarin.Forms `CheckBox` is a type of button that can either be checked or empty. When a checkbox is checked, it's considered to be on. When a checkbox is empty, it's considered to be off.
 
 `CheckBox` defines a `bool` property named `IsChecked`, which indicates whether the `CheckBox` is checked. This property is also backed by a [`BindableProperty`](xref:Xamarin.Forms.BindableProperty) object, which means that it can be styled, and be the target of data bindings.
@@ -158,6 +156,5 @@ For more information about visual states, see [Xamarin.Forms Visual State Manage
 
 ## Related links
 
-- [CheckBox Demos (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-checkboxdemos/)
 - [Xamarin.Forms Triggers](~/xamarin-forms/app-fundamentals/triggers.md)
 - [Xamarin.Forms Visual State Manager](~/xamarin-forms/user-interface/visual-state-manager.md)
