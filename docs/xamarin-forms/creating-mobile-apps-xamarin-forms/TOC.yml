@@ -1,0 +1,60 @@
+- name: Creating Mobile Apps with Xamarin.Forms Book
+  href: index.md
+  expanded: true
+  items:
+    - name: 1. How does Xamarin.Forms fit in?
+      href: summaries/chapter01.md
+    - name: 2. Anatomy of an app
+      href: summaries/chapter02.md
+    - name: 3. Deeper into text
+      href: summaries/chapter03.md
+    - name: 4. Scrolling the stack
+      href: summaries/chapter04.md
+    - name: 5. Dealing with sizes
+      href: summaries/chapter05.md
+    - name: 6. Button clicks
+      href: summaries/chapter06.md
+    - name: 7. XAML vs. code
+      href: summaries/chapter07.md
+    - name: 8. Code and XAML in harmony
+      href: summaries/chapter08.md
+    - name: 9. Platform-specific API calls
+      href: summaries/chapter09.md
+    - name: 10. XAML markup extensions
+      href: summaries/chapter10.md
+    - name: 11. The bindable infrastructure
+      href: summaries/chapter11.md
+    - name: 12. Styles
+      href: summaries/chapter12.md
+    - name: 13. Bitmaps
+      href: summaries/chapter13.md
+    - name: 14. Absolute layout
+      href: summaries/chapter14.md
+    - name: 15. The interactive interface
+      href: summaries/chapter15.md
+    - name: 16. Data binding
+      href: summaries/chapter16.md
+    - name: 17. Mastering the Grid
+      href: summaries/chapter17.md
+    - name: 18. MVVM
+      href: summaries/chapter18.md
+    - name: 19. Collection views
+      href: summaries/chapter19.md
+    - name: 20. Async and file I/O
+      href: summaries/chapter20.md
+    - name: 21. Transforms
+      href: summaries/chapter21.md
+    - name: 22. Animation
+      href: summaries/chapter22.md
+    - name: 23. Triggers and behaviors
+      href: summaries/chapter23.md
+    - name: 24. Page navigation
+      href: summaries/chapter24.md
+    - name: 25. Page varieties
+      href: summaries/chapter25.md
+    - name: 26. Custom layouts
+      href: summaries/chapter26.md
+    - name: 27. Custom renderers
+      href: summaries/chapter27.md
+    - name: 28. Location and maps
+      href: summaries/chapter28.md
