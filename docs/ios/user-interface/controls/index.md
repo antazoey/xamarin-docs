@@ -56,7 +56,7 @@ iOS provides two main ways to  indicate progress in your app: Activity Indicator
 
 ## [Search Bars](searchbar.md)
 
-The UISearchBar is used to search through a list of values.
+The UISearchBar is used to search through a list of values. 
 
 ## [Sliders, Switches, and Segmented Controls](slider-switch-segmented-controls.md)
 
@@ -81,3 +81,7 @@ iOS applications using a tab-navigation UI are built using the UITabBarControlle
 ## [Web Views](webview.md)
 
 In this article, we will explore the web views provided by Apple–`WKWebview` and `SFSafariViewController`–their similarities and differences, and how they can be used.
+
+## Related Links
+
+- [Controls (sample)](/samples/xamarin/ios-samples/controls)

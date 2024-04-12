@@ -14,6 +14,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Create a Xamarin.Forms application quickstart
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/getstarted-notes-app/)
+
 In this quickstart, you will learn how to:
 
 - Create a Xamarin.Forms Shell application.
@@ -794,4 +796,5 @@ Continue to the next quickstart to add additional pages to this Xamarin.Forms Sh
 
 ## Related links
 
+- [Notes (sample)](/samples/xamarin/xamarin-forms-samples/getstarted-notes-app/)
 - [Xamarin.Forms Shell quickstart deep dive](deepdive.md)

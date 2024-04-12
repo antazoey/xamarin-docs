@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Local notifications in Xamarin.Forms
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/local-notifications)
+
 Local notifications are alerts sent by applications installed on a mobile device. Local notifications are often used for features such as:
 
 - Calendar events
@@ -288,7 +290,7 @@ public class AlarmHandler : BroadcastReceiver
 ```
 
 > [!IMPORTANT]
-> By default, notifications scheduled using the `AlarmManager` class will not survive device restart. However, you can design your application to automatically reschedule notifications if the device is restarted. For more information, see [Start an alarm when the device restarts](https://developer.android.com/training/scheduling/alarms#boot) in [Schedule repeating alarms](https://developer.android.com/training/scheduling/alarms) on developer.android.com. For information about background processing on Android, see [Guide to background processing](https://developer.android.com/guide/background) on developer.android.com.
+> By default, notifications scheduled using the `AlarmManager` class will not survive device restart. However, you can design your application to automatically reschedule notifications if the device is restarted. For more information, [Start an alarm when the device restarts](https://developer.android.com/training/scheduling/alarms#boot) in [Schedule repeating alarms](https://developer.android.com/training/scheduling/alarms) on developer.android.com, and the [sample](/samples/xamarin/xamarin-forms-samples/local-notifications). For information about background processing on Android, see [Guide to background processing](https://developer.android.com/guide/background) on developer.android.com.
 
 For more information about broadcast receivers, see [Broadcast Receivers in Xamarin.Android](~/android/app-fundamentals/broadcast-receivers.md).
 
@@ -503,6 +505,7 @@ On iOS, incoming notifications are automatically received by the application wit
 
 ## Related links
 
+- [Sample project](/samples/xamarin/xamarin-forms-samples/local-notifications)
 - [Notifications in Xamarin.Android](~/android/app-fundamentals/notifications/index.md)
 - [Broadcast Receivers in Xamarin.Android](~/android/app-fundamentals/broadcast-receivers.md)
 - [Notifications in Xamarin.iOS](~/ios/platform/user-notifications/index.md)

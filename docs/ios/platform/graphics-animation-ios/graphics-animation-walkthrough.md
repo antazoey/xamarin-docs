@@ -18,6 +18,8 @@ The following screenshot shows the completed application:
 
 ![The completed application](graphics-animation-walkthrough-images/00-final-app.png)
 
+Before we begin download the *GraphicsDemo* sample that accompanies this guide. It can be downloaded [here](/samples/xamarin/ios-samples/graphicsandanimation) and is located inside the **GraphicsWalkthrough** directory Launch the project named **GraphicsDemo_starter** by double-clicking on it, and open the `DemoView` class.
+
 ## Drawing a Path
 
 1. In `DemoView` add a `CGPath` variable to the class and instantiate it in the constructor. Also declare two `CGPoint` variables , `initialPoint` and `latestPoint`, that we will use to capture the touch point from which we construct the path:

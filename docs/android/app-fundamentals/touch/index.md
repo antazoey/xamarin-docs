@@ -34,3 +34,9 @@ This guide follows a similar format for each operating system: first, the platfo
 ## Summary
 
 In this guide we examined touch in Android. For both operating systems, we learned how to enable touch and how to respond to the touch events. Next, we learned about gestures and some of the gesture recognizers that both Android and iOS provide to handle some of the more common scenarios. We examined how to create custom gestures and implement them in applications. A walkthrough demonstrated the concepts and APIs for each operating system in action, and you also saw how to track individual fingers.
+
+## Related Links
+
+- [Android Touch Start (sample)](/samples/xamarin/monodroid-samples/applicationfundamentals-touch-start)
+- [Android Touch Final (sample)](/samples/xamarin/monodroid-samples/applicationfundamentals-touch-final)
+- [FingerPaint (sample)](/samples/xamarin/monodroid-samples/applicationfundamentals-fingerpaint)

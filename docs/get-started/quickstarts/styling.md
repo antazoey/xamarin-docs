@@ -14,6 +14,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Style a cross-platform Xamarin.Forms application
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/getstarted-notes-styled/)
+
 In this quickstart, you will learn how to:
 
 - Style a Xamarin.Forms Shell application using XAML styles.
@@ -29,7 +31,7 @@ The final application is shown below:
 
 ### Prerequisites
 
-You should successfully complete the [previous quickstart](database.md) before attempting this quickstart.
+You should successfully complete the [previous quickstart](database.md) before attempting this quickstart. Alternatively, download the [previous quickstart sample](/samples/xamarin/xamarin-forms-samples/getstarted-notes-database/) and use it as the starting point for this quickstart.
 
 ::: zone pivot="windows"
 
@@ -330,7 +332,7 @@ You should successfully complete the [previous quickstart](database.md) before a
 
     This code defines a [`Thickness`](xref:Xamarin.Forms.Thickness) value, a series of [`Color`](xref:Xamarin.Forms.Color) values, and implicit styles for the [`ContentPage`](xref:Xamarin.Forms.ContentPage) and [`Button`](xref:Xamarin.Forms.Button) types. Note that these styles, which are in the application-level [`ResourceDictionary`](xref:Xamarin.Forms.ResourceDictionary), can be consumed throughout the application. For more information about XAML styling, see [Styling](deepdive.md#styling) in the [Xamarin.Forms Quickstart Deep Dive](deepdive.md).
 
-    After making the changes to **App.xaml**, XAML Hot Reload will update the UI of the running app, with no need to rebuild the application. Specifically, the background color each page will change. By default Hot Reload applies changes immediately after stopping typing. However, there's a [preference setting](~/xamarin-forms/xaml/hot-reload.md) that can be changed, if you prefer, to wait until file save to apply changes.
+    After making the changes to **App.xaml**, XAML Hot Reload will update the UI of the running app, with no need to rebuild the application. Specifically, the background color each page will change. By default Hot Reload applies changes immediately after stopping typing. However, there's a [preference setting](~/xamarin-forms/xaml/hot-reload.md) that can be changed, if you prefer, to wait until file save to apply changes. 
 
 4. In the **Solution Pad**, in the **Notes** project, open **AppShell.xaml**. Then replace the existing code with the following code:
 
@@ -537,5 +539,6 @@ To learn more about the fundamentals of application development using Xamarin.Fo
 
 ## Related links
 
+- [Notes (sample)](/samples/xamarin/xamarin-forms-samples/getstarted-notes-styled/)
 - [XAML Hot Reload for Xamarin.Forms](~/xamarin-forms/xaml/hot-reload.md)
 - [Xamarin.Forms Quickstart Deep Dive](deepdive.md)

@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Native Views in XAML
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-nativeviews-nativeswitch)
+
 _Native views from iOS, Android, and the Universal Windows Platform can be directly referenced from Xamarin.Forms XAML files. Properties and event handlers can be set on native views, and they can interact with Xamarin.Forms views. This article demonstrates how to consume native views from Xamarin.Forms XAML files._
 
 To embed a native view into a Xamarin.Forms XAML file:
@@ -457,5 +459,9 @@ The `MySpinner` class exposes `ItemsSource` and `SelectedObject` properties, and
 
 ## Related links
 
+- [NativeSwitch (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-nativeviews-nativeswitch)
+- [Forms2Native (sample)](/samples/xamarin/xamarin-forms-samples/forms2native)
+- [NativeViewInsideContentView (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-nativeviews-nativeviewinsidecontentview)
+- [SubclassedNativeControls (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-nativeviews-subclassednativecontrols)
 - [Native Forms](~/xamarin-forms/platform/native-forms.md)
 - [Passing Arguments in XAML](~/xamarin-forms/xaml/passing-arguments.md)

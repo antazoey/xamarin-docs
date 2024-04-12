@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Fonts in Xamarin.Forms
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/workingwithfonts)
+
 By default, Xamarin.Forms uses a system font defined by each platform. However, controls that display text define properties that you can use to change this font:
 
 - `FontAttributes`, of type `FontAttributes`, which is an enumeration with three members: `None`, `Bold`, and `Italic`. The default value of this property is `None`.
@@ -247,12 +249,15 @@ image.Source = new FontImageSource
 };
 ```
 
-The following screenshots show several font icons being displayed by a bindable layout:
+The following screenshots, from the [Bindable Layouts](/samples/xamarin/xamarin-forms-samples/userinterface-bindablelayouts) sample, show several font icons being displayed by a bindable layout:
 
 ![Screenshot of font icons being displayed, on iOS and Android](fonts-images/font-image-source.png "Font icons being displayed in an Image view")
 
 ## Related links
 
+- [FontsSample](/samples/xamarin/xamarin-forms-samples/workingwithfonts)
+- [Text (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-text)
+- [Bindable Layouts (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-bindablelayouts)
 - [Provide platform-specific values](~/xamarin-forms/platform/device.md#provide-platform-specific-values)
 - [OnPlatform markup extension](~/xamarin-forms/xaml/markup-extensions/consuming.md#onplatform-markup-extension)
 - [Bindable Layouts](~/xamarin-forms/user-interface/layouts/bindable-layouts.md)

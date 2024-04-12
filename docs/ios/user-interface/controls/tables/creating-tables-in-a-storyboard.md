@@ -369,4 +369,5 @@ The example demonstrates:
 
 ## Related Links
 
+- [StoryboardTable (sample)](/samples/xamarin/ios-samples/storyboardtable)
 - [Introduction to Storyboards](~/ios/user-interface/storyboards/index.md)

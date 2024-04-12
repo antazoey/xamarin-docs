@@ -298,6 +298,7 @@ Activity to the second Activity.
 
 ## Related Links
 
+- [LocalNotifications (sample)](/samples/xamarin/monodroid-samples/localnotifications)
 - [Android Oreo Notification Channels](https://blog.xamarin.com/android-oreo-notification-channels/)
 - [Notification](xref:Android.App.Notification)
 - [NotificationManager](xref:Android.App.NotificationManager)

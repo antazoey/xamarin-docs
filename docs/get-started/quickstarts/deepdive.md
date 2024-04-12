@@ -567,6 +567,8 @@ This deep dive has examined the fundamentals of application development using Xa
 - [eXtensible Application Markup Language (XAML)](~/xamarin-forms/xaml/index.yml)
 - [Data Binding](~/xamarin-forms/app-fundamentals/data-binding/index.md)
 - [Controls Reference](~/xamarin-forms/user-interface/controls/index.md)
+- [Get Started Samples](/samples/browse/?products=xamarin&term=Xamarin.Forms%2bget%2bstarted)
+- [Xamarin.Forms Samples](/samples/browse/?products=xamarin&term=Xamarin.Forms)
 - [Xamarin.Forms API reference](xref:Xamarin.Forms)
 
 ## Related video

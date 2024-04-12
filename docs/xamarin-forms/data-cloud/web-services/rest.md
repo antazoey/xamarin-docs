@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Consume a RESTful web service
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/webservices-todorest)
+
 _Integrating a web service into an application is a common scenario. This article demonstrates how to consume a RESTful web service from a Xamarin.Forms application._
 
 Representational State Transfer (REST) is an architectural style for building web services. REST requests are made over HTTP using the same HTTP verbs that web browsers use to retrieve web pages and to send data to servers. The verbs are:
@@ -196,6 +198,7 @@ If you are developing your REST web service locally with a framework such as ASP
 - [Create a web API with ASP.NET Core](/training/modules/build-web-api-aspnet-core/)
 - [Creating Backend Services for Native Mobile Applications](/aspnet/core/mobile/native-mobile-backend/)
 - [Attribute routing for REST APIs](/aspnet/core/mvc/controllers/routing?view=aspnetcore-5.0#ar&preserve-view=true)
+- [TodoREST (sample)](/samples/xamarin/xamarin-forms-samples/webservices-todorest)
 - [HttpClient API](xref:System.Net.Http.HttpClient)
 - [Android Network Security Configuration](https://devblogs.microsoft.com/xamarin/cleartext-http-android-network-security/)
 - [iOS App Transport Security](~/ios/app-fundamentals/ats.md)

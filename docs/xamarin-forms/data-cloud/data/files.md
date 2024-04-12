@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # File Handling in Xamarin.Forms
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/workingwithfiles)
+
 _File handling with Xamarin.Forms can be achieved using code in a .NET Standard library, or by using embedded resources._
 
 ## Overview
@@ -78,7 +80,7 @@ using (var reader = new System.IO.StreamReader (stream))
 }
 ```
 
-The `text` variable can then be used to display the text or otherwise use it in code. The following screenshot shows the text rendered in a `Label` control:
+The `text` variable can then be used to display the text or otherwise use it in code. This screenshot of the [sample app](/samples/xamarin/xamarin-forms-samples/workingwithfiles) shows the text rendered in a `Label` control.
 
  [![Text file embedded in .NET standard library](files-images/pcltext-sml.png "Embedded Text File in .NET Standard Library Displayed in App")](files-images/pcltext.png#lightbox "Embedded Text File in .NET Standard Library Displayed in App")
 
@@ -150,5 +152,6 @@ This article has shown some simple file operations for saving and loading text o
 
 ## Related Links
 
+- [FilesSample](/samples/xamarin/xamarin-forms-samples/workingwithfiles)
 - [Xamarin.Forms Samples](https://github.com/xamarin/xamarin-forms-samples)
 - [Working with the File System in Xamarin.iOS](~/ios/app-fundamentals/file-system.md)

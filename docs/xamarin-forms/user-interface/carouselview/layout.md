@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms CarouselView Layout
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-carouselviewdemos/)
+
 [`CarouselView`](xref:Xamarin.Forms.CarouselView) defines the following properties that control layout:
 
 - [`ItemsLayout`](xref:Xamarin.Forms.ItemsLayout), of type `LinearItemsLayout`, specifies the layout to be used.
@@ -262,5 +264,6 @@ For more information about flow direction, see [Right-to-left localization](~/xa
 
 ## Related links
 
+- [CarouselView (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-carouselviewdemos/)
 - [Right-to-left localization](~/xamarin-forms/app-fundamentals/localization/right-to-left.md)
 - [Xamarin.Forms CarouselView Scrolling](scrolling.md)

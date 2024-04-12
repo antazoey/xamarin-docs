@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms AbsoluteLayout
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-absolutelayoutdemos)
+
 [![Xamarin.Forms AbsoluteLayout](absolutelayout-images/layouts.png)](absolutelayout-images/layouts-large.png#lightbox)
 
 An [`AbsoluteLayout`](xref:Xamarin.Forms.AbsoluteLayout) is used to position and size children using explicit values. The position is specified by the upper-left corner of the child relative to the upper-left corner of the `AbsoluteLayout`, in device-independent units. `AbsoluteLayout` also implements a proportional positioning and sizing feature. In addition, unlike some other layout classes, `AbsoluteLayout` is able to position children so that they overlap.
@@ -226,6 +228,7 @@ In this example, the position and size of each child is set with the [`AbsoluteL
 
 ## Related links
 
+- [AbsoluteLayout demos (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-absolutelayoutdemos)
 - [Xamarin.Forms Attached Properties](~/xamarin-forms/xaml/attached-properties.md)
 - [Choose a Xamarin.Forms Layout](choose-layout.md)
 - [Improve Xamarin.Forms App Performance](~/xamarin-forms/deploy-test/performance.md)

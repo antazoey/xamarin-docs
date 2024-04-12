@@ -107,12 +107,12 @@ These animations happen implicitly by specifying property changes in an `NSActio
 pt = imgView.Center;
 
 UIView.Animate (
-  duration: 2,
-  delay: 0,
-  options: UIViewAnimationOptions.CurveEaseInOut |
+  duration: 2, 
+  delay: 0, 
+  options: UIViewAnimationOptions.CurveEaseInOut | 
     UIViewAnimationOptions.Autoreverse,
   animation: () => {
-    imgView.Center = new CGPoint (View.Bounds.GetMaxX ()
+    imgView.Center = new CGPoint (View.Bounds.GetMaxX () 
       - imgView.Frame.Width / 2, pt.Y);},
   completion: () => {
     imgView.Center = pt; }
@@ -196,24 +196,24 @@ The following code shows an example of an explicit animation using a `CAKeyframe
 public override void ViewDidAppear (bool animated)
 {
   base.ViewDidAppear (animated);
-
+  
   // get the initial value to start the animation from
   CGPoint fromPt = layer.Position;
-
+  
   /* set the position to coincide with the final animation value
   to prevent it from snapping back to the starting position
   after the animation completes*/
   layer.Position = new CGPoint (200, 300);
-
+  
   // create a path for the animation to follow
   CGPath path = new CGPath ();
   path.AddLines (new CGPoint[] { fromPt, new CGPoint (50, 300), new CGPoint (200, 50), new CGPoint (200, 300) });
-
+  
   // create a keyframe animation for the position using the path
   CAKeyFrameAnimation animPosition = (CAKeyFrameAnimation)CAKeyFrameAnimation.FromKeyPath ("position");
   animPosition.Path = path;
   animPosition.Duration = 2;
-
+  
   // add the animation to the layer.
   /* the "position" key is used to overwrite the implicit animation created
   when the layer positino is set above*/
@@ -233,6 +233,7 @@ In this article we looked at the animation capabilities provided via the *Core A
 
 ## Related Links
 
+- [Core Animation Sample](/samples/xamarin/ios-samples/graphicsandanimation)
 - [Core Graphics](~/ios/platform/graphics-animation-ios/core-graphics.md)
 - [Graphics and Animation Walkthrough](~/ios/platform/graphics-animation-ios/graphics-animation-walkthrough.md)
 - [Core Animation](https://github.com/xamarin/recipes/tree/master/Recipes/ios/animation/coreanimation)

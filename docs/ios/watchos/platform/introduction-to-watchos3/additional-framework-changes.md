@@ -77,4 +77,5 @@ The following enhancements have be made to the UIKit framework for watch OS 3:
 
 ## Related Links
 
+- [watchOS samples](/samples/browse/?products=xamarin&term=Xamarin.iOS%2bwatchos)
 - [What's new in watchOS 3](https://developer.apple.com/library/prerelease/content/releasenotes/General/WhatsNewInwatchOS/Articles/watchOS3.html#//apple_ref/doc/uid/TP40017085-SW1)

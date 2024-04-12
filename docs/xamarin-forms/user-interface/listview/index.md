@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms ListView
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/workingwithlistview)
+
 [`ListView`](xref:Xamarin.Forms.ListView) is a view for presenting lists of data, especially long lists that require scrolling.
 
 > [!IMPORTANT]
@@ -71,3 +73,13 @@ The following screenshot shows a `ListView` with context actions:
 [!["Context actions in a ListView"](images/context-default-cropped.png)](images/context-default.png#lightbox "Context actions in a ListView")
 
 To learn more about the interactivity features of `ListView`, see [Actions & Interactivity with ListView](interactivity.md).
+
+## Related links
+
+- [Working With ListView (sample)](/samples/xamarin/xamarin-forms-samples/workingwithlistview)
+- [Two Way Binding (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-listview-switchentrytwobinding)
+- [Built In Cells (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-listview-builtincells)
+- [Custom Cells (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-listview-customcells)
+- [Grouping (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-listview-grouping)
+- [Custom Renderer View (sample)](/samples/xamarin/xamarin-forms-samples/workingwithlistviewnative/)
+- [ListView Interactivity (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-listview-interactivity)

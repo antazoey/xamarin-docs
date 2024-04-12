@@ -107,4 +107,5 @@ Menu items configured in the storyboard cannot be cleared.
 
 ## Related Links
 
+- [WatchKitCatalog (sample)](/samples/xamarin/ios-samples/watchos-watchkitcatalog)
 - [Apple's Menu doc](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/Menus.html)

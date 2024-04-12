@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Keyboard Accessibility in Xamarin.Forms
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-accessibility)
+
 Users who use screen readers, or have mobility issues, can have difficulty using applications that don't provide appropriate keyboard access. Xamarin.Forms applications can have an expected tab order specified to improve their usability and accessibility. Specifying a tab order for controls enables keyboard navigation, prepares application pages to receive input in a particular order, and permits screen readers to read focusable elements to the user.
 
 By default, the tab order of controls is the same order in which they are listed in XAML, or programmatically added to a child collection. This order is the order in which the controls will be navigated through with a keyboard and read by screen readers, and often this default order is the best order. However, the default order is not always the same as the expected order, as shown in the following XAML code example:
@@ -140,3 +142,7 @@ The `TabIndex` and `IsTabStop` properties are supported on the following control
 
 > [!NOTE]
 > Each of these controls isn't tab focusable on every platform.
+
+## Related Links
+
+- [Accessibility (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-accessibility)

@@ -252,3 +252,7 @@ Doing this results in a layout for the `TextViews` that is similar
 to the layout we had earlier, with the button added to the bottom of the `GridLayout` as shown below:
 
  [![Screenshot of GridLayoutDemo with button spanning both columns](grid-layout-images/05-gridlayout.png)](grid-layout-images/05-gridlayout.png#lightbox)
+
+## Related Links
+
+- [GridLayoutDemo (sample)](/samples/xamarin/monodroid-samples/gridlayoutdemo)

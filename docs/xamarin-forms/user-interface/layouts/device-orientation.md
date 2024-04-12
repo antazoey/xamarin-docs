@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Device Orientation
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-responsivelayout)
+
 It is important to consider how your application will be used and how landscape orientation can be incorporated to improve the user experience. Individual layouts can be designed to accommodate multiple orientations and best use the available space. At the application level, rotation can be disabled or enabled.
 
 ## Controlling Orientation
@@ -455,4 +457,7 @@ Note the following:
 
 ## Related Links
 
+- [Layout (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-layout)
+- [BusinessTumble Example (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-businesstumble)
+- [Responsive Layout (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-responsivelayout)
 - [Display an Image based on Screen Orientation](https://github.com/xamarin/recipes/tree/master/Recipes/xamarin-forms/Controls/screen-orientation)

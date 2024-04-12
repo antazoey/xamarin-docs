@@ -1356,5 +1356,8 @@ affects a custom collection view layout.
 
 ## Related Links
 
+- [iOS 9 Samples](/samples/browse/?products=xamarin&term=Xamarin.iOS%2biOS9)
+- [Collection View Sample](/samples/xamarin/ios-samples/ios9-collectionview)
+- [SimpleCollectionView (sample)](/samples/xamarin/ios-samples/simplecollectionview)
 - [Events, Protocols and Delegates](~/ios/app-fundamentals/delegates-protocols-and-events.md)
 - [Working with Tables and Cells](~/ios/user-interface/controls/tables/index.md)

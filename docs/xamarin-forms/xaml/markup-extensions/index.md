@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # XAML Markup Extensions
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/xaml-markupextensions)
+
 XAML markup extensions help extend the power and flexibility of XAML by allowing element attributes to be set from sources other than literal text strings.
 
 For example, normally you set the `Color` property of `BoxView` like this:
@@ -52,6 +54,7 @@ Write your own custom XAML markup extensions.
 
 ## Related Links
 
+- [Markup Extensions (sample)](/samples/xamarin/xamarin-forms-samples/xaml-markupextensions)
 - [XAML markup extensions chapter from Xamarin.Forms book](~/xamarin-forms/creating-mobile-apps-xamarin-forms/summaries/chapter10.md)
 - [Resource Dictionaries](~/xamarin-forms/xaml/resource-dictionaries.md)
 - [Dynamic Styles](~/xamarin-forms/user-interface/styles/dynamic.md)

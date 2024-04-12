@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms CollectionView EmptyView
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-collectionviewdemos/)
+
 [`CollectionView`](xref:Xamarin.Forms.CollectionView) defines the following properties that can be used to provide user feedback when there's no data to display:
 
 - [`EmptyView`](xref:Xamarin.Forms.ItemsView.EmptyView), of type `object`, the string, binding, or view that will be displayed when the [`ItemsSource`](xref:Xamarin.Forms.ItemsView.ItemsSource) property is `null`, or when the collection specified by the `ItemsSource` property is `null` or empty. The default value is `null`.
@@ -329,6 +331,7 @@ For more information about data template selectors, see [Create a Xamarin.Forms 
 
 ## Related links
 
+- [CollectionView (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-collectionviewdemos/)
 - [Xamarin.Forms Data Templates](~/xamarin-forms/app-fundamentals/templates/data-templates/index.md)
 - [Xamarin.Forms Resource Dictionaries](~/xamarin-forms/xaml/resource-dictionaries.md)
 - [Create a Xamarin.Forms DataTemplateSelector](~/xamarin-forms/app-fundamentals/templates/data-templates/selector.md)

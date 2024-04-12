@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # ListView Data Sources
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-listview-switchentrytwobinding)
+
 A Xamarin.Forms [`ListView`](xref:Xamarin.Forms.ListView) is used for displaying lists of data. This article explains how to populate a `ListView` with data and how to bind data to the selected item.
 
 ## ItemsSource
@@ -156,3 +158,4 @@ Assuming `listView`'s `ItemsSource` is a list of strings, `SomeLabel` will have 
 
 ## Related Links
 
+- [Two Way Binding (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-listview-switchentrytwobinding)

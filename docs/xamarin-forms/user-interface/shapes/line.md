@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms Shapes: Line
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-shapesdemos/)
+
 The `Line` class derives from the `Shape` class, and can be used to draw lines. For information on the properties that the `Line` class inherits from the `Shape` class, see [Xamarin.Forms Shapes](index.md).
 
 `Line` defines the following properties:
@@ -75,5 +77,6 @@ For more information about drawing a dashed line, see [Draw dashed shapes](index
 
 ## Related links
 
+- [ShapeDemos (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-shapesdemos/)
 - [Xamarin.Forms Shapes](index.md)
 - [Xamarin.Forms Brushes](~/xamarin-forms/user-interface/brushes/index.md)

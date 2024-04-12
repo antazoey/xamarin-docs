@@ -267,3 +267,9 @@ view. For example, you may have a "z" in your index, but you may
 not have a table section for every letter, so instead of "z"
 mapping to 26, it may map to 25 or 24, or whatever section index
 "z" should map to.
+
+## Related links
+
+- [BasicTableAndroid (sample)](/samples/xamarin/monodroid-samples/basictableandroid)
+- [BasicTableAdapter (sample)](/samples/xamarin/monodroid-samples/basictableadapter)
+- [FastScroll (sample)](/samples/xamarin/monodroid-samples/fastscroll)

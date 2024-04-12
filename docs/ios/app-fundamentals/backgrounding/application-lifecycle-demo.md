@@ -11,7 +11,7 @@ no-loc: [Objective-C]
 ---
 # Application lifecycle demo for Xamarin.iOS
 
-This article and sample code demonstrates the four application states in iOS, and the role of the `AppDelegate` methods in notifying the application of when states get changed. The application will print updates to the console whenever the app changes state:
+This article and [sample code](/samples/xamarin/ios-samples/lifecycledemo) demonstrates the four application states in iOS, and the role of the `AppDelegate` methods in notifying the application of when states get changed. The application will print updates to the console whenever the app changes state:
 
 [![The sample app](application-lifecycle-demo-images/image3-sml.png)](application-lifecycle-demo-images/image3.png#lightbox)
 
@@ -63,9 +63,13 @@ This article and sample code demonstrates the four application states in iOS, an
 1. Press the **Home** button to put the application into the background. Then, double-tap the **Home** button to bring up the application switcher. On the iPhone X, swipe up from the bottom of the screen:
 
     [![The application switcher](application-lifecycle-demo-images/app-switcher-sml.png "The application switcher")](application-lifecycle-demo-images/app-switcher.png#lightbox)
-
+  
 1. Locate the application in the App Switcher, and swipe up to remove it (on iOS 11, long press until the red icons appear in the corner):
 
     [![Swipe up to remove a running app](application-lifecycle-demo-images/app-switcher-swipe-sml.png "Swipe up to remove a running app")](application-lifecycle-demo-images/app-switcher-swipe.png#lightbox)
 
 iOS will terminate the application. Note that `WillTerminate` is not called because application is already _suspended_ in the background.
+
+## Related links
+
+- [LifecycleDemo (sample)](/samples/xamarin/ios-samples/lifecycledemo)

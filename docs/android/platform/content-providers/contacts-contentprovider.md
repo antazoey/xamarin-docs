@@ -243,3 +243,7 @@ listView.Adapter = adapter;
 Refer to the
 [ListViews and Adapters](~/android/user-interface/layouts/list-view/index.md)
 for further information on implementing `SimpleCursorAdapter`.
+
+## Related Links
+
+- [ContactsAdapter Demo (sample)](/samples/xamarin/monodroid-samples/platformfeatures-contactsadapterdemo)

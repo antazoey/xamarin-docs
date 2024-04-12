@@ -26,5 +26,6 @@ Changes since watchOS 3:
 
 ## Related Links
 
+* [watchOS Samples](/samples/browse/?products=xamarin&term=Xamarin.iOS%2bwatchOS)
 * [WatchKit (Apple)](https://developer.apple.com/documentation/watchkit)
 * [What's new in watchOS 4 (Apple) (video)](https://developer.apple.com/videos/play/wwdc2017/205/)

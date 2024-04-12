@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms Shell navigation
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-xaminals/)
+
 Xamarin.Forms Shell includes a URI-based navigation experience that uses routes to navigate to any page in the application, without having to follow a set navigation hierarchy. In addition, it also provides the ability to navigate backwards without having to visit all of the pages on the navigation stack.
 
 The [`Shell`](xref:Xamarin.Forms.Shell) class defines the following navigation-related properties:
@@ -539,3 +541,7 @@ Shell.SetBackButtonBehavior(this, new BackButtonBehavior
 The [`Command`](xref:Xamarin.Forms.BackButtonBehavior.Command) property is set to an `ICommand` to be executed when the back button is pressed, and the `IconOverride` property is set to the icon that's used for the back button:
 
 [![Screenshot of a Shell back button icon override, on iOS and Android](navigation-images/back-button.png)](navigation-images/back-button-large.png#lightbox)
+
+## Related links
+
+- [Xaminals (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-xaminals/)

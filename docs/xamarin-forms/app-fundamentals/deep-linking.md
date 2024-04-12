@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Application Indexing and Deep Linking
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/deeplinking)
+
 Xamarin.Forms application indexing and deep linking provide an API for publishing metadata for application indexing as users navigate through applications. Indexed content can then be searched for in Spotlight Search, in Google Search, or in a web search. Tapping on a search result that contains a deep link will fire an event that can be handled by an application, and is typically used to navigate to the page referenced from the deep link.
 
 The sample application demonstrates a Todo list application where the data is stored in a local SQLite database, as shown in the following screenshots:
@@ -231,6 +233,7 @@ For more information about Handoff, see [Introduction to Handoff](~/ios/platform
 
 ## Related Links
 
+- [Deep Linking (sample)](/samples/xamarin/xamarin-forms-samples/deeplinking)
 - [iOS Search APIs](~/ios/platform/search/index.md)
 - [App-Linking in Android 6.0](~/android/platform/app-linking.md)
 - [AppLinkEntry](xref:Xamarin.Forms.AppLinkEntry)

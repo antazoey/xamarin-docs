@@ -190,6 +190,7 @@ This article has covered the enhancements Apple has made to the Widget System in
 
 ## Related Links
 
+- [iOS 10 Samples](/samples/browse/?products=xamarin&term=Xamarin.iOS%2biOS10)
 - [Introduction to Extensions](~/ios/platform/extensions.md)
 - [Introduction to 3D Touch](~/ios/platform/3d-touch.md)
 - [App Extension Programming Guide](https://developer.apple.com/library/prerelease/content/documentation/General/Conceptual/ExtensibilityPG/index.html)

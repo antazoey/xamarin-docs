@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms Brushes: Solid colors
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-brushdemos/)
+
 The `SolidColorBrush` class derives from the `Brush` class, and is used to paint an area with a solid color. There are a variety of approaches to specifying the color of a `SolidColorBrush`. For example, you can specify its color with a [`Color`](xref:Xamarin.Forms.Color) value or by using one of the predefined `SolidColorBrush` objects provided by the `Brush` class.
 
 The `SolidColorBrush` class defines the `Color` property, of type [`Color`](xref:Xamarin.Forms.Color), which represents the color of the brush. This property is backed by a [`BindableProperty`](xref:Xamarin.Forms.BindableProperty) object, which means that it can be the target of data bindings, and styled.
@@ -120,4 +122,5 @@ For convenience, the `Brush` class provides a set of commonly used `SolidColorBr
 
 ## Related links
 
+- [BrushesDemos (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-brushdemos/)
 - [Colors in Xamarin.Forms](~/xamarin-forms/user-interface/colors.md)

@@ -105,7 +105,9 @@ experience that's consistent throughout Android.
 ### Image Sharing Example
 
 For example, below is a screenshot of an Action Bar with a menu item to
-share an image. When the user taps the menu item on the Action Bar, the
+share an image (taken from the
+[ShareActionProvider](/samples/xamarin/monodroid-samples/shareactionproviderdemo)
+sample). When the user taps the menu item on the Action Bar, the
 ShareActionProvider loads the application to handle an Intent that is
 associated with the `ShareActionProvider`. In this example, the
 messaging application has been previously used, so it is presented on
@@ -177,3 +179,8 @@ application and copied to a publicly accessible location when the
 Activity is created, so it will be accessible to other applications,
 such as the messaging app. The sample code that accompanies this
 article contains the full source of this example, illustrating its use.
+
+## Related Links
+
+- [Hello Tabs ICS (sample)](/samples/xamarin/monodroid-samples/hellotabsics)
+- [ShareActionProvider Demo (sample)](/samples/xamarin/monodroid-samples/shareactionproviderdemo)

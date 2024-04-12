@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms Local Databases
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/todo)
+
 The SQLite database engine allows Xamarin.Forms applications to load and save data objects in shared code. The sample application uses a SQLite database table to store todo items. This article describes how to use SQLite.Net in shared code to store and retrieve information in a local database.
 
 [![Screenshots of the Todolist app on iOS and Android](databases-images/todo-list-sml.png)](databases-images/todo-list.png#lightbox "Todolist app on iOS and Android")
@@ -243,6 +245,7 @@ For more information, see [File Handling in Xamarin.Forms](~/xamarin-forms/data-
 
 ## Related links
 
+- [Todo sample application](/samples/xamarin/xamarin-forms-samples/todo)
 - [SQLite.NET NuGet package](https://www.nuget.org/packages/sqlite-net-pcl/)
 - [SQLite documentation](https://www.sqlite.org/docs.html)
 - [Using SQLite with Android](~/android/data-cloud/data-access/using-sqlite-orm.md)

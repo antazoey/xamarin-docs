@@ -137,7 +137,7 @@ The first step is to subclass `ContentProvider` and add
 the database that it will use.
 
 ```csharp
-public class VegetableProvider : ContentProvider
+public class VegetableProvider : ContentProvider 
 {
     VegetableDatabase vegeDB;
     public override bool OnCreate()
@@ -178,7 +178,7 @@ database definition from the previous step:
 
 ```csharp
 [ContentProvider(new string[] { CursorTableAdapter.VegetableProvider.AUTHORITY })]
-public class VegetableProvider : ContentProvider
+public class VegetableProvider : ContentProvider 
 {
    public const string AUTHORITY = "com.xamarin.sample.VegetableProvider";
    static string BASE_PATH = "vegetables";
@@ -384,3 +384,7 @@ protected void OnListItemClick(object sender, AdapterView.ItemClickEventArgs e)
   vegeCursor.Close();
 }
 ```
+
+## Related Links
+
+- [SimpleContentProvider (sample)](/samples/xamarin/monodroid-samples/platformfeatures-simplecontentprovider)

@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms CollectionView Data
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-collectionviewdemos/)
+
 [`CollectionView`](xref:Xamarin.Forms.CollectionView) includes the following properties that define the data to be displayed, and its appearance:
 
 - [`ItemsSource`](xref:Xamarin.Forms.ItemsView.ItemsSource), of type `IEnumerable`, specifies the collection of items to be displayed, and has a default value of `null`.
@@ -372,6 +374,7 @@ void OnCollectionViewRemainingItemsThresholdReached(object sender, EventArgs e)
 
 ## Related links
 
+- [CollectionView (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-collectionviewdemos/)
 - [Xamarin.Forms RefreshView](~/xamarin-forms/user-interface/refreshview.md)
 - [Xamarin.Forms SwipeView](~/xamarin-forms/user-interface/swipeview.md)
 - [Xamarin.Forms Data Binding](~/xamarin-forms/app-fundamentals/data-binding/index.md)

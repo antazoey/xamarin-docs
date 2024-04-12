@@ -1,11 +1,7 @@
 - name: Docs
   tocHref: /
-  topicHref: /
+  topicHref: / 
   items:
-  - name: Previous Versions
-    tocHref:  /previous-versions/
-    topicHref: /previous-versions/
-    items:
-    - name: Xamarin
-      tocHref: /previous-versions/xamarin/
-      topicHref: /previous-versions/xamarin/index
+  - name: Xamarin
+    tocHref: /xamarin/
+    topicHref: /xamarin/index

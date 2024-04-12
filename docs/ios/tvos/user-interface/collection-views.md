@@ -95,36 +95,36 @@ Let's do the following:
 
 1. Start a new **Single View tvOS App** in Visual Studio for Mac.
 1. In the **Solution Explorer**, double-click the `Main.storyboard` file and open it in the iOS Designer.
-1. Add a Image View, a Label and a Button to the existing view and configure them to look like the following:
+1. Add a Image View, a Label and a Button to the existing view and configure them to look like the following: 
 
     [![Sample layout](collection-views-images/collection02.png)](collection-views-images/collection02.png#lightbox)
-1. Assign a **Name** to the Image View and the Label in the **Widget Tab** of the **Properties Explorer**. For example:
+1. Assign a **Name** to the Image View and the Label in the **Widget Tab** of the **Properties Explorer**. For example: 
 
     [![Setting the name](collection-views-images/collection03.png)](collection-views-images/collection03.png#lightbox)
-1. Next, drag a Collection View Controller onto the Storyboard:
+1. Next, drag a Collection View Controller onto the Storyboard: 
 
     [![A Collection View Controller](collection-views-images/collection04.png)](collection-views-images/collection04.png#lightbox)
-1. Control-drag from the Button to the Collection View Controller and select **Push** from the popup:
+1. Control-drag from the Button to the Collection View Controller and select **Push** from the popup: 
 
     [![Select Push from the popup](collection-views-images/collection05.png)](collection-views-images/collection05.png#lightbox)
 1. When the app is run, this will make the Collection View be show whenever the user clicks the Button.
-1. Select the Collection View and enter the following values in the **Layout Tab** of the **Properties Explorer**:
+1. Select the Collection View and enter the following values in the **Layout Tab** of the **Properties Explorer**: 
 
     [![The Properties Explorer](collection-views-images/collection06.png)](collection-views-images/collection06.png#lightbox)
 1. This controls the size of the individual cells and the borders between the cells and the outer edge of the Collection View.
-1. Select the Collection View Controller and set its class to `CityCollectionViewController` in the **Widget Tab**:
+1. Select the Collection View Controller and set its class to `CityCollectionViewController` in the **Widget Tab**: 
 
     [![Set the class to CityCollectionViewController](collection-views-images/collection07.png)](collection-views-images/collection07.png#lightbox)
-1. Select the Collection View and set its class to `CityCollectionView` in the **Widget Tab**:
+1. Select the Collection View and set its class to `CityCollectionView` in the **Widget Tab**: 
 
     [![Set the class to CityCollectionView](collection-views-images/collection08.png)](collection-views-images/collection08.png#lightbox)
-1. Select the Collection View Cell and set its class to `CityCollectionViewCell` in the **Widget Tab**:
+1. Select the Collection View Cell and set its class to `CityCollectionViewCell` in the **Widget Tab**: 
 
     [![Set the class to CityCollectionViewCell](collection-views-images/collection09.png)](collection-views-images/collection09.png#lightbox)
-1. In the **Widget Tab** ensure that the **Layout** is `Flow` and the **Scroll Direction** is `Vertical` for the Collection View:
+1. In the **Widget Tab** ensure that the **Layout** is `Flow` and the **Scroll Direction** is `Vertical` for the Collection View: 
 
     [![The Widget Tab](collection-views-images/collection10.png)](collection-views-images/collection10.png#lightbox)
-1. Select the Collection View Cell and set its **Identity** to `CityCell` in the **Widget Tab**:
+1. Select the Collection View Cell and set its **Identity** to `CityCell` in the **Widget Tab**: 
 
     [![Set the Identity to CityCell](collection-views-images/collection11.png)](collection-views-images/collection11.png#lightbox)
 1. Save your changes.
@@ -133,41 +133,41 @@ Let's do the following:
 
 1. Start a new **Single View tvOS App** in Visual Studio.
 1. In the **Solution Explorer**, double-click the `Main.storyboard` file and open it in the iOS Designer.
-1. Add a Image View, a Label and a Button to the existing view and configure them to look like the following:
+1. Add a Image View, a Label and a Button to the existing view and configure them to look like the following: 
 
     [![Configure the layout](collection-views-images/collection02vs.png)](collection-views-images/collection02vs.png#lightbox)
-1. Assign a **Name** to the Image View and the Label in the **Widget Tab** of the **Properties Explorer**. For example:
+1. Assign a **Name** to the Image View and the Label in the **Widget Tab** of the **Properties Explorer**. For example: 
 
     [![The Properties Explorer](collection-views-images/collection03vs.png)](collection-views-images/collection03vs.png#lightbox)
-1. Next, drag a Collection View Controller onto the Storyboard:
+1. Next, drag a Collection View Controller onto the Storyboard: 
 
     [![A Collection View Controller](collection-views-images/collection04vs.png)](collection-views-images/collection04vs.png#lightbox)
-1. Control-drag from the Button to the Collection View Controller and select **Push** from the popup:
+1. Control-drag from the Button to the Collection View Controller and select **Push** from the popup: 
 
     [![Select Push from the popup](collection-views-images/collection05vs.png)](collection-views-images/collection05vs.png#lightbox)
 1. When the app is run, this will make the Collection View be show whenever the user clicks the Button.
-1. Select the Collection View and in the **Layout Tab** of the **Properties Explorer** enter the **Width** as _361_ and **Height** as _256_
+1. Select the Collection View and in the **Layout Tab** of the **Properties Explorer** enter the **Width** as _361_ and **Height** as _256_ 
 1. This controls the size of the individual cells and the borders between the cells and the outer edge of the Collection View.
-1. Select the Collection View Controller and set its class to `CityCollectionViewController` in the **Widget Tab**:
+1. Select the Collection View Controller and set its class to `CityCollectionViewController` in the **Widget Tab**: 
 
     [![Set the class to CityCollectionViewController](collection-views-images/collection07vs.png)](collection-views-images/collection07vs.png#lightbox)
-1. Select the Collection View and set its class to `CityCollectionView` in the **Widget Tab**:
+1. Select the Collection View and set its class to `CityCollectionView` in the **Widget Tab**: 
 
     [![Set the class to CityCollectionView](collection-views-images/collection08vs.png)](collection-views-images/collection08vs.png#lightbox)
-1. Select the Collection View Cell and set its class to `CityCollectionViewCell` in the **Widget Tab**:
+1. Select the Collection View Cell and set its class to `CityCollectionViewCell` in the **Widget Tab**: 
 
     [![Set the class to CityCollectionViewCell](collection-views-images/collection09vs.png)](collection-views-images/collection09vs.png#lightbox)
-1. In the **Widget Tab** ensure that the **Layout** is `Flow` and the **Scroll Direction** is `Vertical` for the Collection View:
+1. In the **Widget Tab** ensure that the **Layout** is `Flow` and the **Scroll Direction** is `Vertical` for the Collection View: 
 
     [![Tthe Widget Tab](collection-views-images/collection10vs.png)](collection-views-images/collection10vs.png#lightbox)
-1. Select the Collection View Cell and set its **Identity** to `CityCell` in the **Widget Tab**:
+1. Select the Collection View Cell and set its **Identity** to `CityCell` in the **Widget Tab**: 
 
     [![Set the Identity to CityCell](collection-views-images/collection11vs.png)](collection-views-images/collection11vs.png#lightbox)
 1. Save your changes.
 
 -----
 
-If we had chosen `Custom` for the Collection View's **Layout**, we could have specified a custom layout. Apple provides a built-in `UICollectionViewFlowLayout` and `UICollectionViewDelegateFlowLayout` that can easily present data in a grid-based layout (these are used by the `flow` layout style).
+If we had chosen `Custom` for the Collection View's **Layout**, we could have specified a custom layout. Apple provides a built-in `UICollectionViewFlowLayout` and `UICollectionViewDelegateFlowLayout` that can easily present data in a grid-based layout (these are used by the `flow` layout style). 
 
 For more information on working with Storyboards, please see our [Hello, tvOS Quick Start Guide](~/ios/tvos/get-started/hello-tvos.md).
 
@@ -175,7 +175,7 @@ For more information on working with Storyboards, please see our [Hello, tvOS Qu
 
 ## Providing Data for the Collection View
 
-Now that we have our Collection View (and Collection View Controller) added to our Storyboard, we need to provide the data for the collection.
+Now that we have our Collection View (and Collection View Controller) added to our Storyboard, we need to provide the data for the collection. 
 
 <a name="The-Data-Model"></a>
 
@@ -260,7 +260,7 @@ namespace tvCollection
             AddSubview (CityTitle);
         }
         #endregion
-
+    
 
     }
 }
@@ -525,7 +525,7 @@ public override CGSize GetSizeForItem (UICollectionView collectionView, UICollec
 }
 ```
 
-Then, we decide if a given cell can get focus using the following code:
+Then, we decide if a given cell can get focus using the following code: 
 
 ```csharp
 public override bool CanFocusItem (UICollectionView collectionView, NSIndexPath indexPath)
@@ -622,7 +622,7 @@ namespace tvCollection
 }
 ```
 
-First, we provide a shortcut to access our `AppDelegate`:
+First, we provide a shortcut to access our `AppDelegate`: 
 
 ```csharp
 public static AppDelegate App {
@@ -719,7 +719,7 @@ namespace tvCollection
 
 ```
 
-## Putting it all Together
+## Putting it all Together 
 
 Now that we have all of the parts put together to populate and control our Collection View, we need to make the final edits to our main view to bring everything together.
 
@@ -822,6 +822,7 @@ This article has covered designing and working with Collection Views inside of a
 
 ## Related Links
 
+- [tvOS Samples](/samples/browse/?products=xamarin&term=Xamarin.iOS%2btvOS)
 - [tvOS](https://developer.apple.com/tvos/)
 - [tvOS Human Interface Guides](https://developer.apple.com/design/human-interface-guidelines/designing-for-tvos)
 - [App Programming Guide for tvOS](https://developer.apple.com/library/prerelease/tvos/documentation/General/Conceptual/AppleTV_PG/)

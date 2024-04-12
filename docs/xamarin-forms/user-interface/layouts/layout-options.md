@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Layout Options in Xamarin.Forms
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-layoutoptions)
+
 _Every Xamarin.Forms view has HorizontalOptions and VerticalOptions properties, of type LayoutOptions. This article explains the effect that each LayoutOptions value has on the alignment and expansion of a view._
 
 ## Overview
@@ -148,4 +150,5 @@ This article explained the effect that each [`LayoutOptions`](xref:Xamarin.Forms
 
 ## Related Links
 
+- [LayoutOptions (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-layoutoptions)
 - [LayoutOptions](xref:Xamarin.Forms.LayoutOptions)

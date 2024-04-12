@@ -13,6 +13,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Right-to-left localization
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/todolocalizedrtl)
+
 _Right-to-left localization adds support for right-to-left flow direction to Xamarin.Forms applications._
 
 > [!NOTE]
@@ -187,3 +189,7 @@ This approach is useful for applications that always require a right-to-left lay
 > [!VIDEO https://youtube.com/embed/f2lQ5yw3iiU]
 
 **Xamarin.Forms 3.0 Right-to-Left Support video**
+
+## Related links
+
+- [TodoLocalizedRTL Sample App](/samples/xamarin/xamarin-forms-samples/todolocalizedrtl)

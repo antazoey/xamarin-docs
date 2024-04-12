@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # SkiaSharp blend modes
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)
+
 These articles focus on the [`BlendMode`](xref:SkiaSharp.SKPaint.BlendMode) property of [`SKPaint`](xref:SkiaSharp.SKPaint). The `BlendMode` property is of type [`SKBlendMode`](xref:SkiaSharp.SKBlendMode), an enumeration with 29 members.
 
 The `BlendMode` property determines what happens when a graphical object (often called the _source_) is rendered on top of existing graphical objects (called the _destination_). Normally, we expect the new graphical object to obscure the objects underneath it. But that happens only because the default blend mode is `SKBlendMode.SrcOver`, which means that the source is drawn _over_ the destination. The other 28 members of `SKBlendMode` cause other effects. In graphics programming, the technique of combining graphical objects in various ways is known as _compositing_.
@@ -87,3 +89,4 @@ Use the non-separable blend modes to alter hue, saturation, or luminosity.
 ## Related links
 
 - [SkiaSharp APIs](/dotnet/api/skiasharp)
+- [SkiaSharpFormsDemos (sample)](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)

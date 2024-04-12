@@ -108,4 +108,6 @@ ARKit provides lots of more sophisticated features, such as surface tracking, an
 ## Related Links
 
 - [Augmented Reality (Apple)](https://developer.apple.com/arkit/)
+- [Simple ARKit (Jet) Sample](/samples/xamarin/ios-samples/ios11-arkitsample)
+- [ARKit Placing Objects (sample)](/samples/xamarin/ios-samples/ios11-arkitplacingobjects)
 - [Introducing ARKit - Augmented Reality for iOS (WWDC) (video)](https://developer.apple.com/videos/play/wwdc2017/602/)

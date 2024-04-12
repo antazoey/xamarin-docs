@@ -56,5 +56,7 @@ The following pages describe how to use Visual Basic.NET .NET Standard libraries
 
 ## Related Links
 
+- [TaskyVB (sample)](/samples/xamarin/mobile-samples/visualbasic-taskyvb/)
+- [XamarinFormsVB (sample)](/samples/xamarin/mobile-samples/visualbasic-xamarinformsvb/)
 - [.NET Standard and Xamarin](~/cross-platform/app-fundamentals/net-standard.md)
 - [.NET Standard](/dotnet/standard/net-standard/)

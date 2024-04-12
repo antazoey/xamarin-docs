@@ -61,8 +61,8 @@ public class TableSource : UITableViewSource {
 
             //if there are no cells to reuse, create a new one
             if (cell == null)
-            {
-                cell = new UITableViewCell (UITableViewCellStyle.Default, CellIdentifier);
+            { 
+                cell = new UITableViewCell (UITableViewCellStyle.Default, CellIdentifier); 
             }
 
             cell.TextLabel.Text = item;
@@ -313,3 +313,7 @@ public override string TitleForFooter (UITableView tableView, nint section)
 
 You can further customize the appearance of the header and footer with a View
 object, using the `GetViewForHeader` and `GetViewForFooter` method overrides on `UITableViewSource`.
+
+## Related Links
+
+- [WorkingWithTables (sample)](/samples/xamarin/ios-samples/workingwithtables)

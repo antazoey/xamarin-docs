@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms Shell flyout
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-xaminals/)
+
 The navigation experience provided by Xamarin.Forms Shell is based on flyouts and tabs. A flyout is the optional root menu for a Shell application, and is fully customizable. It's accessible through an icon or by swiping from the side of the screen. The flyout consists of an optional header, flyout items, optional menu items, and an optional footer:
 
 ![Screenshot of a Shell annotated flyout](flyout-images/flyout-annotated.png)
@@ -791,6 +793,7 @@ Shell.Current.FlyoutIsPresented = false;
 
 ## Related links
 
+- [Xaminals (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-xaminals/)
 - [Xamarin.Forms style classes](~/xamarin-forms/user-interface/styles/xaml/style-class.md)
 - [Xamarin.Forms visual state manager](~/xamarin-forms/user-interface/visual-state-manager.md)
 - [Xamarin.Forms brushes](~/xamarin-forms/user-interface/brushes/index.md)

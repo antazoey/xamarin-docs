@@ -106,7 +106,7 @@ playButton.PreferredFocusedView = true;
 
 <a name="Working-with-Focus-Updates"></a>
 
-### Working with Focus Updates
+### Working with Focus Updates 
 
 When the user causes focus to shift from one UI element to another (for example, in response to a gesture on the Siri Remote) a _Focus Update Event_ will be sent to both the item losing focus and the item gaining focus.
 
@@ -132,7 +132,7 @@ Take the following UI layout for an example:
 
  [![Working with Focus Guides example](navigation-focus-images/guide01.png)](navigation-focus-images/guide01.png#lightbox)
 
-Because the **More Info** button does not fall on a horizontal and vertical grid with the **Buy** button it would be inaccessible to the user. However, this can be easily corrected using a _Focus Guide_ to provide movement hints to the Focus Engine.
+Because the **More Info** button does not fall on a horizontal and vertical grid with the **Buy** button it would be inaccessible to the user. However, this can be easily corrected using a _Focus Guide_ to provide movement hints to the Focus Engine. 
 
 A Focus Guide (`UIFocusGuide`) exposes a non-visible area of the view as Focusable to the Focus Engine, thus allowing Focus to be redirected to another view.
 
@@ -244,9 +244,9 @@ If you want a `UICollectionView` or a `UITableView` to remember and restore focu
 
 ## Focus and Parallax
 
-As stated above, a User Interface element is considered to be _in focus_ when it is the current item during a navigation event. Typically as an item comes into focus, it's size is slightly increased and it is visually elevated using a shadow.
+As stated above, a User Interface element is considered to be _in focus_ when it is the current item during a navigation event. Typically as an item comes into focus, it's size is slightly increased and it is visually elevated using a shadow. 
 
-If the user makes a slow, circular gesture on the Siri Remote, the Focused Item will sway real-time in response to this movement. As the sway occurs, an illuminated sheen is applied to its image making the surface appear to shine. After a given amount of inactivity, any out-of-focus content dims and the Focused item will grow even larger.
+If the user makes a slow, circular gesture on the Siri Remote, the Focused Item will sway real-time in response to this movement. As the sway occurs, an illuminated sheen is applied to its image making the surface appear to shine. After a given amount of inactivity, any out-of-focus content dims and the Focused item will grow even larger. 
 
 These effects work together to provide a mental connection between the content on the TV screen and the user interacting with the Apple TV from the couch.
 
@@ -272,6 +272,7 @@ This article has covered the concept of Focus and how it is used to handle Navig
 
 ## Related Links
 
+- [tvOS Samples](/samples/browse/?products=xamarin&term=Xamarin.iOS%2btvOS)
 - [tvOS](https://developer.apple.com/tvos/)
 - [tvOS Human Interface Guides](https://developer.apple.com/design/human-interface-guidelines/designing-for-tvos)
 - [App Programming Guide for tvOS](https://developer.apple.com/library/prerelease/tvos/documentation/General/Conceptual/AppleTV_PG/)

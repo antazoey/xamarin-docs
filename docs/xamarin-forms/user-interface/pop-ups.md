@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Display Pop-ups
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/navigation-pop-ups)
+
 Displaying an alert, asking a user to make a choice, or displaying a prompt is a common UI task. Xamarin.Forms has three methods on the [`Page`](xref:Xamarin.Forms.Page) class for interacting with the user via a pop-up: [`DisplayAlert`](xref:Xamarin.Forms.Page.DisplayAlert*), [`DisplayActionSheet`](xref:Xamarin.Forms.Page.DisplayActionSheet*), and `DisplayPromptAsync`. They are rendered with appropriate native controls on each platform.
 
 ## Display an alert
@@ -113,4 +115,5 @@ This code displays a predefined response of 10, limits the number of characters 
 
 ## Related links
 
+- [PopupsSample](/samples/xamarin/xamarin-forms-samples/navigation-pop-ups)
 - [Right-to-left localization](~/xamarin-forms/app-fundamentals/localization/right-to-left.md)

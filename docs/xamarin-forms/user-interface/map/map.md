@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms Map Control
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/workingwithmaps)
+
 The [`Map`](xref:Xamarin.Forms.Maps.Map) control is a cross-platform view for displaying and annotating maps. It uses the native map control for each platform, providing a fast and familiar maps experience for users:
 
 [![Screenshot of map control, on iOS and Android](map-images/map-default.png "Map control")](map-images/map-default-large.png#lightbox "Map control")
@@ -319,6 +321,7 @@ map.MapClicked += OnMapClicked;
 
 ## Related links
 
+- [Maps Sample](/samples/xamarin/xamarin-forms-samples/workingwithmaps)
 - [Map Position and Distance](position-distance.md)
 - [Customizing a Xamarin.Forms Map](~/xamarin-forms/app-fundamentals/custom-renderer/map-pin.md)
 - [Passing Arguments in XAML](~/xamarin-forms/xaml/passing-arguments.md)

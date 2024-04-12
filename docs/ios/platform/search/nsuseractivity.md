@@ -57,7 +57,7 @@ to make your content searchable.
 
 ## Creating Activity Type Identifiers
 
-Before you can create a Search Activity, you'll need to create an _Activity Type Identifier_ to identify it. The Activity Type Identifier is a short string added to the `NSUserActivityTypes` array of the app's **Info.plist** file used to uniquely identify a given User Activity Type. There will be one entry in the array for each activity that the app supports and exposes to App Search.
+Before you can create a Search Activity, you'll need to create an _Activity Type Identifier_ to identify it. The Activity Type Identifier is a short string added to the `NSUserActivityTypes` array of the app's **Info.plist** file used to uniquely identify a given User Activity Type. There will be one entry in the array for each activity that the app supports and exposes to App Search. 
 
 Apple suggests using a reverse-DNS-style notation for the Activity Type Identifier to avoid collisions. For example: `com.company-name.appname.activity` for specific app based activities or `com.company-name.activity` for activities that can run across multiple apps.
 
@@ -174,6 +174,7 @@ By adopting App Search via `NSUserActivity` in your app, you also get the follow
 
 ## Related Links
 
+- [iOS 9 Samples](/samples/browse/?products=xamarin&term=Xamarin.iOS%2biOS9)
 - [iOS 9.0](https://developer.apple.com/library/prerelease/ios/releasenotes/General/WhatsNewIniOS/Articles/iOS9.html)
 - [App Search Programming Guide](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/AppSearch/index.html#//apple_ref/doc/uid/TP40016308)
 - [Blog post & sample](https://blog.xamarin.com/improve-discoverability-with-search-in-ios-9/)

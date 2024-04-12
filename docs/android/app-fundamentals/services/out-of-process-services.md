@@ -507,3 +507,4 @@ This guide was an advanced discussion about how to run an Android service in a r
 - [Processes and Threads](https://developer.android.com/guide/components/processes-and-threads.html)
 - [Android Manifest - Permissions](https://developer.android.com/guide/topics/manifest/manifest-intro.html#perms)
 - [Security Tips](https://developer.android.com/privacy-and-security/security-tips)
+- [MessengerServiceDemo (sample)](/samples/xamarin/monodroid-samples/applicationfundamentals-servicesamples-messengerservicedemo)

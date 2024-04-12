@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms Map Pins
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/workingwithmaps)
+
 The Xamarin.Forms [`Map`](xref:Xamarin.Forms.Maps.Map) control allows locations to be marked with [`Pin`](xref:Xamarin.Forms.Maps.Pin) objects. A `Pin` is a map marker that opens an information window when tapped:
 
 [![Screenshot of a map pin and its information window, on iOS and Android](pins-images/pin-and-information-window.png "Map pin with information window")](pins-images/pin-and-information-window-large.png#lightbox "Map pin with information window")
@@ -262,6 +264,7 @@ For more information about data template selectors, see [Creating a Xamarin.Form
 
 ## Related links
 
+- [Maps Sample](/samples/xamarin/xamarin-forms-samples/workingwithmaps)
 - [Map Custom Renderer](~/xamarin-forms/app-fundamentals/custom-renderer/map-pin.md)
 - [Passing Arguments in XAML](~/xamarin-forms/xaml/passing-arguments.md)
 - [Creating a Xamarin.Forms DataTemplateSelector](~/xamarin-forms/app-fundamentals/templates/data-templates/selector.md)

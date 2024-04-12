@@ -89,4 +89,5 @@ If an async method is called from a background thread (not the main UI thread) t
 
 ## Related Links
 
+- [Controls (sample)](/samples/xamarin/ios-samples/controls)
 - [Threading](~/ios/app-fundamentals/threading.md)

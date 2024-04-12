@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms Compiled Bindings
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/databindingdemos)
+
 _Compiled bindings are resolved more quickly than classic bindings, therefore improving data binding performance in Xamarin.Forms applications._
 
 Data bindings have two main problems:
@@ -166,3 +168,7 @@ Compiled bindings improve data binding performance, with the performance benefit
 - Setting the [`BindingContext`](xref:Xamarin.Forms.BindableObject.BindingContext) on a compiled binding that doesn't use property change notification (i.e. a `OneTime` binding) is approximately 7 times quicker than setting the `BindingContext` on a classic binding.
 
 These performance differences can be magnified on mobile devices, dependent upon the platform being used, the version of the operating system being used, and the device on which the application is running.
+
+## Related links
+
+- [Data Binding Demos (sample)](/samples/xamarin/xamarin-forms-samples/databindingdemos)

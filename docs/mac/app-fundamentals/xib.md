@@ -565,6 +565,7 @@ This article has taken a detailed look at working with .xib files in a Xamarin.M
 
 ## Related Links
 
+- [MacImages (sample)](/samples/xamarin/mac-samples/macimages)
 - [Hello, Mac](~/mac/get-started/hello-mac.md)
 - [Windows](~/mac/user-interface/window.md)
 - [Menus](~/mac/user-interface/menu.md)

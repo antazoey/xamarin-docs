@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms Switch
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-switchdemos/)
+
 The Xamarin.Forms [`Switch`](xref:Xamarin.Forms.Switch) control is a horizontal toggle button that can be manipulated by the user to toggle between on and off states, which are represented by a `boolean` value. The `Switch` class inherits from [`View`](xref:Xamarin.Forms.View).
 
 The following screenshots show a `Switch` control in its **on** and **off** toggle states on iOS and Android:
@@ -154,5 +156,6 @@ An application may enter a state where the `Switch` being toggled is not a valid
 
 ## Related links
 
+- [Switch Demos](/samples/xamarin/xamarin-forms-samples/userinterface-switchdemos/)
 - [Xamarin.Forms Triggers](~/xamarin-forms/app-fundamentals/triggers.md)
 - [Xamarin.Forms Visual State Manager](~/xamarin-forms/user-interface/visual-state-manager.md)

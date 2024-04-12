@@ -101,3 +101,4 @@ If the service is halted with a call to `StopSelf` or `StopService`, the status 
 - [Android.App.Service](xref:Android.App.Service)
 - [Android.App.Service.StartForeground](xref:Android.App.Service.StartForeground*)
 - [Local Notifications](~/android/app-fundamentals/notifications/local-notifications.md)
+- [ForegroundServiceDemo (sample)](/samples/xamarin/monodroid-samples/applicationfundamentals-servicesamples-foregroundservicedemo)

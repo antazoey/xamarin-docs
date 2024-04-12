@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms Triggers
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/workingwithtriggers)
+
 Triggers allow you to express actions declaratively in XAML that change the appearance of controls based on events or property changes. In addition, state triggers, which are a specialized group of triggers, define when a [`VisualState`](xref:Xamarin.Forms.VisualState) should be applied.
 
 You can assign a trigger directly to a control, or add it to a page-level or app-level resource dictionary to be applied to multiple controls.
@@ -671,5 +673,6 @@ In this example, the explicit [`Style`](xref:Xamarin.Forms.Style) targets [`Cont
 
 ## Related links
 
+- [Triggers Sample](/samples/xamarin/xamarin-forms-samples/workingwithtriggers)
 - [Xamarin.Forms Visual State Manager](~/xamarin-forms/user-interface/visual-state-manager.md)
 - [Xamarin.Forms Trigger API](xref:Xamarin.Forms.TriggerAction`1)

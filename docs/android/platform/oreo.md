@@ -37,15 +37,15 @@ Android Oreo features in Xamarin.Android apps.
 The following is required to use Android Oreo features in Xamarin-based
 apps:
 
-- **Visual Studio** &ndash; If you are using Windows, version 15.5
+- **Visual Studio** &ndash; If you are using Windows, version 15.5 
     or later of Visual Studio is required.  If you are using
-    a Mac, Visual Studio for Mac version 7.2.0 is
+    a Mac, Visual Studio for Mac version 7.2.0 is 
     required.
 
 - **Xamarin.Android** &ndash; Xamarin.Android 8.0 or later must
     be installed and configured with Visual Studio.
 
-- **Android SDK** &ndash; Android SDK 8.0 (API 26) or later must be
+- **Android SDK** &ndash; Android SDK 8.0 (API 26) or later must be 
     installed via the Android SDK Manager.
 
 ## Getting Started
@@ -286,7 +286,10 @@ channels for each conversation group that is created by a user.
 
 [Notification Channels](~/android/app-fundamentals/notifications/local-notifications.md#notif-chan)
 explains how to create a notification channel and use it for posting
-local notifications.
+local notifications. For a real-world code example, see the
+[NotificationChannels](/samples/xamarin/monodroid-samples/android-o-notificationchannels)
+sample; this sample app manages two channels and sets additional
+notification options.
 
 ### Notification Badges
 
@@ -317,7 +320,7 @@ following:
 1. Create a **Resources/font** folder.
 
 2. Copy your font files (example, **.ttf** and **.otf** files) to
-   **Resources/font**.
+   **Resources/font**. 
 
 3. If necessary, rename each font file so that it adheres to the
    Android file naming conventions (i.e., use only lowercase *a-z*,
@@ -357,9 +360,9 @@ When your app needs a font, you create a `FontsRequest` object
 `FontsContract` method to download the font. The following steps
 describe the font download process in more detail:
 
-1. Instantiate a [FontRequest](https://developer.android.com/reference/android/provider/FontRequest.html) object.
+1. Instantiate a [FontRequest](https://developer.android.com/reference/android/provider/FontRequest.html) object. 
 
-2. Subclass and instantiate
+2. Subclass and instantiate 
     [FontsContract.FontRequestCallback](https://developer.android.com/reference/android/provider/FontsContract.FontRequestCallback.html).
 
 3. Implement the [FontRequestCallback.OnTypeFaceRetrieved](https://developer.android.com/reference/android/provider/FontsContract.FontRequestCallback.html#onTypefaceRetrieved%28android.graphics.Typeface%29)  method, which is used to
@@ -369,13 +372,17 @@ describe the font download process in more detail:
     take place during the font request process.
 
 5. Call the [FontsContract.RequestFonts](https://developer.android.com/reference/android/provider/FontsContract.html#requestFonts(android.content.Context,%20android.provider.FontRequest,%20android.os.Handler,%20android.os.CancellationSignal,%20android.provider.FontsContract.FontRequestCallback)) method
-    to retrieve the font from the font provider.
+    to retrieve the font from the font provider. 
 
 When you call the `RequestFonts` method, it first checks to see if the
 font is locally cached (from a previous call to `RequestFont`). If it
 is not cached, it calls the font provider, retrieves the font
 asynchronously, and then passes the results back to your app by
 invoking your `OnTypeFaceRetrieved` method.
+
+The [Downloadable Fonts](/samples/xamarin/monodroid-samples/android-o-downloadablefonts)
+sample demonstrates how to use the Downloadable Fonts feature
+introduced in Android Oreo. 
 
 For more information about downloading fonts, see the Android Developer
 [Downloadable Fonts](https://developer.android.com/guide/topics/ui/look-and-feel/downloadable-fonts.html)
@@ -389,6 +396,12 @@ card transactions. Users spend less time re-typing information (which
 can lead to input errors). Before your app can work with the Autofill
 Framework, an autofill service must be enabled in the system settings
 (users can enable or disable autofill).
+
+The [AutofillFramework](/samples/xamarin/monodroid-samples/android-o-autofillframework)
+sample demonstrates the use of the Autofill Framework. It includes
+implementations of client Activities with views that should be
+autofilled, and a Service that can provide autofill data to client
+Activities.
 
 For more information about the new Autofill feature and how to optimize
 your app for autofill, see the Android Developer
@@ -422,6 +435,12 @@ were added to `Activity` in Android Oreo:
 
 - [SetPictureInPictureParams](https://developer.android.com/reference/android/app/Activity.html#setPictureInPictureParams%28android.app.PictureInPictureParams%29)
     &ndash; Updates the Activity's PIP configuration settings (for example, a change in aspect ratio).
+
+The [PictureInPicture](/samples/xamarin/monodroid-samples/android-o-pictureinpicture)
+sample demonstrates basic usage of the Picture-in-Picture (PiP) mode
+for handheld devices introduced in Oreo. The sample plays a video which
+continues uninterrupted while switching back and forth between display
+modes or other activities.
 
 ### Other Features
 
@@ -480,6 +499,42 @@ the following changes, where applicable:
   not work due to new limits placed on services started in the
   background. If you are targeting Android Oreo, you should use
   [PendingIntent.GetBroadcast](xref:Android.App.PendingIntent.GetBroadcast*) instead.  
+
+## Sample Code
+
+Several Xamarin.Android samples are available to show you how to take
+advantage of Android Oreo features:
+
+- [NotificationsChannels](/samples/xamarin/monodroid-samples/android-o-notificationchannels)
+    demonstrates how to use the new Notification Channels system introduced in Android 
+    Oreo. This sample manages two notifications channels: one with default importance
+    and the other with high importance.
+
+- [PictureInPicture](/samples/xamarin/monodroid-samples/android-o-pictureinpicture)
+    demonstrates basic usage of the Picture-in-Picture (PiP) mode for
+    handheld devices introduced in Oreo. The sample plays a video which
+    continues uninterrupted while switching back and forth between
+    display modes or other activities.
+
+- [AutofillFramework](/samples/xamarin/monodroid-samples/android-o-autofillframework)
+    demonstrates the use of the Autofill Framework. It includes implementations of client Activities with views that 
+    should be autofilled, and a Service that can provide autofill data to client Activities.
+
+- [Downloadable Fonts](/samples/xamarin/monodroid-samples/android-o-downloadablefonts)
+    provides an example of how to use the Downloadable Fonts feature
+    described earlier.
+
+- [EmojiCompat](/samples/xamarin/monodroid-samples/android-o-emojicompat)
+    demonstrates usage of EmojiCompat support library. You can use this library to prevent your app from 
+    showing missing emoji characters as "tofu" characters.
+
+- [Location Updates Pending Intent](/samples/xamarin/monodroid-samples/android-o-androidplaylocation-locupdpendintent)
+    illustrates usage of the Location API to get updates about a
+    device's location using a `PendingIntent`.
+
+- [Location Updates Foreground Service](/samples/xamarin/monodroid-samples/android-o-androidplaylocation-locupdfgservice)
+    demonstrates how to use the Location API to get updates about a
+    device's location using a bound and started foreground service.
 
 ## Video
 

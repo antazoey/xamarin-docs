@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms Shell introduction
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-xaminals/)
+
 Xamarin.Forms Shell reduces the complexity of mobile application development by providing the fundamental features that most mobile applications require, including:
 
 - A single place to describe the visual hierarchy of an application.
@@ -84,6 +86,7 @@ For more information about the status of Shell on UWP, see [Xamarin.Forms Shell 
 
 ## Related links
 
+- [Xaminals (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-xaminals/)
 - [Create a Xamarin.Forms Shell application](~/xamarin-forms/app-fundamentals/shell/create.md)
 - [Xamarin.Forms Shell navigation](~/xamarin-forms/app-fundamentals/shell/navigation.md)
 - [Xamarin.Forms Shell search](~/xamarin-forms/app-fundamentals/shell/search.md)

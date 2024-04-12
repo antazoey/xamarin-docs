@@ -149,14 +149,14 @@ Just like any other Cocoa UI control, we need to expose our Table View and it's 
 
 The process is the same for any Table View element that we want to expose:
 
-1. Switch to the **Assistant Editor** and ensure that the `ViewController.h` file is selected:
+1. Switch to the **Assistant Editor** and ensure that the `ViewController.h` file is selected: 
 
     [![The Assistant Editor](table-view-images/edit11.png)](table-view-images/edit11.png#lightbox)
 2. Select the Table View from the **Interface Hierarchy**, control-click and drag to the `ViewController.h` file.
-3. Create an **Outlet** for the Table View called `ProductTable`:
+3. Create an **Outlet** for the Table View called `ProductTable`: 
 
     [![Screenshot shows an Outlet connection created for the Table View named ProductTable.](table-view-images/edit13.png)](table-view-images/edit13.png#lightbox)
-4. Create **Outlets** for the tables columns as well called `ProductColumn` and `DetailsColumn`:
+4. Create **Outlets** for the tables columns as well called `ProductColumn` and `DetailsColumn`: 
 
     [![Screenshot shows an Outlet connections created for other Table Views.](table-view-images/edit14.png)](table-view-images/edit14.png#lightbox)
 5. Save you changes and return to Visual Studio for Mac to sync with Xcode.
@@ -258,7 +258,7 @@ namespace MacTables
 {
   public class ProductTableDelegate: NSTableViewDelegate
   {
-    #region Constants
+    #region Constants 
     private const string CellIdentifier = "ProdCell";
     #endregion
 
@@ -378,10 +378,10 @@ public override void SortDescriptorsChanged (NSTableView tableView, NSSortDescri
     Sort (oldDescriptors [0].Key, oldDescriptors [0].Ascending);
   } else {
     // Grab current descriptors and update sort
-    NSSortDescriptor[] tbSort = tableView.SortDescriptors;
-    Sort (tbSort[0].Key, tbSort[0].Ascending);
+    NSSortDescriptor[] tbSort = tableView.SortDescriptors; 
+    Sort (tbSort[0].Key, tbSort[0].Ascending); 
   }
-
+      
   // Refresh table
   tableView.ReloadData ();
 }
@@ -444,7 +444,7 @@ This will allow the user to select any single row in the Table View. Return `fal
 
 The Table View (`NSTableView`) contains the following methods for working with row selection:
 
-- `DeselectAll(NSObject)` - Deselects all rows in the table. Use `this` for the first parameter to send in the object doing the selecting.
+- `DeselectAll(NSObject)` - Deselects all rows in the table. Use `this` for the first parameter to send in the object doing the selecting. 
 - `DeselectRow(nint)` - Deselects the given row in the table.
 - `SelectAll(NSobject)` - Selects all rows in the table. Use `this` for the first parameter to send in the object doing the selecting.
 - `SelectRow(nint,bool)` - Selects the given row. Pass `false` for the second parameter clear the selection and select only a single row, pass `true` to extend the selection and include this row.
@@ -537,7 +537,7 @@ public override NSView GetViewForItem (NSTableView tableView, NSTableColumn tabl
     view.Editable = true;
 
     view.EditingEnded += (sender, e) => {
-
+          
       // Take action based on type
       switch(view.Identifier) {
       case "Product":
@@ -545,7 +545,7 @@ public override NSView GetViewForItem (NSTableView tableView, NSTableColumn tabl
         break;
       case "Details":
         DataSource.Products [(int)view.Tag].Description = view.StringValue;
-        break;
+        break; 
       }
     };
   }
@@ -611,7 +611,7 @@ public override NSView GetViewForItem (NSTableView tableView, NSTableColumn tabl
         break;
       case "Details":
         DataSource.Products [(int)view.TextField.Tag].Description = view.TextField.StringValue;
-        break;
+        break; 
       }
     };
   }
@@ -919,6 +919,8 @@ This article has taken a detailed look at working with Table Views in a Xamarin.
 
 ## Related Links
 
+- [MacTables (sample)](/samples/xamarin/mac-samples/mactables)
+- [MacImages (sample)](/samples/xamarin/mac-samples/macimages)
 - [Hello, Mac](~/mac/get-started/hello-mac.md)
 - [Outline Views](~/mac/user-interface/outline-view.md)
 - [Source Lists](~/mac/user-interface/source-list.md)

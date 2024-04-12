@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Attached Behaviors
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/behaviors-attachednumericvalidationbehavior)
+
 _Attached behaviors are static classes with one or more attached properties. This article demonstrates how to create and consume attached behaviors._
 
 ## Overview
@@ -122,3 +124,7 @@ At runtime, the `OnAttachBehaviorChanged` method will be executed when the value
 ## Summary
 
 This article demonstrated how to create and consume attached behaviors. Attached behaviors are `static` classes with one or more attached properties.
+
+## Related Links
+
+- [Attached Behaviors (sample)](/samples/xamarin/xamarin-forms-samples/behaviors-attachednumericvalidationbehavior)

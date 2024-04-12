@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Customizing a ListView
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/customrenderers-listview)
+
 _A Xamarin.Forms ListView is a view that displays a collection of data as a vertical list. This article demonstrates how to create a custom renderer that encapsulates platform-specific list controls and native cell layouts, allowing more control over native list control performance._
 
 Every Xamarin.Forms view has an accompanying renderer for each platform that creates an instance of a native control. When a [`ListView`](xref:Xamarin.Forms.ListView) is rendered by a Xamarin.Forms application, in iOS the `ListViewRenderer` class is instantiated, which in turn instantiates a native `UITableView` control. On the Android platform, the `ListViewRenderer` class instantiates a native `ListView` control. On the Universal Windows Platform (UWP), the `ListViewRenderer` class instantiates a native `ListView` control. For more information about the renderer and native control classes that Xamarin.Forms controls map to, see [Renderer Base Classes and Native Controls](~/xamarin-forms/app-fundamentals/custom-renderer/renderers.md).
@@ -551,3 +553,7 @@ The method re-populates the native `ListView` control with the changed data, pro
 ## Summary
 
 This article has demonstrated how to create a custom renderer that encapsulates platform-specific list controls and native cell layouts, allowing more control over native list control performance.
+
+## Related Links
+
+- [CustomRendererListView (sample)](/samples/xamarin/xamarin-forms-samples/customrenderers-listview)

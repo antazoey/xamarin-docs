@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Accessibility Scaling for Named Font Sizes on iOS
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-platformspecifics)
+
 This iOS platform-specific disables accessibility scaling for named font sizes. It's consumed in XAML by setting the `Application.EnableAccessibilityScalingForNamedFontSizes` bindable property to `false`:
 
 ```xaml
@@ -36,5 +38,6 @@ The `Application.On<iOS>` method specifies that this platform-specific will only
 
 ## Related links
 
+- [PlatformSpecifics (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-platformspecifics)
 - [Creating Platform-Specifics](~/xamarin-forms/platform/platform-specifics/index.md#creating-platform-specifics)
 - [iOSSpecific API](xref:Xamarin.Forms.PlatformConfiguration.iOSSpecific)

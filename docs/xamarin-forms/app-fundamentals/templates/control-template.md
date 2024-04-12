@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms control templates
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/templates-controltemplatedemos)
+
 Xamarin.Forms control templates enable you to define the visual structure of [`ContentView`](xref:Xamarin.Forms.ContentView) derived custom controls, and [`ContentPage`](xref:Xamarin.Forms.ContentPage) derived pages. Control templates separate the user interface (UI) for a custom control, or page, from the logic that implements the control or page. Additional content can also be inserted into the templated custom control, or templated page, at a pre-defined location.
 
 For example, a control template can be created that redefines the UI provided by a custom control. The control template can then be consumed by the required custom control instance. Alternatively, a control template can be created that defines any common UI that will be used by multiple pages in an application. The control template can then be consumed by multiple pages, with each page still displaying its unique content.
@@ -628,6 +630,7 @@ For more information about relative bindings, see [Xamarin.Forms Relative Bindin
 
 ## Related links
 
+- [ControlTemplateDemos (sample)](/samples/xamarin/xamarin-forms-samples/templates-controltemplatedemos)
 - [Xamarin.Forms ContentView](~/xamarin-forms/user-interface/layouts/contentview.md)
 - [Xamarin.Forms Relative Bindings](~/xamarin-forms/app-fundamentals/data-binding/relative-bindings.md)
 - [Xamarin.Forms Resource Dictionaries](~/xamarin-forms/xaml/resource-dictionaries.md)

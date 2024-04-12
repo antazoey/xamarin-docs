@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms Map Polygons and Polylines
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/workingwithmaps)
+
 `Polygon`, `Polyline`, and `Circle` elements allow you to highlight specific areas on a map. A `Polygon` is a fully enclosed shape that can have a stroke and fill color. A `Polyline` is a line that does not fully enclose an area. A `Circle` highlights a circular area of the map:
 
 [!["Screenshot of a map polygon and polyline, on iOS and Android"](polygons-images/polygon-polyline.png "Polygon and polyline on a map")](polygons-images/polygon-polyline-large.png#lightbox "Polygon and polyline on a map")
@@ -221,3 +223,7 @@ The location of the `Circle` on the Map is determined by the value of the `Cente
 
 > [!NOTE]
 > The `GeographyUtils` class has a `ToCircumferencePositions` extension method that converts a `Circle` object (that defines `Center` and `Radius` property values) to a list of `Position` objects that make up the latitude and longitude coordinates of the circle perimeter.
+
+## Related links
+
+- [Maps Sample](/samples/xamarin/xamarin-forms-samples/workingwithmaps)

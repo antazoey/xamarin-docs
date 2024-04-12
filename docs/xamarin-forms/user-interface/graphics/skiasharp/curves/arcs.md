@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Three Ways to Draw an Arc
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)
+
 _Learn how to use SkiaSharp to define arcs in three different ways_
 
 An arc is a curve on the circumference of an ellipse, such as the rounded parts of this infinity sign:
@@ -663,3 +665,4 @@ Although the connections between the arcs and straight lines are mathematically 
 ## Related Links
 
 - [SkiaSharp APIs](/dotnet/api/skiasharp)
+- [SkiaSharpFormsDemos (sample)](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)

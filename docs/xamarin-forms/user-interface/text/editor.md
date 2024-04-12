@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms Editor
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-text)
+
 The [`Editor`](xref:Xamarin.Forms.Editor) control is used to accept multi-line input.
 
 ## Set and read text
@@ -392,4 +394,5 @@ Title="Editor Demo">
 
 ## Related links
 
+- [Text (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-text)
 - [Editor API](xref:Xamarin.Forms.Editor)

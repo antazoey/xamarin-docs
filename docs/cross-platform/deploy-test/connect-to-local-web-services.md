@@ -11,6 +11,8 @@ no-loc: [Objective-C]
 
 # Connect to local web services from iOS simulators and Android emulators
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/webservices-todorest/)
+
 Many mobile applications consume web services. During the development phase, it's common to deploy a web service locally and consume it from a mobile application running in the iOS simulator or Android emulator. This avoids having to deploy the web service to a hosted endpoint, and enables a straightforward debugging experience because both the mobile application and web service are running locally.
 
 Mobile applications running in the iOS simulator or Android emulator can consume ASP.NET Core web services that are running locally, and exposed over HTTP, as follows:
@@ -169,6 +171,7 @@ Make sure the Build Action is set as AndroidResource, otherwise the XML file wil
 
 ## Related links
 
+- [TodoREST (sample)](/samples/xamarin/xamarin-forms-samples/webservices-todorest/)
 - [Enable local HTTPS](/aspnet/core/getting-started#enable-local-https)
 - [HttpClient and SSL/TLS implementation selector for iOS/macOS](~/cross-platform/macios/http-stack.md)
 - [HttpClient Stack and SSL/TLS Implementation selector for Android](~/android/app-fundamentals/http-stack.md)

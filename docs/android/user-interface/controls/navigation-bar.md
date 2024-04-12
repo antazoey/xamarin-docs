@@ -74,3 +74,7 @@ tv.SystemUiVisibilityChange +=
         tv.Text = String.Format ("Visibility = {0}", e.Visibility);
   };
 ```
+
+## Related Links
+
+- [SystemUIVisibilityDemo (sample)](/samples/xamarin/monodroid-samples/systemuivisibilitydemo)

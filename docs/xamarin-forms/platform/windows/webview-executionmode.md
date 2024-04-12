@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # WebView Execution Mode on Windows
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-platformspecifics)
+
 This platform-specific sets the thread on which a [`WebView`](xref:Xamarin.Forms.WebView) hosts its content. It's consumed in XAML by setting the `WebView.ExecutionMode` bindable property to a `WebViewExecutionMode` enumeration value:
 
 ```xaml
@@ -45,5 +47,6 @@ In addition, the `GetExecutionMode` method can be used to return the current `We
 
 ## Related links
 
+- [PlatformSpecifics (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-platformspecifics)
 - [Creating Platform-Specifics](~/xamarin-forms/platform/platform-specifics/index.md#creating-platform-specifics)
 - [WindowsSpecific API](xref:Xamarin.Forms.PlatformConfiguration.WindowsSpecific)

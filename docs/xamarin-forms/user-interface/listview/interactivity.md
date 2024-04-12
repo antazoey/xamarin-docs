@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # ListView interactivity
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-listview-interactivity)
+
 The Xamarin.Forms [`ListView`](xref:Xamarin.Forms.ListView) class supports user interaction with the data it presents.
 
 ## Selection and taps
@@ -211,3 +213,7 @@ void OnListViewScrolled(object sender, ScrolledEventArgs e)
 ```
 
 The `OnListViewScrolled` event handler outputs the values of the `ScrolledEventArgs` object that accompanies the event.
+
+## Related links
+
+- [ListView Interactivity (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-listview-interactivity)

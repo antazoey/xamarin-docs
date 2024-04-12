@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms BoxView
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/boxview-basicboxview)
+
 [`BoxView`](xref:Xamarin.Forms.BoxView) renders a simple rectangle of a specified width, height, and color. You can use `BoxView` for decoration, rudimentary graphics, and for interaction with the user through touch.
 
 Because Xamarin.Forms does not have a built-in vector graphics system, the `BoxView` helps to compensate. Some of the sample programs described in this article use `BoxView` for rendering graphics. The `BoxView` can be sized to resemble a line of a specific width and thickness, and then rotated by any angle using the `Rotation` property.
@@ -37,7 +39,7 @@ The `WidthRequest` and `HeightRequest` properties are ignored if the `BoxView` i
 
 A `BoxView` can be constrained in one dimension and unconstrained in the other. For example, if the `BoxView` is a child of a vertical `StackLayout`, the vertical dimension of the `BoxView` is unconstrained and its horizontal dimension is generally constrained. But there are exceptions for that horizontal dimension: If the `BoxView` has its `HorizontalOptions` property set to something other than `LayoutOptions.Fill`, then the horizontal dimension is also unconstrained. It's also possible for the `StackLayout` itself to have an unconstrained horizontal dimension, in which case the `BoxView` will also be horizontally unconstrained.
 
-The sample displays a one-inch-square unconstrained `BoxView` in the center of its page:
+The [**BasicBoxView**](/samples/xamarin/xamarin-forms-samples/boxview-basicboxview) sample displays a one-inch-square unconstrained `BoxView` in the center of its page:
 
 ```xaml
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
@@ -67,7 +69,7 @@ You'll see examples of all these cases in the sample programs that follow.
 
 ## Rendering Text Decorations
 
-You can use the `BoxView` to add some simple decorations on your pages in the form of horizontal and vertical lines. The sample demonstrates this. All of the program's visuals are defined in the **MainPage.xaml** file, which contains several `Label` and `BoxView` elements in the `StackLayout` shown here:
+You can use the `BoxView` to add some simple decorations on your pages in the form of horizontal and vertical lines. The [**TextDecoration**](/samples/xamarin/xamarin-forms-samples/boxview-textdecoration) sample demonstrates this. All of the program's visuals are defined in the **MainPage.xaml** file, which contains several `Label` and `BoxView` elements in the `StackLayout` shown here:
 
 ```xaml
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
@@ -156,7 +158,7 @@ The `BoxView` is convenient for displaying colors. This program uses a `ListView
 
 [![ListView Colors](boxview-images/listviewcolors-small.png "ListView Colors")](boxview-images/listviewcolors-large.png#lightbox "ListView Colors")
 
-The sample program includes a class named `NamedColor`. The static constructor uses reflection to access all the fields of the `Color` structure and create a `NamedColor` object for each one. These are stored in the static `All` property:
+The [**ListViewColors**](/samples/xamarin/xamarin-forms-samples/boxview-listviewcolors) program includes a class named `NamedColor`. The static constructor uses reflection to access all the fields of the `Color` structure and create a `NamedColor` object for each one. These are stored in the static `All` property:
 
 ```csharp
 public class NamedColor
@@ -285,7 +287,7 @@ The `NamedColor` objects are formatted by the `ViewCell` object that is set as t
 
 The Game of Life is a cellular automaton invented by mathematician John Conway and popularized in the pages of *Scientific American* in the 1970s. A good introduction is provided by the Wikipedia article [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
 
-The Xamarin.Forms sample program defines a class named `LifeCell` that derives from `BoxView`. This class encapsulates the logic of an individual cell in the Game of Life:
+The Xamarin.Forms [**GameOfLife**](/samples/xamarin/xamarin-forms-samples/boxview-gameoflife) program defines a class named `LifeCell` that derives from `BoxView`. This class encapsulates the logic of an individual cell in the Game of Life:
 
 ```csharp
 class LifeCell : BoxView
@@ -338,7 +340,7 @@ The **GameOfLife** program also includes a `LifeGrid` class that encapsulates mu
 
 ## Creating a Digital Clock
 
-The sample program creates 210 `BoxView` elements to simulate the dots of an old-fashioned 5-by-7 dot-matrix display. You can read the time in either portrait or landscape mode, but it's larger in landscape:
+The [**DotMatrixClock**](/samples/xamarin/xamarin-forms-samples/boxview-dotmatrixclock) program creates 210 `BoxView` elements to simulate the dots of an old-fashioned 5-by-7 dot-matrix display. You can read the time in either portrait or landscape mode, but it's larger in landscape:
 
 [![Dot-Matrix Clock](boxview-images/dotmatrixclock-small.png "Dot-Matrix Clock")](boxview-images/dotmatrixclock-large.png#lightbox "Dot-Matrix Clock")
 
@@ -577,7 +579,7 @@ A dot-matrix clock might seem to be an obvious application of `BoxView`, but `Bo
 
 [![BoxView Clock](boxview-images/boxviewclock-small.png "BoxView Clock")](boxview-images/boxviewclock-large.png#lightbox "BoxView Clock")
 
-All the visuals in the sample program are children of an `AbsoluteLayout`. These elements are sized using the `LayoutBounds` attached property, and rotated using the `Rotation` property.
+All the visuals in the [**BoxViewClock**](/samples/xamarin/xamarin-forms-samples/boxview-boxviewclock) program are children of an `AbsoluteLayout`. These elements are sized using the `LayoutBounds` attached property, and rotated using the `Rotation` property.
 
 The three `BoxView` elements for the hands of the clock are instantiated in the XAML file, but not positioned or sized:
 
@@ -755,4 +757,10 @@ The second hand is treated a little differently: An animation easing function is
 
 ## Related Links
 
+- [Basic BoxView (sample)](/samples/xamarin/xamarin-forms-samples/boxview-basicboxview)
+- [Text Decoration (sample)](/samples/xamarin/xamarin-forms-samples/boxview-textdecoration)
+- [ListView Colors (sample)](/samples/xamarin/xamarin-forms-samples/boxview-listviewcolors/)
+- [Game of Life (sample)](/samples/xamarin/xamarin-forms-samples/boxview-gameoflife)
+- [Dot-Matrix Clock (sample)](/samples/xamarin/xamarin-forms-samples/boxview-dotmatrixclock)
+- [BoxView Clock (sample)](/samples/xamarin/xamarin-forms-samples/boxview-boxviewclock)
 - [BoxView](xref:Xamarin.Forms.BoxView)

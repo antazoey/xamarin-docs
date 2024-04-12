@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms Shapes: Path transforms
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-shapesdemos/)
+
 A `Transform` defines how to transform a `Path` object from one coordinate space to another coordinate space. When a transform is applied to a `Path` object, it changes how the object is rendered in the UI.
 
 Transforms can be categorized into four general classifications: rotation, scaling, skew, and translation. Xamarin.Forms defines a class for each of these transform classifications:
@@ -380,4 +382,5 @@ In addition, the previous example can be simplified even further by specifying t
 
 ## Related links
 
+- [ShapeDemos (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-shapesdemos/)
 - [Xamarin.Forms Shapes](index.md)

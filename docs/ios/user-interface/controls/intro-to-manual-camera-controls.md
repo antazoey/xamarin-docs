@@ -1305,4 +1305,5 @@ In this article we have covered an introduction to the new Manual Camera Control
 
 ## Related Links
 
+- [ManualCameraControls (sample)](/samples/xamarin/ios-samples/manualcameracontrols)
 - [Introduction to iOS 8](~/ios/platform/introduction-to-ios8.md)

@@ -84,7 +84,7 @@ As of watchOS 3, SSL/TLS connections security is being strictly enforced by Appl
 
 ## Snapshots
 
-WatchKit apps that have not adopted the new `HandelBackgroundTask` API will no longer receive periodic updates in watchOS 3.
+WatchKit apps that have not adopted the new `HandelBackgroundTask` API will no longer receive periodic updates in watchOS 3. 
 
 ## WatchKit
 
@@ -92,4 +92,5 @@ SpriteKit and SceneKit scenes will be paused when an app enters the background i
 
 ## Related Links
 
+- [watchOS Samples](/samples/browse/?products=xamarin&term=Xamarin.iOS%2bwatchOS)
 - [What's new in watchOS 3](https://developer.apple.com/library/prerelease/content/releasenotes/General/WhatsNewInwatchOS/Articles/watchOS3.html#//apple_ref/doc/uid/TP40017085-SW1)

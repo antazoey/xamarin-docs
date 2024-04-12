@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms DualScreenInfo helper class
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-dualscreendemos/)
+
 The `DualScreenInfo` class enables you to determine which pane your view is on, how big it is, what posture the device is in, the angle of the hinge, and more.
 
 ## Configure DualScreenInfo
@@ -211,3 +213,7 @@ public partial class GridUsingDualScreenInfo : ContentPage
 The following screenshot shows the resulting layout:
 
 ![Positioning Grid on Two Screens](dual-screen-info-images/grid-on-two-screens.png)
+
+## Related links
+
+- [DualScreen (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-dualscreendemos/)

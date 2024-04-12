@@ -122,3 +122,7 @@ The `SelectionChanged` method then triggers haptic feedback.
 ## Summary
 
 This article has covered the new types of haptic feedback available in iOS 10 and how to implement them in Xamarin.iOS.
+
+## Related Links
+
+- [iOS 10 Samples](/samples/browse/?products=xamarin&term=Xamarin.iOS%2biOS10)

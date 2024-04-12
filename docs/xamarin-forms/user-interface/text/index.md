@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Text in Xamarin.Forms
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-text)
+
 _Using Xamarin.Forms to enter or display text._
 
 Xamarin.Forms has three primary views for working with text:
@@ -57,3 +59,7 @@ Many controls support different font settings using the built-in fonts on each p
 ## [Styles](styles.md)
 
 Refer to [working with styles](~/xamarin-forms/user-interface/styles/index.md) to learn how to set up font, [color](~/xamarin-forms/user-interface/colors.md), and other display properties that apply across multiple controls.
+
+## Related Links
+
+- [Text (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-text)

@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # The SkiaSharp circular gradients
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)
+
 The [`SKShader`](xref:SkiaSharp.SKShader) class defines static methods to create four different types of gradients. The [**SkiaSharp linear gradient**](linear-gradient.md) article discusses the [`CreateLinearGradient`](xref:SkiaSharp.SKShader.CreateLinearGradient*) method. This article covers the other three types of gradients, all of which are based on circles.
 
 The [`CreateRadialGradient`](xref:SkiaSharp.SKShader.CreateRadialGradient*) method creates a gradient that emanates from the center of a circle:
@@ -35,10 +37,10 @@ This article explores these gradients in more detail.
 The [`CreateRadialGradient`](xref:SkiaSharp.SKShader.CreateRadialGradient(SkiaSharp.SKPoint,System.Single,SkiaSharp.SKColor[],System.Single[],SkiaSharp.SKShaderTileMode)) method has the following syntax:
 
 ```csharp
-public static SKShader CreateRadialGradient (SKPoint center,
-                                             Single radius,
-                                             SKColor[] colors,
-                                             Single[] colorPos,
+public static SKShader CreateRadialGradient (SKPoint center, 
+                                             Single radius, 
+                                             SKColor[] colors, 
+                                             Single[] colorPos, 
                                              SKShaderTileMode mode)
 ```
 
@@ -48,7 +50,7 @@ The first two arguments specify the center of a circle and a radius. The gradien
 
 If you use `CreateRadialGradient` to fill a circle, you can set the center of the gradient to the center of the circle, and the radius of the gradient to the radius of the circle. In that case, the `SKShaderTileMode` argument has no effect on the rendering of the gradient. But if the area filled by the gradient is larger than the circle defined by the gradient, then the `SKShaderTileMode` argument has a profound effect on what happens outside the circle.
 
-The effect of `SKShaderMode` is demonstrated in the **Radial Gradient** page in the sample. The XAML file for this page instantiates a `Picker` that allows you to select one of the three members of the `SKShaderTileMode` enumeration:
+The effect of `SKShaderMode` is demonstrated in the **Radial Gradient** page in the [**SkiaSharpFormsDemos**](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos) sample. The XAML file for this page instantiates a `Picker` that allows you to select one of the three members of the `SKShaderTileMode` enumeration:
 
 ```xaml
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
@@ -67,9 +69,9 @@ The effect of `SKShaderMode` is demonstrated in the **Radial Gradient** page in 
                                 Grid.Row="0"
                                 PaintSurface="OnCanvasViewPaintSurface" />
 
-        <Picker x:Name="tileModePicker"
+        <Picker x:Name="tileModePicker" 
                 Grid.Row="1"
-                Title="Shader Tile Mode"
+                Title="Shader Tile Mode" 
                 Margin="10"
                 SelectedIndexChanged="OnPickerSelectedIndexChanged">
             <Picker.ItemsSource>
@@ -134,7 +136,7 @@ This code creates a gradient with black at the center, gradually fading to white
 
 [![Radial Gradient](circular-gradients-images/RadialGradient.png "Radial Gradient")](circular-gradients-images/RadialGradient-Large.png#lightbox)
 
-In all three cases, the gradient fills the canvas. On the iOS screen at the left, the gradient beyond the radius continues with the last color, which is white. That's the result of `SKShaderTileMode.Clamp`. The Android screen shows the effect of `SKShaderTileMode.Repeat`: At 100 pixels from the center, the gradient begins again with the first color, which is black. The gradient repeats every 100 pixels of radius.
+In all three cases, the gradient fills the canvas. On the iOS screen at the left, the gradient beyond the radius continues with the last color, which is white. That's the result of `SKShaderTileMode.Clamp`. The Android screen shows the effect of `SKShaderTileMode.Repeat`: At 100 pixels from the center, the gradient begins again with the first color, which is black. The gradient repeats every 100 pixels of radius. 
 
 The Universal Windows Platform screen at the right shows how `SKShaderTileMode.Mirror` causes the gradients to alternate directions. The first gradient is from black at the center to white at a radius of 100 pixels. The next is white from the 100-pixel radius to black at a 200-pixel radius, and the next gradient is reversed again.
 
@@ -183,10 +185,10 @@ public class RainbowArcGradientPage : ContentPage
             }
 
             // Create sweep gradient based on center and outer radius
-            paint.Shader = SKShader.CreateRadialGradient(center,
-                                                         outerRadius,
-                                                         colors,
-                                                         positions,
+            paint.Shader = SKShader.CreateRadialGradient(center, 
+                                                         outerRadius, 
+                                                         colors, 
+                                                         positions, 
                                                          SKShaderTileMode.Clamp);
             // Draw a circle with a wide line
             paint.Style = SKPaintStyle.Stroke;
@@ -336,8 +338,8 @@ If you look closely at this gradient, you might decide that it is flawed. The gr
 The [`CreateSweepGradient`](xref:SkiaSharp.SKShader.CreateSweepGradient(SkiaSharp.SKPoint,SkiaSharp.SKColor[],System.Single[])) method has the simplest syntax of all the gradient-creation methods:
 
 ```csharp
-public static SKShader CreateSweepGradient (SKPoint center,
-                                            SKColor[] colors,
+public static SKShader CreateSweepGradient (SKPoint center, 
+                                            SKColor[] colors, 
                                             Single[] colorPos)
 ```
 
@@ -426,12 +428,12 @@ These screenshots demonstrate that the gradient fills whatever area is colored b
 The [`CreateTwoPointConicalGradient`](xref:SkiaSharp.SKShader.CreateTwoPointConicalGradient(SkiaSharp.SKPoint,System.Single,SkiaSharp.SKPoint,System.Single,SkiaSharp.SKColor[],System.Single[],SkiaSharp.SKShaderTileMode)) method has the following syntax:
 
 ```csharp
-public static SKShader CreateTwoPointConicalGradient (SKPoint startCenter,
-                                                      Single startRadius,
-                                                      SKPoint endCenter,
-                                                      Single endRadius,
-                                                      SKColor[] colors,
-                                                      Single[] colorPos,
+public static SKShader CreateTwoPointConicalGradient (SKPoint startCenter, 
+                                                      Single startRadius, 
+                                                      SKPoint endCenter, 
+                                                      Single endRadius, 
+                                                      SKColor[] colors, 
+                                                      Single[] colorPos, 
                                                       SKShaderTileMode mode)
 ```
 
@@ -455,7 +457,7 @@ It's likely you'll want to experiment with the two-point conical gradient, so th
             <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
-
+        
         <Grid BackgroundColor="White"
               Grid.Row="0">
             <skiaforms:SKCanvasView x:Name="canvasView"
@@ -466,9 +468,9 @@ It's likely you'll want to experiment with the two-point conical gradient, so th
             </Grid.Effects>
         </Grid>
 
-        <Picker x:Name="tileModePicker"
+        <Picker x:Name="tileModePicker" 
                 Grid.Row="1"
-                Title="Shader Tile Mode"
+                Title="Shader Tile Mode" 
                 Margin="10"
                 SelectedIndexChanged="OnPickerSelectedIndexChanged">
             <Picker.ItemsSource>
@@ -529,8 +531,8 @@ public partial class ConicalGradientPage : InteractivePage
         canvas.Clear();
 
         SKColor[] colors = { SKColors.Red, SKColors.Green, SKColors.Blue };
-        SKShaderTileMode tileMode =
-            (SKShaderTileMode)(tileModePicker.SelectedIndex == -1 ?
+        SKShaderTileMode tileMode = 
+            (SKShaderTileMode)(tileModePicker.SelectedIndex == -1 ? 
                                         0 : tileModePicker.SelectedItem);
 
         using (SKPaint paint = new SKPaint())
@@ -581,7 +583,7 @@ Earlier in this article you saw how to use a radial gradient to create a specula
 
 [![Conical Specular Highlight](circular-gradients-images/ConicalSpecularHighlight.png "Conical Specular Highlight")](circular-gradients-images/ConicalSpecularHighlight-Large.png#lightbox)
 
-The asymmetrical appearance better suggests the rounded surface of the object.
+The asymmetrical appearance better suggests the rounded surface of the object. 
 
 The drawing code in the **Conical Specular Highlight** page is the same as the **Radial Specular Highlight** page except for the shader:
 
@@ -614,3 +616,4 @@ The two circles have centers of `offCenter` and `center`. The circle centered at
 ## Related links
 
 - [SkiaSharp APIs](/dotnet/api/skiasharp)
+- [SkiaSharpFormsDemos (sample)](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)

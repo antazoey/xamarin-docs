@@ -13,9 +13,9 @@ no-loc: [Objective-C]
 # Working with tvOS Buttons in Xamarin
 
 > [!WARNING]
-> The iOS Designer was deprecated in Visual Studio 2019 version 16.8 and Visual Studio 2019 for Mac version 8.8, and
+> The iOS Designer was deprecated in Visual Studio 2019 version 16.8 and Visual Studio 2019 for Mac version 8.8, and 
 > removed in Visual Studio 2019 version 16.9 and Visual Studio for Mac version 8.9.
-> The recommended way to build iOS user interfaces is directly on a Mac running Xcode's Interface Builder. For more information, see [Designing user interfaces with Xcode](~/ios/user-interface/storyboards/index.md).
+> The recommended way to build iOS user interfaces is directly on a Mac running Xcode's Interface Builder. For more information, see [Designing user interfaces with Xcode](~/ios/user-interface/storyboards/index.md). 
 
 Use an instance of the `UIButton` class to create a focusable, selectable button in a tvOS window. When the user selects a button, it sends an Action message to the target object allow your Xamarin.tvOS app respond to the user's input.
 
@@ -65,19 +65,19 @@ The easiest way to work with buttons in a Xamarin.tvOS app is to add them to the
 # [Visual Studio for Mac](#tab/macos)
 
 1. In the **Solution Explorer**, double-click the `Main.storyboard` file and open it for editing.
-1. Drag a **Button** from the **Library** and drop it on the View:
+1. Drag a **Button** from the **Library** and drop it on the View: 
 
     [![A button](buttons-images/storyboard01.png)](buttons-images/storyboard01.png#lightbox)
-1. In the **Properties Explorer**, you can adjust several properties of the button such as its **Title** and **Text Color**:
+1. In the **Properties Explorer**, you can adjust several properties of the button such as its **Title** and **Text Color**: 
 
     [![Button properties](buttons-images/storyboard02.png)](buttons-images/storyboard02.png#lightbox)
-1. Next, switch to the **Events Tab** and wire-up an **Event** from the **Button** and call it `ButtonPressed`:
+1. Next, switch to the **Events Tab** and wire-up an **Event** from the **Button** and call it `ButtonPressed`: 
 
     [![The Events Tab](buttons-images/storyboard03.png)](buttons-images/storyboard03.png#lightbox)
-1. You will be automatically switched to the `ViewController.cs` view where you can place the new Action in your code using the **Up** and **Down** arrow keys:
+1. You will be automatically switched to the `ViewController.cs` view where you can place the new Action in your code using the **Up** and **Down** arrow keys: 
 
     [![Placing a new Action in code](buttons-images/storyboard04.png)](buttons-images/storyboard04.png#lightbox)
-1. Press the **Enter** to select the location:
+1. Press the **Enter** to select the location: 
 
     [![The code editor](buttons-images/storyboard05.png)](buttons-images/storyboard05.png#lightbox)
 1. Save the changes to all files.
@@ -85,13 +85,13 @@ The easiest way to work with buttons in a Xamarin.tvOS app is to add them to the
 # [Visual Studio](#tab/windows)
 
 1. In the **Solution Explorer**, double-click the `Main.storyboard` file and open it for editing.
-1. Drag a **Button** from the **Library** and drop it on the View:
+1. Drag a **Button** from the **Library** and drop it on the View: 
 
     [![A button](buttons-images/storyboard01vs.png)](buttons-images/storyboard01vs.png#lightbox)
-1. In the **Properties Explorer**, you can adjust several properties of the button such as its **Title** and **Text Color**:
+1. In the **Properties Explorer**, you can adjust several properties of the button such as its **Title** and **Text Color**: 
 
     [![The Properties Explorer](buttons-images/storyboard02vs.png)](buttons-images/storyboard02vs.png#lightbox)
-1. Next, switch to the **Events Tab** and wire-up an **Event** from the **Button** and call it `ButtonPressed`:
+1. Next, switch to the **Events Tab** and wire-up an **Event** from the **Button** and call it `ButtonPressed`: 
 
     [![The Events Tab](buttons-images/storyboard03vs.png)](buttons-images/storyboard03vs.png#lightbox)
 1. Save the changes to all files.
@@ -255,6 +255,7 @@ This article has covered designing and working with buttons inside of a Xamarin.
 
 ## Related Links
 
+- [tvOS Samples](/samples/browse/?products=xamarin&term=Xamarin.iOS%2btvOS)
 - [tvOS](https://developer.apple.com/tvos/)
 - [tvOS Human Interface Guides](https://developer.apple.com/design/human-interface-guidelines/designing-for-tvos)
 - [App Programming Guide for tvOS](https://developer.apple.com/library/prerelease/tvos/documentation/General/Conceptual/AppleTV_PG/)

@@ -151,3 +151,7 @@ A *forceful* solution is to add `--optimize=force-rejected-types-removal` to you
 #### Applications not submitted to Apple
 
 If your application isn't submitted to Apple, you should plan to move away from the deprecated API since it can be removed in future iOS releases. However, you can do this transition using your own timetable.
+
+## Related links
+
+- [WebViews (sample)](/samples/xamarin/ios-samples/webview)

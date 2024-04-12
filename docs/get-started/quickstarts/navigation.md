@@ -14,6 +14,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Perform navigation in a Xamarin.Forms application
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/getstarted-notes-navigation/)
+
 In this quickstart, you will learn how to:
 
 - Add additional pages to a Xamarin.Forms Shell application.
@@ -27,7 +29,7 @@ The quickstart walks through how to turn a cross-platform Xamarin.Forms Shell ap
 
 ### Prerequisites
 
-You should successfully complete the [previous quickstart](app.md) before attempting this quickstart.
+You should successfully complete the [previous quickstart](app.md) before attempting this quickstart. Alternatively, download the [previous quickstart sample](/samples/xamarin/xamarin-forms-samples/getstarted-notes-app/) and use it as the starting point for this quickstart.
 
 ::: zone pivot="windows"
 
@@ -769,4 +771,5 @@ Continue to the next quickstart to modify the application so that it stores its 
 
 ## Related links
 
+- [Notes (sample)](/samples/xamarin/xamarin-forms-samples/getstarted-notes-navigation/)
 - [Xamarin.Forms Shell quickstart deep dive](deepdive.md)

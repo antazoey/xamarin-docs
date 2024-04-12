@@ -501,4 +501,5 @@ is used to call each social network’s API.
 
 ## Related Links
 
+- [SocialFrameworkDemo (sample)](/samples/xamarin/ios-samples/socialframeworkdemo)
 - [Introduction to Web Services](~/cross-platform/data-cloud/web-services/index.md)

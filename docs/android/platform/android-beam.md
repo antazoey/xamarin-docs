@@ -96,3 +96,12 @@ NdefMessage as follows:
 IParcelable [] rawMsgs = intent.GetParcelableArrayExtra (NfcAdapter.ExtraNdefMessages);
 NdefMessage msg = (NdefMessage) rawMsgs [0];
 ```
+
+For a complete code example that uses Android Beam, shown running in the
+screenshot below, see the [Android Beam demo](/samples/xamarin/monodroid-samples/androidbeamdemo) in the Sample Gallery.
+
+[![Example screenshots from the Android Beam demo](android-beam-images/24.png)](android-beam-images/24.png#lightbox)
+
+## Related Links
+
+- [Android Beam Demo (sample)](/samples/xamarin/monodroid-samples/androidbeamdemo)

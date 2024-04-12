@@ -49,7 +49,7 @@ And is supported in the app by implementing the following:
 - **Location Suggestions** - iOS 10 enhances `NSUserActivity` to capture locations viewed inside of the app and promote them in many places throughout the system.
 - **Contextual Siri Requests** - `NSUserActivity` provides context to the information presented inside of the app to Siri so that the user can get directions or place a call be invoking Siri from within the app.
 
-All of these features have one thing in common, they all use `NSUserActivity` in one form or another to provide their functionality.
+All of these features have one thing in common, they all use `NSUserActivity` in one form or another to provide their functionality. 
 
 ## NSUserActivity
 
@@ -110,7 +110,7 @@ The code above could further be enhanced to include metadata that provides conte
 // Provide context
 var attributes = new CSSearchableItemAttributeSet ("com.xamarin.location");
 attributes.ThumbnailUrl = myThumbnailURL;
-attributes.Keywords = new string [] { "software", "mobile", "language" };
+attributes.Keywords = new string [] { "software", "mobile", "language" }; 
 activity.ContentAttributeSet = attributes;
 
 // Inform system of Activity
@@ -158,7 +158,7 @@ The following section will take a look at enabling two other new iOS 10 features
 - **Location Suggestions**
 - **Contextual Siri Requests**
 
-### Location Based Suggestions
+### Location Based Suggestions 
 
 Take the example of the restaurant search app above. If it has implemented `NSUserActivity` and correctly populated all of the metadata and attributes, the user would be able to do the following:
 
@@ -197,7 +197,7 @@ activity.EligibleForPublicIndexing = true;
 // Provide context
 var attributes = new CSSearchableItemAttributeSet ("com.xamarin.location");
 attributes.ThumbnailUrl = myThumbnailURL;
-attributes.Keywords = new string [] { "software", "mobile", "language" };
+attributes.Keywords = new string [] { "software", "mobile", "language" }; 
 activity.ContentAttributeSet = attributes;
 
 // Restore on the web
@@ -277,7 +277,7 @@ Apple suggests the following best practices when working with activities:
 - Use `NeedsSave` for lazy payload updates.
 - Ensure to keep a strong reference to the current activity.
 - Only transfer small payloads that include just enough information to restore the state.
-- Ensure that the Activity Type Identifiers are unique and descriptive by using reverse-DNS notation to specify them.
+- Ensure that the Activity Type Identifiers are unique and descriptive by using reverse-DNS notation to specify them. 
 
 ## Consuming Location Suggestions
 
@@ -358,4 +358,5 @@ This article has covered Proactive Suggestions and showed how the developer can 
 
 ## Related Links
 
+- [watchOS Samples](/samples/browse/?products=xamarin&term=Xamarin.iOS%2bwatchOS)
 - [SiriKit Programming Guide](https://developer.apple.com/library/prerelease/content/documentation/Intents/Conceptual/SiriIntegrationGuide/index.html)

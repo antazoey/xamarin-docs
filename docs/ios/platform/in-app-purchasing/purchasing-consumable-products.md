@@ -23,23 +23,23 @@ The sample code accompanying this document demonstrates built-in products –
 the Product IDs are hardcoded into the application because they are tightly
 coupled to the code that ‘unlocks’ the feature after payment. The purchasing
 process can be visualized like this:   
-
+   
 [![The purchasing process visualization](purchasing-consumable-products-images/image26.png)](purchasing-consumable-products-images/image26.png#lightbox)     
-
+   
  The basic workflow is:   
-
+   
  1. The app adds an `SKPayment` to the queue. If required the user will be prompted for
 their Apple ID, and asked to confirm the payment.   
-
+   
  2. StoreKit sends the
 request to the server for processing.   
-
+   
  3. When the transaction is
 complete, the server responds with a transaction receipt.   
-
+   
  4. The `SKPaymentTransactionObserver` subclass receives the receipt and
 processes it.   
-
+   
  5. The application enables the product (by updating `NSUserDefaults` or some other mechanism), and then calls
 StoreKit’s `FinishTransaction`.
 
@@ -48,7 +48,7 @@ that is discussed later in the document (see the section *Receipt Verification a
 
 ## Consumable Products example
 
-The sample contains a project called *Consumables* that implements a basic
+The [InAppPurchaseSample code](/samples/xamarin/ios-samples/storekit) contains a project called *Consumables* that implements a basic
 ‘in-game currency’ (called “monkey credits”). The sample shows how to
 implement two in-app purchase products to allow the user to buy as many
 “monkey credits” as they wish – in a real application there would also be

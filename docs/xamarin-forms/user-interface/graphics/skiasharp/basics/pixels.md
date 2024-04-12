@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Pixels and Device-Independent Units
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)
+
 _Explore the differences between SkiaSharp coordinates and Xamarin.Forms coordinates_
 
 This article explores the differences in the coordinate system used in SkiaSharp and Xamarin.Forms. You can obtain information to convert between the two coordinate systems and also draw graphics that fill a particular area:
@@ -22,7 +24,8 @@ If you've been programming in Xamarin.Forms for a while, you might have a feel f
 
 Those circles *are* small in comparison with Xamarin.Forms sizes. By default, SkiaSharp draws in units of pixels while Xamarin.Forms bases coordinates and sizes on a device-independent unit established by the underlying platform. (More information on the Xamarin.Forms coordinate system can be found in [Chapter 5. Dealing with Sizes](~/xamarin-forms/creating-mobile-apps-xamarin-forms/summaries/chapter05.md) of the book *Creating Mobile Apps with Xamarin.Forms*.)
 
-The page in the sample program entitled **Surface Size** uses SkiaSharp text output to show the size of the display surface from three different sources:
+The page in the [**SkewSharpFormsDemos**](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)
+program entitled **Surface Size** uses SkiaSharp text output to show the size of the display surface from three different sources:
 
 - The normal Xamarin.Forms [`Width`](xref:Xamarin.Forms.VisualElement.Width) and [`Height`](xref:Xamarin.Forms.VisualElement.Height) properties of the `SKCanvasView` object.
 - The [`CanvasSize`](xref:SkiaSharp.Views.Forms.SKCanvasView.CanvasSize) property of the `SKCanvasView` object.
@@ -160,3 +163,4 @@ canvas.DrawOval(rect, paint);
 ## Related Links
 
 - [SkiaSharp APIs](/dotnet/api/skiasharp)
+- [SkiaSharpFormsDemos (sample)](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)

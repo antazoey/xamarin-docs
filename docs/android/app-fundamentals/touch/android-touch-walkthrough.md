@@ -434,3 +434,8 @@ lets get on with the final Activity in the walkthrough.
 
 You now have an understanding of how to integrate touch and gestures in
 an Android application using Xamarin.Android.
+
+## Related Links
+
+- [Android Touch Start (sample)](/samples/xamarin/monodroid-samples/applicationfundamentals-touch-start)
+- [Android Touch Final (sample)](/samples/xamarin/monodroid-samples/applicationfundamentals-touch-final)

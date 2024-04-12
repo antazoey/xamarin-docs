@@ -14,13 +14,20 @@ no-loc: [Objective-C]
 
 There are different ways to communicate between the watch app and the iOS app that it is bundled with:
 
-- Watch apps can run code on the parent app on the iPhone.
+- Watch apps can [run code](#run-code) on the parent app on the iPhone.
 
 - Watch extensions can [share a storage location](#shared-storage) with the parent iPhone app.
 
 - Use handoff to pass data from a notification to the watch app, sending the user to a specific interface controller in the app.
 
 The Parent App is also sometimes referred to as the Container App.
+
+## Run Code
+
+These two samples demonstrate how to use `WCSession` to run code and send messages between a watch app and the paired iPhone:
+
+- [Watch Connectivity](/samples/xamarin/ios-samples/watchos-watchconnectivity/)
+- [SimpleWatchConnectivity](/samples/xamarin/ios-samples/watchos-simplewatchconnectivity/) 
 
 ## Shared Storage
 

@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Loading XAML at Runtime in Xamarin.Forms
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/xaml-loadruntimexaml)
+
 The [`Xamarin.Forms.Xaml`](xref:Xamarin.Forms.Xaml) namespace includes two [`LoadFromXaml`](xref:Xamarin.Forms.Xaml.Extensions.LoadFromXaml*) extension methods that can be used to load, and parse XAML at runtime.
 
 ## Background
@@ -92,3 +94,7 @@ monkeyLabel.Text = "Seated Monkey";
 ```
 
 In this example, the XAML for a [`ContentPage`](xref:Xamarin.Forms.ContentPage) is inflated. This XAML includes a [`Label`](xref:Xamarin.Forms.Label) named `monkeyName`, which is retrieved using the [`FindByName`](xref:Xamarin.Forms.NameScopeExtensions.FindByName*) method, before its [`Text`](xref:Xamarin.Forms.Label.Text) property is set.
+
+## Related links
+
+- [LoadRuntimeXAML (sample)](/samples/xamarin/xamarin-forms-samples/xaml-loadruntimexaml)

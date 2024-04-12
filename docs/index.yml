@@ -80,7 +80,7 @@ conceptualContent:
           url: ~/get-started/quickstarts/styling.md
           itemType: get-started
       footerLink:
-        url: https://github.com/xamarin/xamarin-forms-samples/
+        url: /samples/browse/?products=xamarin&term=Xamarin.Forms%2bget%2bstarted
         text: Find a sample
     - title: Follow a tutorial
       links:
@@ -163,7 +163,7 @@ additionalContent:
             - text: Advanced concepts & internals
               url: ~/xamarin-forms/internals/index.md
             - text: Samples
-              url: https://github.com/xamarin/xamarin-forms-samples/
+              url: /samples/browse/?products=xamarin&term=Xamarin.Forms
         - title: Android
           links:
             - text: App fundamentals
@@ -179,7 +179,7 @@ additionalContent:
             - text: Advanced concepts & internals
               url: ~/android/internals/index.md
             - text: Samples
-              url: https://github.com/xamarin/monodroid-samples
+              url: /samples/browse/?products=xamarin&term=Xamarin.Android
         - title: iOS
           links:
             - text: App fundamentals
@@ -195,7 +195,7 @@ additionalContent:
             - text: Advanced concepts & internals
               url: ~/ios/internals/index.md
             - text: Samples
-              url: https://github.com/xamarin/ios-samples
+              url: /samples/browse/?products=xamarin&term=Xamarin.iOS
         - title: Mac
           links:
             - text: App fundamentals
@@ -209,6 +209,6 @@ additionalContent:
             - text: Advanced concepts & internals
               url: ~/mac/internals/index.md
             - text: Samples
-              url: https://github.com/xamarin/mac-samples
+              url: /samples/browse/?products=xamarin&term=Xamarin.Mac
 
   footer: "[Blogs](https://devblogs.microsoft.com/xamarin/) - [Twitter](https://twitter.com/xamarinhq) - [Microsoft Q&A](/answers/products/dotnet) - [Developer Community](https://dotnet.microsoft.com/platform/community)"

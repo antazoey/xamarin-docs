@@ -25,10 +25,10 @@ displaying a notification.
 
 ## [Walkthrough - using local notifications in Xamarin.Android](local-notifications-walkthrough.md)  
 
-This walkthrough covers how to use local notifications in a
-Xamarin.Android application. It demonstrates the basics of creating and
-publishing a notification. When the user clicks on the notification in
-the notification drawer it starts up a second Activity.
+This walkthrough covers how to use local notifications in a 
+Xamarin.Android application. It demonstrates the basics of creating and 
+publishing a notification. When the user clicks on the notification in 
+the notification drawer it starts up a second Activity. 
 
 ## Further reading
 
@@ -53,3 +53,7 @@ the notification drawer it starts up a second Activity.
  not just the notifications that your app is registered to receive.
  Note that the user must explicitly give permission to your app for it
  to be able to listen for notifications on the device.
+
+## Related links
+
+- [Local Notifications (sample)](/samples/xamarin/monodroid-samples/localnotifications)

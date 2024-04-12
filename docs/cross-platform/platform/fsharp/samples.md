@@ -15,7 +15,9 @@ This page links to some F# samples using Xamarin.
 
 ## iOS
 
-The sample shows how to create a randomly generated city using [SceneKit](xref:SceneKit) and F#.
+The [FSSceneKit City](/samples/xamarin/ios-samples/ios8-fsscenekit/) sample shows how to
+create a randomly generated city using [SceneKit](xref:SceneKit)
+and F#. There's also an ["Oculus Thrift" (Google Cardboard) Edition](/samples/xamarin/ios-samples/ios8-scenekitfsharp/).
 
 [![Theres also an Oculus Thrift Google Cardboard Edition](samples-images/fxscenekit-sml.png)](samples-images/fxscenekit.png#lightbox)
 

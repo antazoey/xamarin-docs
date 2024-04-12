@@ -72,6 +72,8 @@ user profile data.
 
 ## Related Links
 
+- [TextureViewDemo (sample)](/samples/xamarin/monodroid-samples/textureviewdemo)
+- [CalendarDemo (sample)](/samples/xamarin/monodroid-samples/calendardemo)
 - [Tab Layout Tutorial](~/android/user-interface/layouts/tab-layout/index.md)
 - [Ice Cream Sandwich](https://developer.android.com/about/versions/android-4.0-highlights.html)
 - [Android 4.0 Platform](https://developer.android.com/about/versions/android-4.0.html)

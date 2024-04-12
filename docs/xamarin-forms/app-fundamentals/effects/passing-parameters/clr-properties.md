@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Passing Effect Parameters as Common Language Runtime Properties
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/effects-shadoweffect)
+
 _Common Language Runtime (CLR) properties can be used to define effect parameters that don't respond to runtime property changes. This article demonstrates using CLR properties to pass parameters to an effect._
 
 The process for creating effect parameters that don't respond to runtime property changes is as follows:
@@ -238,3 +240,4 @@ This article has demonstrated using CLR properties to pass parameters to an effe
 - [Effect](xref:Xamarin.Forms.Effect)
 - [PlatformEffect](xref:Xamarin.Forms.PlatformEffect`2)
 - [RoutingEffect](xref:Xamarin.Forms.RoutingEffect)
+- [Shadow Effect (sample)](/samples/xamarin/xamarin-forms-samples/effects-shadoweffect)

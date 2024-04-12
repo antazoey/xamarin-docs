@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # The Xamarin.Forms Command Interface
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/databindingdemos)
+
 In the Model-View-ViewModel (MVVM) architecture, data bindings are defined between properties in the ViewModel, which is generally a class that derives from `INotifyPropertyChanged`, and properties in the View, which is generally the XAML file. Sometimes an application has needs that go beyond these property bindings by requiring the user to initiate commands that affect something in the ViewModel. These commands are generally signaled by button clicks or finger taps, and traditionally they are processed in the code-behind file in a handler for the `Clicked` event of the `Button` or the `Tapped` event of a `TapGestureRecognizer`.
 
 The commanding interface provides an alternative approach to implementing commands that is much better suited to the MVVM architecture. The ViewModel itself can contain commands, which are methods that are executed in reaction to a specific activity in the View such as a `Button` click. Data bindings are defined between these commands and the `Button`.
@@ -80,7 +82,7 @@ If sharing ViewModels between Windows and Xamarin.Forms is not a concern, then y
 
 ## Basic Commanding
 
-The **Person Entry** page in the sample program demonstrates some simple commands implemented in a ViewModel.
+The **Person Entry** page in the [**Data Binding Demos**](/samples/xamarin/xamarin-forms-samples/databindingdemos) program demonstrates some simple commands implemented in a ViewModel.
 
 The `PersonViewModel` defines three properties named `Name`, `Age`, and `Skills` that define a person. This class does *not* contain any `ICommand` properties:
 
@@ -682,7 +684,7 @@ All the `execute` methods call `RefreshCanExecutes`, which then calls `ChangeCan
 
 ## Asynchronous Commanding for Navigation Menus
 
-Commanding is convenient for implementing navigation menus. Here's part of **MainPage.xaml**:
+Commanding is convenient for implementing navigation menus, such as that in the [**Data Binding Demos**](/samples/xamarin/xamarin-forms-samples/databindingdemos) program itself. Here's part of **MainPage.xaml**:
 
 ```xaml
 <?xml version="1.0" encoding="utf-8" ?>
@@ -756,4 +758,5 @@ Data bindings can sometimes be tricky, but as you've seen in this series of arti
 
 ## Related Links
 
+- [Data Binding Demos (sample)](/samples/xamarin/xamarin-forms-samples/databindingdemos)
 - [Data binding chapter from Xamarin.Forms book](~/xamarin-forms/creating-mobile-apps-xamarin-forms/summaries/chapter18.md)

@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Easing Functions in Xamarin.Forms
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-animation-easing)
+
 _Xamarin.Forms includes an Easing class that allows you to specify a transfer function that controls how animations speed up or slow down as they're running. This article demonstrates how to consume the pre-defined easing functions, and how to create custom easing functions._
 
 The [`Easing`](xref:Xamarin.Forms.Easing) class defines a number of easing functions that can be consumed by animations:
@@ -104,5 +106,6 @@ This article demonstrated how to consume the pre-defined easing functions, and h
 ## Related Links
 
 - [Async Support Overview](~/cross-platform/platform/async.md)
+- [Easing Functions (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-animation-easing)
 - [Easing](xref:Xamarin.Forms.Easing)
 - [ViewExtensions](xref:Xamarin.Forms.ViewExtensions)

@@ -114,7 +114,7 @@ if (NSProcessInfo.ProcessInfo.LowPowerModeEnabled) {
 Apple included the following changes to the [HealthKit](xref:HealthKit) framework in iOS 9:
 
 - Support for bulk deletion and deletion tracking of entries in the HealthKit database. See Apple's [HKDeletedObject](https://developer.apple.com/library/prerelease/ios/documentation/HealthKit/Reference/HKDeletedObject_ClassReference/index.html#//apple_ref/occ/cl/HKDeletedObject), [HKAnchoredObjectQuery](https://developer.apple.com/library/prerelease/ios/documentation/HealthKit/Reference/HKAnchoredObjectQuery_Class/index.html#//apple_ref/occ/cl/HKAnchoredObjectQuery) and [HKHealthStore Class Reference](https://developer.apple.com/library/prerelease/ios/documentation/HealthKit/Reference/HKHealthStore_Class/index.html#//apple_ref/doc/uid/TP40014708) for more information.
-- New tracking categories and characteristics have been added to the `HKQuantityTypeIdentifier` class (such as `UVExposure`) and to the `HKCategoryTypeIdentifier` class (such as `OvulationTestResult`).
+- New tracking categories and characteristics have been added to the `HKQuantityTypeIdentifier` class (such as `UVExposure`) and to the `HKCategoryTypeIdentifier` class (such as `OvulationTestResult`). 
 
 Please see our [Introduction to HealthKit](~/ios/platform/healthkit.md) documentation for more information on working with HealthKit in Xamarin.iOS.
 
@@ -258,5 +258,6 @@ Use the new `UITextInputAssistantItem` class to layout Bar Button Groups in a _S
 
 ## Related Links
 
+- [iOS 9 Samples](/samples/browse/?products=xamarin&term=Xamarin.iOS%2biOS9)
 - [Introduction to iOS 9](~/ios/platform/introduction-to-ios9/index.md)
 - [What's New in iOS 9.0](https://developer.apple.com/library/prerelease/ios/releasenotes/General/WhatsNewIniOS/Articles/iOS9.html)

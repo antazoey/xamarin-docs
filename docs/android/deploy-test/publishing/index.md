@@ -84,6 +84,7 @@ and the Amazon App Store for Android.
 
 ## Related Links
 
+- [HelloWorldPublishing (sample)](/samples/xamarin/monodroid-samples/helloworldpublishing)
 - [Build Process](~/android/deploy-test/building-apps/build-process.md)
 - [Linking](~/android/deploy-test/linker.md)
 - [Obtaining A Google Maps API Key](~/android/platform/maps-and-location/maps/obtaining-a-google-maps-api-key.md)

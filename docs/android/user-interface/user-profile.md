@@ -6,7 +6,7 @@ ms.subservice: xamarin-android
 author: davidortinau
 ms.author: daortin
 ms.date: 03/22/2018
-description: Learn how to update, use, and navigate between user profiles as well as how to request and manage permissions.
+description: Learn how to update, use, and navigate between user profiles as well as how to request and manage permissions. 
 ---
 
 # User Profile
@@ -124,3 +124,7 @@ illustrated in the following screenshot:
 
 Working with the user profile is similar to interacting with other data
 in Android, and it offers an additional level of device personalization.
+
+## Related Links
+
+- [ContactsProviderDemo (sample)](/samples/xamarin/monodroid-samples/contactsproviderdemo)

@@ -278,7 +278,7 @@ With a custom presentation style, developers have the option to use a custom Pre
 
 The Adaptive Photos Xamarin Project that is included with this article gives a working example of using Size Classes and Adaptive View Controllers in an iOS 8 Unified Interface application.
 
-While the application creates its UI completely from code, as opposed to creating a Unified Storyboard using Xcode's Interface Builder, the same techniques apply.
+While the application creates its UI completely from code, as opposed to creating a Unified Storyboard using Xcode's Interface Builder, the same techniques apply. 
 
 Now let’s take a closer look at how the Adaptive Photos project is implementing several of the Size Class features in iOS 8 to create a Adaptive Application.
 
@@ -629,6 +629,8 @@ Return to Visual Studio for Mac and stop the application from running.
 
 To maintain backward compatibility with iOS 7, just include the usual `Default.png` image assets as normal in the iOS 8 application. iOS will return to the previous behavior and use those files as the startup screen when running on an iOS 7 device.
 
+To see an implementation of a Dynamic Launch Screen in Xamarin, look at the [Dynamic Launch Screens](/samples/xamarin/ios-samples/ios8-dynamiclaunchscreen) sample iOS 8 application attached to this document.
+
 ## Summary
 
 This article took a quick look at Size Classes and how they affect layout in iPhone and iPad devices. It discussed how Traits, Trait Environments and Trait Collections work with Size Classes to create Unified Interfaces. It took brief look at Adaptive View Controllers and how they work with Size Classes inside of Unified Interfaces. It looked at implementing Size Classes and Unified Interfaces completely from C# code inside a Xamarin iOS 8 application.
@@ -637,6 +639,8 @@ Finally, this article covered the basics creating a single, Dynamic Launch Scree
 
 ## Related Links
 
+- [Adaptive Photos (sample)](/samples/xamarin/ios-samples/ios8-adaptivephotos)
+- [Dynamic Launch Screens (sample)](/samples/xamarin/ios-samples/ios8-dynamiclaunchscreen)
 - [Introduction to iOS 8](~/ios/platform/introduction-to-ios8.md)
 - [Dynamic Layouts in iOS8 - Evolve 2014 (video)](https://youtu.be/f3mMGlS-lM4)
 - [UIPresentationController](https://developer.apple.com/library/prerelease/ios/documentation/UIKit/Reference/UIPresentationController_class/)

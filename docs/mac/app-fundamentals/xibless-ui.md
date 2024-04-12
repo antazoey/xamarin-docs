@@ -355,6 +355,7 @@ This article has taken a detailed look at creating a Xamarin.Mac application's u
 
 ## Related Links
 
+- [MacXibless (sample)](/samples/xamarin/mac-samples/macxibless)
 - [Windows](~/mac/user-interface/window.md)
 - [Menus](~/mac/user-interface/menu.md)
 - [macOS Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/designing-for-macos)

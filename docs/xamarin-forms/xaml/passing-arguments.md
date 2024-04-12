@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Passing Arguments in XAML
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/xaml-passingconstructorarguments)
+
 _This article demonstrates using the XAML attributes that can be used to pass arguments to non-default constructors, to call factory methods, and to specify the type of a generic argument._
 
 ## Overview
@@ -157,5 +159,7 @@ For more information about generic type arguments, see [Generics in Xamarin.Form
 
 ## Related Links
 
+- [Passing Constructor Arguments (sample)](/samples/xamarin/xamarin-forms-samples/xaml-passingconstructorarguments)
+- [Calling Factory Methods (sample)](/samples/xamarin/xamarin-forms-samples/xaml-callingfactorymethods)
 - [XAML Namespaces](~/xamarin-forms/xaml/namespaces.md)
 - [Generics in Xamarin.Forms XAML](generics.md)

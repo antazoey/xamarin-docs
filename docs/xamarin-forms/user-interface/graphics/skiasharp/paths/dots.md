@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Dots and Dashes in SkiaSharp
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)
+
 _Master the intricacies of drawing dotted and dashed lines in SkiaSharp_
 
 SkiaSharp lets you draw lines that are not solid but instead are composed of dots and dashes:
@@ -210,3 +212,4 @@ Of course, you'll have to actually run the program to see the animation:
 ## Related Links
 
 - [SkiaSharp APIs](/dotnet/api/skiasharp)
+- [SkiaSharpFormsDemos (sample)](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)

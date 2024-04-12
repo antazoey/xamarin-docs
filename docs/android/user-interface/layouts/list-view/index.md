@@ -301,6 +301,15 @@ of the activity lifecycle on your `ListView` implementation.
 
 ## Related Links
 
+- [AccessoryViews (sample)](/samples/xamarin/monodroid-samples/accessoryviews)
+- [BasicTableAndroid (sample)](/samples/xamarin/monodroid-samples/basictableandroid)
+- [BasicTableAdapter (sample)](/samples/xamarin/monodroid-samples/basictableadapter)
+- [BuiltInViews (sample)](/samples/xamarin/monodroid-samples/builtinviews)
+- [CustomRowView (sample)](/samples/xamarin/monodroid-samples/customrowview)
+- [FastScroll (sample)](/samples/xamarin/monodroid-samples/fastscroll)
+- [SectionIndex (sample)](/samples/xamarin/monodroid-samples/sectionindex)
+- [SimpleCursorTableAdapter (sample)](/samples/xamarin/monodroid-samples/simplecursortableadapter)
+- [CursorTableAdapter (sample)](/samples/xamarin/monodroid-samples/cursortableadapter)
 - [Activity Lifecycle Tutorial](~/android/app-fundamentals/activity-lifecycle/index.md)
 - [Working with Tables and Cells (in Xamarin.iOS)](~/ios/user-interface/controls/tables/index.md)
 - [ListView Class Reference](xref:Android.Widget.ListView)

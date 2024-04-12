@@ -88,3 +88,7 @@ it will be by default as of API Level 14. Also, since this example uses
 the camera, both the `android.permission.CAMERA` permission and the
 `android.hardware.camera` feature must be set in the
 **AndroidManifest.xml**.
+
+## Related Links
+
+- [TextureViewDemo (sample)](/samples/xamarin/monodroid-samples/textureviewdemo)/)

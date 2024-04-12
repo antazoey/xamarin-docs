@@ -22,7 +22,7 @@ Apple has added several new APIs and services in iOS 10 along with many enhancem
 
 ## Adapting to the True Tone Display
 
-Apple's True Tone Display technology uses the ambient light sensor in an iOS device to dynamically adjust the color and intensity of the display to match the current lighting conditions. iOS 10 provides the new [UIWhitePointAdaptivityStyle](https://developer.apple.com/library/prerelease/content/documentation/General/Reference/InfoPlistKeyReference/Articles/iPhoneOSKeys.html#//apple_ref/doc/uid/TP40009252-SW31) key that can be added to the app's `Info.plist` file and controls how True Tone applies the standard color shift.
+Apple's True Tone Display technology uses the ambient light sensor in an iOS device to dynamically adjust the color and intensity of the display to match the current lighting conditions. iOS 10 provides the new [UIWhitePointAdaptivityStyle](https://developer.apple.com/library/prerelease/content/documentation/General/Reference/InfoPlistKeyReference/Articles/iPhoneOSKeys.html#//apple_ref/doc/uid/TP40009252-SW31) key that can be added to the app's `Info.plist` file and controls how True Tone applies the standard color shift. 
 
 The following values are available:
 
@@ -225,3 +225,7 @@ The following APIs have been deprecated in iOS 10:
 - The **Game Center App** has been deprecated and removed from iOS. If the app uses GameKit, it _must_ present its own interface to display GameKit features such as leaderboards, etc.
 
 See Apple's [iOS 9.3 to iOS 10.0 API Differences](https://developer.apple.com/library/prerelease/content/releasenotes/General/iOS10APIDiffs/index.html) documentation for a complete list of deprecations.
+
+## Related Links
+
+- [iOS 10 Samples](/samples/browse/?products=xamarin&term=Xamarin.iOS%2biOS10)

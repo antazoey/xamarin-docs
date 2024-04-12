@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms RelativeLayout
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-relativelayoutdemos)
+
 [![Xamarin.Forms RelativeLayout](relativelayout-images/layouts.png)](relativelayout-images/layouts-large.png#lightbox)
 
 A [`RelativeLayout`](xref:Xamarin.Forms.RelativeLayout) is used to position and size children relative to properties of the layout or sibling elements. This allows UIs to be created that scale proportionally across device sizes. In addition, unlike some other layout classes, `RelativeLayout` is able to position children so that overlap.
@@ -331,6 +333,7 @@ In this example, children are added to the [`RelativeLayout`](xref:Xamarin.Forms
 
 ## Related links
 
+- [RelativeLayout demos (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-relativelayoutdemos)
 - [Xamarin.Forms Attached Properties](~/xamarin-forms/xaml/attached-properties.md)
 - [XAML Markup Extensions](~/xamarin-forms/xaml/markup-extensions/index.md)
 - [Choose a Xamarin.Forms Layout](choose-layout.md)

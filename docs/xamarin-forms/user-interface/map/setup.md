@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms Map Initialization and Configuration
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/workingwithmaps)
+
 The [`Map`](xref:Xamarin.Forms.Maps.Map) control uses the native map control on each platform. This provides a fast, familiar maps experience for users, but means that some configuration steps are needed to adhere to each platforms API requirements.
 
 ## Map initialization
@@ -262,6 +264,7 @@ This code passes the assembly in which the `Xamarin.Forms.Maps.UWP.MapRenderer` 
 
 ## Related links
 
+- [Maps Sample](/samples/xamarin/xamarin-forms-samples/workingwithmaps)
 - [Xamarin.Forms.Maps Pins](~/xamarin-forms/user-interface/map/pins.md).
 - [Maps API](xref:Xamarin.Forms.Maps)
 - [Map Custom Renderer](~/xamarin-forms/app-fundamentals/custom-renderer/map-pin.md)

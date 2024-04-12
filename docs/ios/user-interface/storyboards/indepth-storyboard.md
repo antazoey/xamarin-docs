@@ -117,7 +117,7 @@ Any application using size classes will also use the new [*Adaptive Segues*](uni
 
 ### Transferring Data with Segues
 
-The benefits of a segue don't end with transitions. They can also be used to manage the transfer of data between view controllers. This is achieved by overriding the `PrepareForSegue` method on the initial view controller and handling the data yourself. When the segue is triggered – for example, with a button press – the application will call this method, providing an opportunity to prepare the new view controller *before* any navigation occurs. The following code demonstrates this:
+The benefits of a segue don't end with transitions. They can also be used to manage the transfer of data between view controllers. This is achieved by overriding the `PrepareForSegue` method on the initial view controller and handling the data yourself. When the segue is triggered – for example, with a button press – the application will call this method, providing an opportunity to prepare the new view controller *before* any navigation occurs. The following code from the [Phoneword](/samples/xamarin/ios-samples/hello-ios) sample demonstrates this:
 
 ```csharp
 public override void PrepareForSegue (UIStoryboardSegue segue,
@@ -386,12 +386,15 @@ In this code we have matched the segueIdentifier to our `SegueToPink` segue, so 
 
 We can apply this approach to any Segue on this view controller by checking the segueIdentifier argument to the ShouldPerformSegue method. In this case we only have one Segue identifier – `SegueToPink`.
 
+Refer to the Storyboards.Conditional solution in the [Manual Storyboards sample](/samples/xamarin/ios-samples/manualstoryboard) for a working example.
+
 ## Summary
 
 This article introduces the concept of Storyboards and how they can be beneficial in the development of iOS applications. It discusses scenes, view controllers, views, and view hierarchies, and how scenes are linked together with different types of Segues.  It also explores instantiating view controllers manually from a storyboard and creating conditional Segues.
 
 ## Related Links
 
+- [Manual Storyboard (sample)](/samples/xamarin/ios-samples/manualstoryboard/)
 - [Introduction to iOS Designer](../designer/introduction.md)
 - [Converting to Storyboards](https://developer.apple.com/library/ios/#releasenotes/Miscellaneous/RN-AdoptingStoryboards/)
 - [UIStoryboard Class Reference](https://developer.apple.com/library/ios/#documentation/UIKit/Reference/UIStoryboard_Class/Reference/Reference.html)

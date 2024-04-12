@@ -46,6 +46,8 @@ These articles will take a comprehensive look at working with tables, including:
 
 ## Related Links
 
+- [WorkingWithTables (sample)](/samples/xamarin/ios-samples/workingwithtables)
+- [Tables in Storyboards (sample)](/samples/xamarin/ios-samples/storyboardtable)
 - [Introduction to Storyboards](~/ios/user-interface/storyboards/index.md)
 - [Storyboard a TableView Recipe](https://github.com/xamarin/recipes/tree/master/Recipes/ios/general/storyboard/storyboard_a_tableview)
 - [Introduction to MonoTouch.Dialog](~/ios/user-interface/monotouch.dialog/index.md)

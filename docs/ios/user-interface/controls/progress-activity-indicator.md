@@ -34,7 +34,7 @@ An Activity Indicator is implemented through the [`UIActivityIndictorView`](xref
 
 Use the `StartAnimating()` and `StopAnimating()` methods to start and stop the activity indicator animation.
 
-Set the `HidesWhenStopped` property to `true` to make the activity indicator disappear after `StopAnimating()` has been called. This is set to `true` by default. At any point you can see if the Activity Indicator is running its spinning animation by checking the `IsAnimating` property.
+Set the `HidesWhenStopped` property to `true` to make the activity indicator disappear after `StopAnimating()` has been called. This is set to `true` by default. At any point you can see if the Activity Indicator is running its spinning animation by checking the `IsAnimating` property. 
 
 ### Managing Activity Indicator Appearances
 
@@ -81,7 +81,7 @@ The progress can be adjusted by using the `SetProgress` method and passing a boo
 ProgressBar.SetProgress(1.0f, true);
 ```
 
-For more information on using the progress bar, refer to the [Reporting Progress](https://github.com/xamarin/recipes/tree/master/Recipes/cross-platform/networking/download_progress) recipe.
+For more information on using the progress bar, refer to the [Reporting Progress](https://github.com/xamarin/recipes/tree/master/Recipes/cross-platform/networking/download_progress) recipe, and the [UICatalog tvOS sample](/samples/xamarin/ios-samples/tvos-uicatalog).
 
 ### Managing Progress Bar Appearance
 
@@ -96,5 +96,5 @@ progressBar = new UIProgressView(UIProgressViewStyle.Default)
                 ProgressTintColor = UIColor.Cyan,
                 TrackImage = UIImage.FromBundle("TrackImage"),
                 TrackTintColor = UIColor.Magenta
-            };
+            }; 
 ```

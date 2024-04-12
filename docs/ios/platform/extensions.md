@@ -467,5 +467,6 @@ This document has covered Extensions, what they are, the type of Extension Point
 
 ## Related links
 
+- [ContainerApp (sample)](/samples/xamarin/ios-samples/intro-to-extensions)
 - [Creating extensions in Xamarin.iOS (video)](https://university.xamarin.com/lightninglectures/creating-extensions-in-ios)
 - [Optimize Efficiency and Performance of an iOS App Extension](https://developer.apple.com/library/archive/documentation/General/Conceptual/ExtensibilityPG/ExtensionCreation.html#//apple_ref/doc/uid/TP40014214-CH5-SW7)

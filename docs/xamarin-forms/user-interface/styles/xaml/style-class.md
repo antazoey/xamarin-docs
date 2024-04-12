@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms Style Classes
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-styles-basicstyles)
+
 _Xamarin.Forms style classes enable multiple styles to be applied to a control, without resorting to style inheritance._
 
 ## Create style classes
@@ -216,3 +218,7 @@ Content = new StackLayout
     }
 };
 ```
+
+## Related links
+
+- [Basic Styles (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-styles-basicstyles)

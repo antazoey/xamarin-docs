@@ -12,12 +12,16 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms ImageButton
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/formsgallery)
+
 _The ImageButton displays an image and responds to a tap or click that directs an application to carry out a particular task._
 
 The `ImageButton` view combines the [`Button`](xref:Xamarin.Forms.Button) view and [`Image`](xref:Xamarin.Forms.Image) view to create a button whose content is an image. The user presses the `ImageButton` with a finger or clicks it with a mouse to direct the application to carry out a particular task. However, unlike the `Button` view, the `ImageButton` view has no concept of text and text appearance.
 
 > [!NOTE]
 > While the [`Button`](xref:Xamarin.Forms.Button) view defines an [`Image`](xref:Xamarin.Forms.Button.Image) property, that allows you to display a image on the `Button`, this property is intended to be used when displaying a small icon next to the `Button` text.
+
+The code examples in this guide are taken from the [FormsGallery sample](/samples/xamarin/xamarin-forms-samples/formsgallery).
 
 ## Setting the image source
 
@@ -268,3 +272,7 @@ The following XAML example shows how to define a visual state for the `Pressed` 
 The `Pressed` [`VisualState`](xref:Xamarin.Forms.VisualState) specifies that when the `ImageButton` is pressed, its [`Scale`](xref:Xamarin.Forms.VisualElement.Scale) property will be changed from its default value of 1 to 0.8. The `Normal` `VisualState` specifies that when the `ImageButton` is in a normal state, its `Scale` property will be set to 1. Therefore, the overall effect is that when the `ImageButton` is pressed, it's rescaled to be slightly smaller, and when the `ImageButton` is released, it's rescaled to its default size.
 
 For more information about visual states, see [The Xamarin.Forms Visual State Manager](~/xamarin-forms/user-interface/visual-state-manager.md).
+
+## Related links
+
+- [FormsGallery sample](/samples/xamarin/xamarin-forms-samples/formsgallery)

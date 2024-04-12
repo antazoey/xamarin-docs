@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Create a Xamarin.Forms Shell application
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-xaminals/)
+
 The process for creating a Xamarin.Forms Shell application is as follows:
 
 1. Create a new Xamarin.Forms application, or load an existing application that you want to convert to a Shell application.
@@ -138,4 +140,5 @@ Multiple items are displayed on the flyout because the [`FlyoutDisplayOptions`](
 
 ## Related links
 
+- [Xaminals (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-xaminals/)
 - [Create a Xamarin.Forms application quickstart](~/get-started/quickstarts/app.md)

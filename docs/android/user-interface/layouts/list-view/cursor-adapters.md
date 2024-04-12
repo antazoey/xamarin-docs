@@ -221,3 +221,8 @@ listView.Adapter = (IListAdapter)new HomeScreenCursorAdapter(this, cursor, false
 
 The `OnDestroy` method contains the `StopManagingCursor` method call
 described previously.
+
+## Related Links
+
+- [SimpleCursorTableAdapter (sample)](/samples/xamarin/monodroid-samples/simplecursortableadapter)
+- [CursorTableAdapter (sample)](/samples/xamarin/monodroid-samples/cursortableadapter)

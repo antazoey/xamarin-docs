@@ -357,5 +357,6 @@ In the [next tutorial in the Getting Started series](~/ios/get-started/hello-ios
 
 ## Related links
 
+- [Hello, iOS (sample)](/samples/xamarin/ios-samples/hello-ios)
 - [iOS Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/)
 - [iOS Provisioning Portal](https://developer.apple.com/account/#/overview)

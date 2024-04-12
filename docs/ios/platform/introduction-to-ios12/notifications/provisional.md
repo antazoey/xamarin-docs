@@ -20,6 +20,11 @@ In Notification Center, users can specify that an app should stop
 delivering provisional notifications, continue delivering them
 provisionally, or start delivering them more prominently.
 
+## Sample app: RedGreenNotifications
+
+Take a look at the [RedGreenNotifications](/samples/xamarin/ios-samples/ios12-redgreennotifications)
+ sample app, which sends provisional notifications.
+
 ## Sending provisional notifications
 
 To send provisional notifications, provide
@@ -46,6 +51,7 @@ will determine the new notification delivery settings (in the above code,
 
 ## Related links
 
+- [Sample app – RedGreenNotifications](/samples/xamarin/ios-samples/ios12-redgreennotifications)
 - [User Notifications framework in Xamarin.iOS](~/ios/platform/user-notifications/index.md)
 - [UserNotifications (Apple)](https://developer.apple.com/documentation/usernotifications?language=objc)
 - [What's New in User Notifications (WWDC 2018)](https://developer.apple.com/videos/play/wwdc2018/710/)

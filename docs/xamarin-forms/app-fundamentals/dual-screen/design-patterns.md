@@ -12,6 +12,8 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms dual-screen design patterns
 
+[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-dualscreendemos/)
+
 This guide introduces our recommended design patterns for dual-screen devices with code and samples to assist you in creating interfaces that provide engaging and useful user experiences.
 
 ## Extended canvas pattern
@@ -262,4 +264,5 @@ The companion pattern demonstrates how you might use the second screen to provid
 
 ## Related links
 
+- [DualScreen (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-dualscreendemos/)
 - [Create apps for dual screen devices](index.md)
