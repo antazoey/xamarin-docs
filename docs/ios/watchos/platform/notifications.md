@@ -172,9 +172,7 @@ It is also possible to use the
 
 ### Example Notification Payload
 
-In the [Watch Kit Catalog](/samples/xamarin/ios-samples/watchos-watchkitcatalog) sample
-  there is an example payload JSON file **NotificationPayload.json**
-  (listed below).
+An example payload JSON file **NotificationPayload.json** is shown below:
 
 ```json
 {
@@ -197,5 +195,4 @@ In the [Watch Kit Catalog](/samples/xamarin/ios-samples/watchos-watchkitcatalog)
 
 ## Related Links
 
-- [WatchKitCatalog (sample)](/samples/xamarin/ios-samples/watchos-watchkitcatalog)
 - [Apple's Watch Kit Notifications docs](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/BasicSupport.html)

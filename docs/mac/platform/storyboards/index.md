@@ -34,7 +34,7 @@ As stated above, a Storyboard defines all of the UI for a given app broken down 
 
 [![An example view controller](images/intro02.png)](images/intro02.png#lightbox)
 
-Each Scene represents a given View and View Controller Pair with a set of lines (called Segues) that connect each Scene in the UI, thus showing their relationships. Some Segues define how one View Controller contains one or more child Views or View Controllers. Other Segues, define transitions between View Controller (such as displaying a popover or dialog box). 
+Each Scene represents a given View and View Controller Pair with a set of lines (called Segues) that connect each Scene in the UI, thus showing their relationships. Some Segues define how one View Controller contains one or more child Views or View Controllers. Other Segues, define transitions between View Controller (such as displaying a popover or dialog box).
 
 [![A sample segue](images/intro03.png)](images/intro03.png#lightbox)
 
@@ -50,7 +50,7 @@ View Controllers define the relationships between a given View of information wi
 
 In this way, each View Controller is a self-contained, reusable pairing of both the information's visual representation (View) and the logic to present and control that information.
 
-Within a given Scene, you can do all of the things that would normally have been handled by individual `.xib` files: 
+Within a given Scene, you can do all of the things that would normally have been handled by individual `.xib` files:
 
 - Place subviews and controls (such as buttons and text boxes).
 - Define element positions and auto layout constraints.
@@ -78,7 +78,7 @@ At Design time (when layout out the UI in Xcode's Interface Builder), each eleme
   - **View Controller** - That define the relationships between Views and the data that support them.
   - **Views and Subviews** - The actual elements that make up the user interface.
   - **Containment Segues** - That define the parent-child relationships between Scenes.
-- **Presentation Segues** - That define individual presentation modes. 
+- **Presentation Segues** - That define individual presentation modes.
 
 By defining each element in this way, it allows for the lazy-loading of each element only as it is needed during runtime. In macOS, the entire process was designed to allow the developer to create complex, flexible User Interfaces that require a bare minimum of backing code to make them work, all while being as efficient with system resources as possible.
 
@@ -92,15 +92,7 @@ In the [Storyboard Quick Start](~/mac/platform/storyboards/quickstart.md) guide,
 
 ## Working with Storyboards
 
-This section covers the in-depth details of [Working with Storyboards](~/mac/platform/storyboards/indepth.md) in a Xamarin.Mac app. We take an in-depth look at Scenes and how they are composed of View Controllers and View. Then, we'll take a look at how Scenes are tied together with Segues. Finally, we'll take a look at working with custom Segue types. 
-
-<a name="Complex-Storyboard-Example"></a>
-
-## Complex Storyboard Example
-
-For an example of a complex example of working with Storyboards in a Xamarin.Mac app, please see the [SourceWriter Sample App](/samples/xamarin/mac-samples/sourcewriter). SourceWriter is a simple source code editor that provides support for code completion and simple syntax highlighting.
-
-The SourceWriter code has been fully commented and, where available, links have be provided from key technologies or methods to relevant information in the Xamarin.Mac Guides Documentation.
+This section covers the in-depth details of [Working with Storyboards](~/mac/platform/storyboards/indepth.md) in a Xamarin.Mac app. We take an in-depth look at Scenes and how they are composed of View Controllers and View. Then, we'll take a look at how Scenes are tied together with Segues. Finally, we'll take a look at working with custom Segue types.
 
 <a name="Summary"></a>
 
@@ -110,7 +102,6 @@ This article has taken a quick look at working with Storyboards in a Xamarin.Mac
 
 ## Related Links
 
-- [Mac samples](/samples/browse/?products=xamarin&term=Xamarin.Forms&terms=mac)
 - [Hello Mac](/xamarin/mac/get-started/hello-mac)
 - [OS X Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/macos/overview/themes/)
 - [Introduction to Windows](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/WinPanel/Introduction.html#//apple_ref/doc/uid/10000031-SW1)

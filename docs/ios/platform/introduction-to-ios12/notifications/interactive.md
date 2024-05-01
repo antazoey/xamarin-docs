@@ -16,14 +16,6 @@ introduced in iOS 10, make it possible to create custom user interfaces
 for notifications. Starting with iOS 12, notification user interfaces can
 contain interactive elements such as buttons and sliders.
 
-## Sample App: RedGreenNotifications
-
-The [RedGreenNotifications](/samples/xamarin/ios-samples/ios12-redgreennotifications)
-sample app contains a notification content extension with an interactive
-user interface.
-
-Code snippets in this guide come from this sample.
-
 ## Notification content extension Info.plist file
 
 In the sample app, the **Info.plist** file in the
@@ -136,7 +128,6 @@ the image displayed in the notification's interface:
 
 ## Related links
 
-- [Sample app – RedGreenNotifications](/samples/xamarin/ios-samples/ios12-redgreennotifications)
 - [User Notifications framework in Xamarin.iOS](~/ios/platform/user-notifications/index.md)
 - [UserNotifications (Apple)](https://developer.apple.com/documentation/usernotifications?language=objc)
 - [What's New in User Notifications (WWDC 2018)](https://developer.apple.com/videos/play/wwdc2018/710/)

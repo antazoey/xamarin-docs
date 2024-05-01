@@ -53,15 +53,15 @@ The easiest way to work with Segment Controls in a Xamarin.tvOS app is to add th
 # [Visual Studio for Mac](#tab/macos)
 
 1. In the **Solution Pad**, double-click the `Main.storyboard` file and open it for editing.
-1. Drag a **Segment Control** from the **Toolbox** and drop it on the View: 
+1. Drag a **Segment Control** from the **Toolbox** and drop it on the View:
 
     [![A Segment Control](segmented-controls-images/segment02.png)](segmented-controls-images/segment02.png#lightbox)
-1. In the **Widget Tab** of the **Property Pad**, you can adjust several properties of the Segment Control such as its **Style** and **State**: 
+1. In the **Widget Tab** of the **Property Pad**, you can adjust several properties of the Segment Control such as its **Style** and **State**:
 
     [![The Widget Tab](segmented-controls-images/segment03.png)](segmented-controls-images/segment03.png#lightbox)
 1. Use the **Segments** field to control the number of Segments in the controller.
 1. Select a given Segment from the **Segment Dropdown** to adjust its individual properties such as **Title** or **Image** and to control if a given Segment is **Enabled** or **Selected** when the control is displayed.
-1. Finally, assign **Names** to the controls so that you can respond to them in C# code. For example: 
+1. Finally, assign **Names** to the controls so that you can respond to them in C# code. For example:
 
     [![Assign a Name](segmented-controls-images/segment04.png)](segmented-controls-images/segment04.png#lightbox)
 1. Save your changes.
@@ -69,22 +69,22 @@ The easiest way to work with Segment Controls in a Xamarin.tvOS app is to add th
 # [Visual Studio](#tab/windows)
 
 1. In the **Solution Explorer**, double-click the `Main.storyboard` file and open it for editing.
-1. Drag a **Segment Control** from the **Toolbox** and drop it on the View: 
+1. Drag a **Segment Control** from the **Toolbox** and drop it on the View:
 
     [![A Segment Control](segmented-controls-images/segment02-vs.png)](segmented-controls-images/segment02-vs.png#lightbox)
-1. In the **Widget Tab** of the **Property Explorer**, you can adjust several properties of the Segment Control such as its **Style** and **State**: 
+1. In the **Widget Tab** of the **Property Explorer**, you can adjust several properties of the Segment Control such as its **Style** and **State**:
 
     [![The Widget Tab](segmented-controls-images/segment03-vs.png)](segmented-controls-images/segment03-vs.png#lightbox)
 1. Use the **Segments** field to control the number of Segments in the controller.
 1. Select a given Segment from the **Segment Dropdown** to adjust its individual properties such as **Title** or **Image** and to control if a given Segment is **Enabled** or **Selected** when the control is displayed.
-1. Finally, assign **Names** to the controls so that you can respond to them in C# code. For example: 
+1. Finally, assign **Names** to the controls so that you can respond to them in C# code. For example:
 
     [![Assign a Name](segmented-controls-images/segment04-vs.png)](segmented-controls-images/segment04-vs.png#lightbox)
 1. Save your changes.
 
 -----
 
-For more information on working with Storyboards, please see our [Hello, tvOS Quick Start Guide](~/ios/tvos/get-started/hello-tvos.md). 
+For more information on working with Storyboards, please see our [Hello, tvOS Quick Start Guide](~/ios/tvos/get-started/hello-tvos.md).
 
 <a name="Working-with-Segmented-Controls"></a>
 
@@ -231,7 +231,6 @@ This article has covered designing and working with Segmented Control inside of 
 
 ## Related Links
 
-- [tvOS Samples](/samples/browse/?products=xamarin&term=Xamarin.iOS%2btvOS)
 - [tvOS](https://developer.apple.com/tvos/)
 - [tvOS Human Interface Guides](https://developer.apple.com/design/human-interface-guidelines/designing-for-tvos)
 - [App Programming Guide for tvOS](https://developer.apple.com/library/prerelease/tvos/documentation/General/Conceptual/AppleTV_PG/)

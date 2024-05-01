@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Layout Compression
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-layoutcompression)
-
 _Layout compression removes specified layouts from the visual tree in an attempt to improve page rendering performance. This article explains how to enable layout compression and the benefits it can bring._
 
 ## Overview
@@ -118,4 +116,3 @@ Layout compression removes specified layouts from the visual tree in an attempt 
 
 - [Creating a Custom Layout](~/xamarin-forms/user-interface/layouts/custom.md)
 - [Fast Renderers](~/xamarin-forms/internals/fast-renderers.md)
-- [LayoutCompression (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-layoutcompression)

@@ -61,8 +61,6 @@ and writing `ContentProvider` code.
 
 ## Related Links
 
-- [ContactsAdapter Demo (sample)](/samples/xamarin/monodroid-samples/platformfeatures-contactsadapterdemo)
-- [SimpleContentProvider (sample)](/samples/xamarin/monodroid-samples/platformfeatures-simplecontentprovider)
 - [Content Providers Developers Guide](https://developer.android.com/guide/topics/providers/content-providers.html)
 - [ContentProvider Class Reference](xref:Android.Content.ContentProvider)
 - [ContentResolver Class Reference](xref:Android.Content.ContentResolver)

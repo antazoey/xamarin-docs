@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms ScrollView
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-scrollviewdemos)
-
 [![Xamarin.Forms ScrollView](scrollview-images/layouts.png "Xamarin.Forms ScrollView")](scrollview-images/layouts-large.png#lightbox "Xamarin.Forms ScrollView")
 
 [`ScrollView`](xref:Xamarin.Forms.ScrollView) is a layout that's capable of scrolling its content. The `ScrollView` class derives from the [`Layout`](xref:Xamarin.Forms.Layout) class, and by default scrolls its content vertically. A `ScrollView` can only have a single child, although this can be other layouts.
@@ -288,6 +286,5 @@ When scrolling an element into view, the exact position of the element after the
 
 ## Related links
 
-- [ScrollView demos (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-scrollviewdemos)
 - [Xamarin.Forms StackLayout](stacklayout.md)
 - [Bindable Layouts in Xamarin.Forms](bindable-layouts.md)

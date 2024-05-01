@@ -16,6 +16,5 @@ To learn more about the basics of creating mobile applications with Xamarin.Form
 
 ## Related links
 
-- [CollectionViewTutorial (sample)](/samples/xamarin/xamarin-forms-samples/getstarted-tutorials-collectionviewtutorial/)
 - [Xamarin.Forms CollectionView (guide)](~/xamarin-forms/user-interface/collectionview/index.md)
 - [CollectionView API](xref:Xamarin.Forms.CollectionView)

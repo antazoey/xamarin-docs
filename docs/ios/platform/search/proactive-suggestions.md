@@ -85,7 +85,7 @@ And is supported in the app by implementing the following:
 - **Contextual Siri Requests** - `NSUserActivity` provides context to the information presented inside of the app to Siri so that the user can get directions or place a call be invoking Siri from within the app.
 - **Contact Interactions** - New in iOS 10, `NSUserActivity` allows communications apps to be promoted from a contact card (in the Contacts app) as an alternative communication method.
 
-All of these features have one thing in common, they all use `NSUserActivity` in one form or another to provide their functionality. 
+All of these features have one thing in common, they all use `NSUserActivity` in one form or another to provide their functionality.
 
 ## NSUserActivity
 
@@ -146,7 +146,7 @@ The code above could further be enhanced to include metadata that provides conte
 // Provide context
 var attributes = new CSSearchableItemAttributeSet ("com.xamarin.location");
 attributes.ThumbnailUrl = myThumbnailURL;
-attributes.Keywords = new string [] { "software", "mobile", "language" }; 
+attributes.Keywords = new string [] { "software", "mobile", "language" };
 activity.ContentAttributeSet = attributes;
 
 // Inform system of Activity
@@ -194,7 +194,7 @@ The following section will take a look at enabling two other new iOS 10 features
 - **Location Suggestions**
 - **Contextual Siri Requests**
 
-### Location Based Suggestions 
+### Location Based Suggestions
 
 Take the example of the restaurant search app above. If it has implemented `NSUserActivity` and correctly populated all of the metadata and attributes, the user would be able to do the following:
 
@@ -235,7 +235,7 @@ activity.EligibleForPublicIndexing = true;
 // Provide context
 var attributes = new CSSearchableItemAttributeSet ("com.xamarin.location");
 attributes.ThumbnailUrl = myThumbnailURL;
-attributes.Keywords = new string [] { "software", "mobile", "language" }; 
+attributes.Keywords = new string [] { "software", "mobile", "language" };
 activity.ContentAttributeSet = attributes;
 
 // Restore on the web
@@ -324,7 +324,7 @@ Take a look at how the app can donate interactions:
 
 The app creates an `INInteraction` object that contains an  **Intent** (`INIntent`), **Participants** and **Metadata**. The **Intent** represents a user action such as making a video call or sending a text message. The **Participants** include the people receiving the communication. The **Metadata** defines addition information such as successfully sending the message, etc.
 
-The developer never directly creates an instance of `INIntent` or `INIntentResponse`, they will use one of the specific child classes (based on the task the app is accomplishing on behalf of the user) that inherit from these parent classes. For example, `INSendMessageIntent` and `INSendMessageIntentResponse` for sending a text message. 
+The developer never directly creates an instance of `INIntent` or `INIntentResponse`, they will use one of the specific child classes (based on the task the app is accomplishing on behalf of the user) that inherit from these parent classes. For example, `INSendMessageIntent` and `INSendMessageIntentResponse` for sending a text message.
 
 Once the interaction is fully populated, call the `DonateInteraction` method to inform the system that the interaction is available to use.
 
@@ -430,7 +430,7 @@ Apple suggests the following best practices when working with activities:
 - Use `NeedsSave` for lazy payload updates.
 - Ensure to keep a strong reference to the current activity.
 - Only transfer small payloads that include just enough information to restore the state.
-- Ensure that the Activity Type Identifiers are unique and descriptive by using reverse-DNS notation to specify them. 
+- Ensure that the Activity Type Identifiers are unique and descriptive by using reverse-DNS notation to specify them.
 
 ## Schema.org
 
@@ -543,7 +543,7 @@ namespace MonkeyChat
   public class AppDelegate : UIApplicationDelegate, IUISplitViewControllerDelegate
   {
     ...
-    
+
     public override bool OpenUrl (UIApplication app, NSUrl url, NSDictionary options)
     {
       if (MKDirectionsRequest.IsDirectionsRequestUrl (url)) {
@@ -583,7 +583,7 @@ New in iOS 10, the app can be sent an address that does not have geo-coordinates
 var geocoder = new CLGeocoder();
 geocoder.GeocodeAddress(address, (place, err)=> {
   // Handle the display of the address
-  
+
 });
 
 ```
@@ -599,7 +599,7 @@ For apps that handle media, iOS supports the following behaviors:
 - If the app meets one of the following triggers, it might be elevated to a lock screen suggestion:
   - After plugging in headphones or a Bluetooth device makes a connection.
   - After getting in a car.
-  - After arriving at home or work. 
+  - After arriving at home or work.
 
 By including a simple API call in iOS 10, the developer can create a more engaging lock screen experience for users of the media app. By using the `MPPlayableContentManager` class to manage the media playback, full media controls (like those presented by the Music app) will be presented on the lock screen for the app.
 
@@ -679,5 +679,4 @@ This article has covered Proactive Suggestions and showed how the developer can 
 
 ## Related Links
 
-- [iOS 10 Samples](/samples/browse/?products=xamarin&term=Xamarin.iOS%2biOS10)
 - [SiriKit Programming Guide](https://developer.apple.com/library/prerelease/content/documentation/Intents/Conceptual/SiriIntegrationGuide/index.html)

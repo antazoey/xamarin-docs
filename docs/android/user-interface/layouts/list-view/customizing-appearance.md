@@ -105,7 +105,7 @@ view (SimpleExpandableListItem1) and a two-line child view
 (SimpleExpandableListItem2). Alternately, the group view can be
 configured for two lines (SimpleExpandableListItem2) and the child view
 can be configured for one line (SimpleExpandableListItem1), or both
-group view and child view can have the same number of lines. 
+group view and child view can have the same number of lines.
 
 ## Accessories
 
@@ -128,7 +128,7 @@ screens, in their respective order:
 
 To display one of these accessories pass the required layout resource ID to
 the adapter then manually set the selection state for the required rows. This
-line of code shows how to create and assign an `Adapter` using one of 
+line of code shows how to create and assign an `Adapter` using one of
 these layouts:
 
 ```csharp
@@ -137,7 +137,7 @@ ListAdapter = new ArrayAdapter<String>(this, Android.Resource.Layout.SimpleListI
 
 The `ListView` itself supports different selection modes, regardless of
 the accessory being displayed. To avoid confusion, use `Single`
-selection mode with `SingleChoice` accessories and the `Checked` or 
+selection mode with `SingleChoice` accessories and the `Checked` or
 `Multiple` mode with the `MultipleChoice` style. The selection mode is
 controlled by the `ChoiceMode` property of the `ListView`.
 
@@ -478,9 +478,3 @@ you should also set the `android:cacheColorHint` property on the
 color value as your custom row layout's background). Failure to
 include this hint could result in a 'flicker' as the user scrolls
 through a list with custom row background colors.
-
-## Related Links
-
-- [BuiltInViews (sample)](/samples/xamarin/monodroid-samples/builtinviews)
-- [AccessoryViews (sample)](/samples/xamarin/monodroid-samples/accessoryviews)
-- [CustomRowView (sample)](/samples/xamarin/monodroid-samples/customrowview)

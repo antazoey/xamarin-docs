@@ -32,8 +32,3 @@ This guide serves as introduction to Touch in iOS. For more information on using
 
 - [3D Touch](~/ios/platform/3d-touch.md)
 - [Providing Haptic Feedback](~/ios/user-interface/ios-ui/haptic-feedback.md)
-
-## Related Links
-
-- [iOS Touch Final (sample)](/samples/xamarin/ios-samples/applicationfundamentals-touch-final)
-- [FingerPaint (sample)](/samples/xamarin/ios-samples/applicationfundamentals-fingerpaint)

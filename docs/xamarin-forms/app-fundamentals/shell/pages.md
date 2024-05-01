@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms Shell pages
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-xaminals/)
-
 A [`ShellContent`](xref:Xamarin.Forms.ShellContent) object represents the [`ContentPage`](xref:Xamarin.Forms.ContentPage) object for each [`FlyoutItem`](xref:Xamarin.Forms.FlyoutItem) or [`Tab`](xref:Xamarin.Forms.Tab). When more than one `ShellContent` object is present in a `Tab` object, the `ContentPage` objects will be navigable by top tabs. Within a page, additional `ContentPage` objects that are known as detail pages, can be navigated to.
 
 In addition, the [`Shell`](xref:Xamarin.Forms.Shell) class defines attached properties that can be used to configure the appearance of pages in Xamarin.Forms Shell applications. This includes setting page colors, setting the page presentation mode, disabling the navigation bar, disabling the tab bar, and displaying views in the navigation bar.
@@ -241,7 +239,6 @@ Shell respects page visibility, set with the [`IsVisible`](xref:Xamarin.Forms.Vi
 
 ## Related links
 
-- [Xaminals (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-xaminals/)
 - [Xamarin.Forms Shell navigation](navigation.md)
 - [Styling Xamarin.Forms Apps using XAML Styles](~/xamarin-forms/user-interface/styles/xaml/index.md)
 - [Xamarin.Forms CSS Shell specific properties](~/xamarin-forms/user-interface/styles/css/index.md#xamarinforms-shell-specific-properties)

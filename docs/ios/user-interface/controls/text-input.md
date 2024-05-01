@@ -84,7 +84,3 @@ textview1.Text = "Lorem ipsum..."; // lots of text can go here
 textview1.Editable = true;
 textview1.DataDetectorTypes = UIDataDetectorType.PhoneNumber | UIDataDetectorType.Link;
 ```
-
-## Related Links
-
-- [Controls (sample)](/samples/xamarin/ios-samples/controls)

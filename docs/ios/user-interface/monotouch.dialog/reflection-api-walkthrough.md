@@ -174,7 +174,6 @@ hierarchy that is created, as well as how to use MT.D with a `UINavigationContro
 
 ## Related links
 
-- [MTDReflectionWalkthrough (sample)](/samples/xamarin/ios-samples/mtdreflectionwalkthrough)
 - [Introduction to MonoTouch Dialog](~/ios/user-interface/monotouch.dialog/index.md)
 - [Elements API Walkthrough](~/ios/user-interface/monotouch.dialog/elements-api-walkthrough.md)
 - [JSON Element Walkthrough](~/ios/user-interface/monotouch.dialog/monotouch.dialog-json-markup.md)

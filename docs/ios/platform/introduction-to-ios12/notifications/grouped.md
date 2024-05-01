@@ -19,19 +19,6 @@ the notifications it contains and dismiss the group as a whole.
 Apps can also group notifications by thread, making it easier for users
 to find and interact with the specific information they're interested in.
 
-## Sample app: GroupedNotifications
-
-To learn how to use grouped notifications with Xamarin.iOS, take
-a look at the [GroupedNotifications](/samples/xamarin/ios-samples/ios12-groupednotifications)
-sample app.
-
-This sample app simulates conversations with various friends, sending a
-notification for each message and grouping them by thread. It also
-demonstrates how unthreaded notifications land in an application-level
-group.
-
-Code snippets in this guide come from this sample app.
-
 ## Request authorization and allow foreground notifications
 
 Before an app can send local notifications, it must request
@@ -174,7 +161,6 @@ However, it does not set the `ThreadIdentifier` on the
 
 ## Related links
 
-- [Sample app – GroupedNotifications](/samples/xamarin/ios-samples/ios12-groupednotifications)
 - [User Notifications framework in Xamarin.iOS](~/ios/platform/user-notifications/index.md)
 - [What's New in User Notifications (WWDC 2018)](https://developer.apple.com/videos/play/wwdc2018/710/)
 - [Using Grouped Notifications (WWDC 2018)](https://developer.apple.com/videos/play/wwdc2018/711/)

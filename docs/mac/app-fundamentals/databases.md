@@ -46,7 +46,7 @@ Before we can continue, we need to add SQLite database support to our applicatio
 Do the following:
 
 1. In the **Solution Pad**, right-click on the **References** folder and select **Edit References**.
-2. Select both the **Mono.Data.Sqlite** and **System.Data** assemblies: 
+2. Select both the **Mono.Data.Sqlite** and **System.Data** assemblies:
 
     [![Adding the required references](databases-images/reference01.png "Adding the required references")](databases-images/reference01-large.png#lightbox)
 3. Click the **OK** button to save your changes and add the references.
@@ -915,7 +915,7 @@ Craig.Create (conn);
 var Larry = new PersonModel ("1","Larry O'Brien", "API Documentation Manager");
 Larry.AddPerson (new PersonModel ("Mike Norman", "API Documentor"));
 Larry.Create (conn);
-``` 
+```
 
 When the application starts and opens the Main Window, we make a connection to the database using the code we added above:
 
@@ -1056,7 +1056,7 @@ namespace MacDatabase
 
         public string TableName {
             get { return _tableName; }
-            set { 
+            set {
                 _tableName = value;
                 _recordCount = GetRecordCount ();
             }
@@ -1065,15 +1065,15 @@ namespace MacDatabase
         public string IDField {
             get { return _IDField; }
             set {
-                _IDField = value; 
+                _IDField = value;
                 _recordCount = GetRecordCount ();
             }
         }
 
         public string DisplayField {
             get { return _displayField; }
-            set { 
-                _displayField = value; 
+            set {
+                _displayField = value;
                 _recordCount = GetRecordCount ();
             }
         }
@@ -1256,7 +1256,7 @@ namespace MacDatabase
             // Return results
             return result;
         }
-        #endregion 
+        #endregion
 
         #region Override Methods
         public override nint ItemCount (NSComboBox comboBox)
@@ -1459,7 +1459,7 @@ private nint GetRecordCount ()
 
 It is called any time the `TableName`, `IDField` or `DisplayField` properties value is changed.
 
-The `IDForIndex` method returns the unique ID (`IDField`) for the record at the given dropdown list item index: 
+The `IDForIndex` method returns the unique ID (`IDField`) for the record at the given dropdown list item index:
 
 ```csharp
 public string IDForIndex (nint index)
@@ -1847,7 +1847,7 @@ namespace MacDatabase
             // Auto select the first person
             EmployeeSelector.StringValue = DataSource.ValueForIndex (0);
             Person = new PersonModel (Conn, DataSource.IDForIndex(0));
-    
+
         }
         #endregion
     }
@@ -2140,7 +2140,7 @@ namespace MacDatabase
 {
     public class TableORMDelegate : NSTableViewDelegate
     {
-        #region Constants 
+        #region Constants
         private const string CellIdentifier = "OccCell";
         #endregion
 
@@ -2220,7 +2220,6 @@ This article has taken a detailed look at working with data binding and key-valu
 
 ## Related Links
 
-- [MacDatabase (sample)](/samples/xamarin/mac-samples/macdatabase)
 - [Hello, Mac](~/mac/get-started/hello-mac.md)
 - [Data binding and key-value coding](~/mac/app-fundamentals/databinding.md)
 - [Standard controls](~/mac/user-interface/standard-controls.md)

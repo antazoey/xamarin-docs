@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Customizing a WebView
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/customrenderers-hybridwebview)
-
 _A Xamarin.Forms `WebView` is a view that displays web and HTML content in your app. This article explains how to create a custom renderer that extends the `WebView` to allow C# code to be invoked from JavaScript._
 
 Every Xamarin.Forms view has an accompanying renderer for each platform that creates an instance of a native control. When a [`WebView`](xref:Xamarin.Forms.WebView) is rendered by a Xamarin.Forms application on iOS, the `WkWebViewRenderer` class is instantiated, which in turn instantiates a native `WkWebView` control. On the Android platform, the `WebViewRenderer` class instantiates a native `WebView` control. On the Universal Windows Platform (UWP), the `WebViewRenderer` class instantiates a native `WebView` control. For more information about the renderer and native control classes that Xamarin.Forms controls map to, see [Renderer Base Classes and Native Controls](~/xamarin-forms/app-fundamentals/custom-renderer/renderers.md).
@@ -477,7 +475,3 @@ This functionality is achieved as follows:
   - The `WebView.Source` property is set to the URI of the HTML file that's specified by the `HybridWebView.Uri` property. The code assumes that the file is stored in the `Content` folder of the project. Once the web page is displayed, the `NavigationCompleted` event will fire and the `OnWebViewNavigationCompleted` method will be invoked. The `invokeCSharpAction` JavaScript function will then be injected into the web page with the `WebView.InvokeScriptAsync` method, provided that the navigation completed successfully.
 - Event are unsubscribed from when the element the renderer is attached to changes.
 - The Xamarin.Forms element is cleaned up when the renderer is disposed of.
-
-## Related links
-
-- [HybridWebView (sample)](/samples/xamarin/xamarin-forms-samples/customrenderers-hybridwebview)

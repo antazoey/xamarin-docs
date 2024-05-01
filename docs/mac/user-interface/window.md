@@ -49,7 +49,7 @@ For more information, see the [About Windows](https://developer.apple.com/librar
 
 Windows in a Xamarin.Mac application can look and behave differently based on how the user is currently interacting with them. The foremost Document or App Window that is currently focus of the user’s attention is called the _Main Window_. In most instances this Window will also be the _Key Window_ (the window that is currently accepting user input). But this isn't always the case, for example, a Color Picker could be open and be the Key window that the user is interacting with to change the state of an item in the Document Window (which would still be the Main Window).
 
-The Main and Key Windows (if they are separate) are always active, _Inactive Windows_ are open windows that are not in the foreground. For example, a text editor application could have more than one document open at a time, only the Main Window would be active, all others would be inactive. 
+The Main and Key Windows (if they are separate) are always active, _Inactive Windows_ are open windows that are not in the foreground. For example, a text editor application could have more than one document open at a time, only the Main Window would be active, all others would be inactive.
 
 For more information, see the [About Windows](https://developer.apple.com/library/mac/documentation/UserExperience/Conceptual/OSXHIGuidelines/WindowAppearanceBehavior.html#//apple_ref/doc/uid/20000957-CH33-SW1) section of Apple's [macOS design themes](https://developer.apple.com/design/human-interface-guidelines/macos/overview/themes/).
 
@@ -59,7 +59,7 @@ A Window can display a Title Bar and when the Title is displayed, it's usually t
 
 Apple suggest the following guidelines:
 
-- Use your application name for the title of a main, non-document window. 
+- Use your application name for the title of a main, non-document window.
 - Name a new document window `untitled`. For the first new document, don't append a number to the Title (such as `untitled 1`). If the user creates another new document before saving and titling the first, call that window `untitled 2`, `untitled 3`, etc.
 
 For more information, see the [Naming Windows](https://developer.apple.com/library/mac/documentation/UserExperience/Conceptual/OSXHIGuidelines/WindowNaming.html#//apple_ref/doc/uid/20000957-CH35-SW1) section of Apple's [macOS design themes](https://developer.apple.com/design/human-interface-guidelines/macos/overview/themes/).
@@ -84,7 +84,7 @@ A Panel is an auxiliary window that contains controls and options that affect th
 
 [![A color panel](window-images/panel01.png)](window-images/panel01.png#lightbox)
 
-Panels can be either _App-Specific_ or _Systemwide_. App-Specific Panels float over the top of the application's document windows and disappear when the application is in the background. Systemwide Panels (such as the **Fonts** panel), float on top of all open windows no matter the application. 
+Panels can be either _App-Specific_ or _Systemwide_. App-Specific Panels float over the top of the application's document windows and disappear when the application is in the background. Systemwide Panels (such as the **Fonts** panel), float on top of all open windows no matter the application.
 
 Apple suggests the following guidelines:
 
@@ -100,7 +100,7 @@ Most modern macOS applications present auxiliary controls and options that affec
 
 [![An example inspector](window-images/panel02.png)](window-images/panel02.png#lightbox)
 
-For more information, see the [Panels](https://developer.apple.com/library/mac/documentation/UserExperience/Conceptual/OSXHIGuidelines/WindowPanels.html#//apple_ref/doc/uid/20000957-CH42-SW1) section of Apple's [macOS design themes](https://developer.apple.com/design/human-interface-guidelines/macos/overview/themes/) and our [MacInspector](/samples/xamarin/mac-samples/macinspector) sample app for a full implementation of an **Inspector Interface** in a Xamarin.Mac app.
+For more information, see the [Panels](https://developer.apple.com/library/mac/documentation/UserExperience/Conceptual/OSXHIGuidelines/WindowPanels.html#//apple_ref/doc/uid/20000957-CH42-SW1) section of Apple's [macOS design themes](https://developer.apple.com/design/human-interface-guidelines/macos/overview/themes/).
 
 ## Creating and maintaining windows in Xcode
 
@@ -131,8 +131,8 @@ In the **Attribute Inspector**, there are several properties that you can use to
 - **Release When Closed** - Is the window purged from memory when it is closed.
 - **Always Display Tooltips** - Are the tooltips constantly displayed.
 - **Recalculates View Loop** - Is the view order recalculated before the window is drawn.
-- **Spaces**, **Exposé** and **Cycling** - All define how the window behaves in those macOS environments. 
-- **Full Screen** - Determines if this window can enter the full screen mode. 
+- **Spaces**, **Exposé** and **Cycling** - All define how the window behaves in those macOS environments.
+- **Full Screen** - Determines if this window can enter the full screen mode.
 - **Animation** - Controls the type of animation available for the window.
 - **Appearance** - Controls the appearance of the window. For now there is only one appearance, Aqua.
 
@@ -154,15 +154,15 @@ Do the following:
 
 1. Open the app's Storyboard in Xcode's Interface Builder.
 2. Select the `NSWindowController` in the  Design Surface.
-3. Switch to the **Identity Inspector** view and enter `WindowController` as the **Class Name**: 
+3. Switch to the **Identity Inspector** view and enter `WindowController` as the **Class Name**:
 
     [![Setting the class name](window-images/windowcontroller01.png)](window-images/windowcontroller01.png#lightbox)
 4. Save your changes and return to Visual Studio for Mac to sync.
-5. A `WindowController.cs` file will be added to your Project in the **Solution Explorer** in Visual Studio for Mac: 
+5. A `WindowController.cs` file will be added to your Project in the **Solution Explorer** in Visual Studio for Mac:
 
     [![Selecting the windows controller](window-images/windowcontroller02.png)](window-images/windowcontroller02.png#lightbox)
 6. Reopen the Storyboard in Xcode's Interface Builder.
-7. The `WindowController.h` file will be available for use: 
+7. The `WindowController.h` file will be available for use:
 
     [![Editing the WindowController.h file](window-images/windowcontroller03.png)](window-images/windowcontroller03.png#lightbox)
 
@@ -205,7 +205,7 @@ For any window that you create and work with in your Xamarin.Mac application, th
 1. Expose the window's UI elements to C# code via **Outlets** and **Actions**.
 1. Save your changes and switch back to Visual Studio for Mac to sync with Xcode.
 
-Now that we have a basic window created, we'll look at the typical processes a Xamarin.Mac application does when working with windows. 
+Now that we have a basic window created, we'll look at the typical processes a Xamarin.Mac application does when working with windows.
 
 ## Displaying the default window
 
@@ -491,7 +491,7 @@ In the example code we are casting each returned window to the custom `ViewContr
 
 There are times when the application needs to resize a window in code. To resize and reposition a window, you adjust it's `Frame` property. When adjusting a window's size, you usually need to also adjust it's origin, to keep the window in the same location because of macOS's coordinate system.
 
-Unlike iOS where the upper left hand corner represents (0,0), macOS uses a mathematic coordinate system where the lower left hand corner of the screen represents (0,0). In iOS the coordinates increase as you move downward towards the right. In macOS, the coordinates increase in value upwards to the right. 
+Unlike iOS where the upper left hand corner represents (0,0), macOS uses a mathematic coordinate system where the lower left hand corner of the screen represents (0,0). In iOS the coordinates increase as you move downward towards the right. In macOS, the coordinates increase in value upwards to the right.
 
 The following example code resizes a window:
 
@@ -660,13 +660,13 @@ To add a new window, do the following:
 2. Drag a new **Window Controller** from the **Library** and drop it on the **Design Surface**:
 
     [![Selecting a new Window Controller in the Library](window-images/new01.png)](window-images/new01.png#lightbox)
-3. In the **Identity Inspector**, enter `PreferencesWindow` for the **Storyboard ID**: 
+3. In the **Identity Inspector**, enter `PreferencesWindow` for the **Storyboard ID**:
 
     [![Setting the storyboard ID](window-images/new02.png)](window-images/new02.png#lightbox)
-4. Design your interface: 
+4. Design your interface:
 
     [![Designing the UI](window-images/new03.png)](window-images/new03.png#lightbox)
-5. Open the App Menu (`MacWindows`), select **Preferences...**, Control-Click and drag to the new window: 
+5. Open the App Menu (`MacWindows`), select **Preferences...**, Control-Click and drag to the new window:
 
     [![Creating a segue](window-images/new05.png)](window-images/new05.png#lightbox)
 6. Select **Show** from the popup menu.
@@ -678,7 +678,7 @@ If we run the code and select the **Preferences...** from the **Application Menu
 
 ## Working with panels
 
-As stated at the start of this article, a panel floats above other windows and provides tools or controls that users can work with while documents are open. 
+As stated at the start of this article, a panel floats above other windows and provides tools or controls that users can work with while documents are open.
 
 Just like any other type of window that you create and work with in your Xamarin.Mac application, the process is basically the same:
 
@@ -706,24 +706,24 @@ To add a new Panel, do the following:
     [![Adding a new window controller](window-images/panels00.png)](window-images/panels00.png#lightbox)
 
 3. Enter `DocumentPanel` for the **Name** and click the **New** button.
-4. Double-click the `DocumentPanel.xib` file to open it for editing in Interface Builder: 
+4. Double-click the `DocumentPanel.xib` file to open it for editing in Interface Builder:
 
     [![Editing the panel](window-images/new02.png)](window-images/new02.png#lightbox)
 
-5. Delete the existing Window and drag a Panel from the **Library Inspector** in the **Interface Editor**: 
+5. Delete the existing Window and drag a Panel from the **Library Inspector** in the **Interface Editor**:
 
     [![Deleting the existing window](window-images/panels01.png)](window-images/panels01.png#lightbox)
 
-6. Hook the panel up to the **File's Owner** - **window** - **Outlet**: 
+6. Hook the panel up to the **File's Owner** - **window** - **Outlet**:
 
     [![Dragging to wire up the panel](window-images/panels02.png)](window-images/panels02.png#lightbox)
 
-7. Switch to the **Identity Inspector** and set the Panel's class to `DocumentPanel`: 
+7. Switch to the **Identity Inspector** and set the Panel's class to `DocumentPanel`:
 
     [![Setting the panel's class](window-images/panels03.png)](window-images/panels03.png#lightbox)
 
 8. Save your changes and return to Visual Studio for Mac to sync with Xcode.
-9. Edit the `DocumentPanel.cs` file and change the class definition to the following: 
+9. Edit the `DocumentPanel.cs` file and change the class definition to the following:
 
     `public partial class DocumentPanel : NSPanel`
 
@@ -746,7 +746,7 @@ If we run our application, the panel will be displayed:
 [![The panel in a running app](window-images/panels04.png)](window-images/panels04.png#lightbox)
 
 > [!IMPORTANT]
-> Panel Windows have been deprecated by Apple and should be replaced with **Inspector Interfaces**. For a full example of creating an **Inspector** in a Xamarin.Mac app, please see our [MacInspector](/samples/xamarin/mac-samples/macinspector) sample app.
+> Panel Windows have been deprecated by Apple and should be replaced with **Inspector Interfaces**.
 
 ## Summary
 
@@ -754,8 +754,6 @@ This article has taken a detailed look at working with Windows and Panels in a X
 
 ## Related links
 
-- [MacWindows (sample)](/samples/xamarin/mac-samples/macwindows)
-- [MacInspector (sample)](/samples/xamarin/mac-samples/macinspector)
 - [Hello, Mac](~/mac/get-started/hello-mac.md)
 - [Working with Menus](~/mac/user-interface/menu.md)
 - [macOS design themes (Apple)](https://developer.apple.com/design/human-interface-guidelines/macos/overview/themes/)

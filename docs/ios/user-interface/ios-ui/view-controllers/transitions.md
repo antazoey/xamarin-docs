@@ -254,6 +254,5 @@ As the user pinches the collection view, the `TransitionProgress` is set relativ
 
 ## Related Links
 
-- [Intro to iOS 7 (sample)](/samples/xamarin/ios-samples/introtoios7)
 - [iOS 7 User Interface Overview](~/ios/platform/introduction-to-ios7/ios7-ui.md)
 - [Backgrounding](~/ios/app-fundamentals/backgrounding/index.md)

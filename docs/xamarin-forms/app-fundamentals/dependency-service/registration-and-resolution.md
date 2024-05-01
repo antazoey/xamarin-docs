@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms DependencyService Registration and Resolution
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/dependencyservice/)
-
 When using the Xamarin.Forms [`DependencyService`](xref:Xamarin.Forms.DependencyService) to invoke native platform functionality, platform implementations must be registered with the `DependencyService`, and then resolved from shared code to invoke them.
 
 ## Register platform implementations
@@ -185,5 +183,4 @@ For more information about calling an object's `Dispose` method, see [Using obje
 
 ## Related links
 
-- [DependencyService Demos (sample)](/samples/xamarin/xamarin-forms-samples/dependencyservice/)
 - [Dependency resolution in Xamarin.Forms](~/xamarin-forms/internals/dependency-resolution.md)

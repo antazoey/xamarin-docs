@@ -19,7 +19,3 @@ The first part of this guide describes how to create an application that transla
 ## [Part 2: Deep Dive](~/ios/get-started/hello-ios/hello-ios-deepdive.md)
 
 The second part of this document reviews what application built and provides the fundamental understanding of how iOS applications work.
-
-## Related Links
-
-- [Hello, iOS (sample)](/samples/xamarin/ios-samples/hello-ios)

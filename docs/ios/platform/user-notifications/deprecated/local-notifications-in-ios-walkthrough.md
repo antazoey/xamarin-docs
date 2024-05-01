@@ -124,5 +124,4 @@ how to update the application icon with a badge to provide some application spec
 
 ## Related Links
 
-- [Local Notifications (sample)](/samples/xamarin/ios-samples/localnotifications)
 - [Local and Push Notifications Programming Guide](https://developer.apple.com/library/prerelease/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/)

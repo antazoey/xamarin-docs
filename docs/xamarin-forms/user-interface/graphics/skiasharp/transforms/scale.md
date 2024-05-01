@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # The Scale Transform
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)
-
 _Discover the SkiaSharp scale transform for scaling objects to various sizes_
 
 As you've seen in [**The Translate Transform**](translate.md) article, the translate transform can move a graphical object from one location to another. In contrast, the scale transform changes the size of the graphical object:
@@ -343,4 +341,3 @@ The code also displays the star 10 more times, each time decreasing the scaling 
 ## Related Links
 
 - [SkiaSharp APIs](/dotnet/api/skiasharp)
-- [SkiaSharpFormsDemos (sample)](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)

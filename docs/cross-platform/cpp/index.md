@@ -769,7 +769,6 @@ This article explained how to create a Xamarin.Forms app that uses native librar
 
 - [Hyperlapse cross-platform mobile development with C++](https://blogs.msdn.microsoft.com/vcblog/2015/06/26/hyperlapse-cross-platform-mobile-development-with-visual-c-and-xamarin/)
 - [Microsoft Pix (C++ and Xamarin)](https://devblogs.microsoft.com/xamarin/microsoft-research-ships-intelligent-apps-with-the-power-of-c-and-ai/)
-- [Mono San Angeles Sample Port](/samples/xamarin/monodroid-samples/sanangeles-ndk/)
 
 ### Further Reading
 

@@ -1253,7 +1253,3 @@ To inform to Contact app of the contact numbers known to the VOIP app, use the `
 ## Summary
 
 This article has covered the new CallKit API that Apple released in iOS 10 and how to implement it in Xamarin.iOS VOIP apps. It has shown how CallKit allows an app to integrate into the iOS System, how it provides feature parity with built-in apps (such as Phone) and how it increases an app's visibility throughout iOS in locations such as the Lock and Home Screens, via Siri interactions and via the Contacts apps.
-
-## Related links
-
-- [iOS 10 Samples](/samples/browse/?products=xamarin&term=Xamarin.iOS%2biOS10)

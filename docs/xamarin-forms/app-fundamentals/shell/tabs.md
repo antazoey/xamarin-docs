@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms Shell tabs
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-xaminals/)
-
 The navigation experience provided by Xamarin.Forms Shell is based on flyouts and tabs. The top level of navigation in a Shell application is either a flyout or a bottom tab bar, depending on the navigation requirements of the application. When the navigation experience for an application begins with bottom tabs, the child of the subclassed [`Shell`](xref:Xamarin.Forms.Shell) object should be a [`TabBar`](xref:Xamarin.Forms.TabBar) object, which represents the bottom tab bar.
 
 A [`TabBar`](xref:Xamarin.Forms.TabBar) object can contain one or more [`Tab`](xref:Xamarin.Forms.Tab) objects, with each `Tab` object representing a tab on the bottom tab bar. Each `Tab` object can contain one or more [`ShellContent`](xref:Xamarin.Forms.ShellContent) objects, with each `ShellContent` object displaying a single [`ContentPage`](xref:Xamarin.Forms.ContentPage). When more than one `ShellContent` object is present in a `Tab` object, the `ContentPage` objects will be navigable by top tabs. Within a tab, additional `ContentPage` objects that are known as detail pages, can be navigated to.
@@ -274,6 +272,5 @@ In this example, the second tab is hidden.
 
 ## Related links
 
-- [Xaminals (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-xaminals/)
 - [Xamarin.Forms Shell navigation](navigation.md)
 - [Xamarin.Forms CSS Shell specific properties](~/xamarin-forms/user-interface/styles/css/index.md#xamarinforms-shell-specific-properties)

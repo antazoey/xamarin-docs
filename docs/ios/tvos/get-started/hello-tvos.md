@@ -15,9 +15,9 @@ no-loc: [Objective-C]
 _This guide walks through creating your first Xamarin.tvOS app and its development toolchain. It also introduces the Xamarin Designer, which exposes UI controls to code, and illustrates how to build, run, and test a Xamarin.tvOS application._
 
 > [!WARNING]
-> The iOS Designer was deprecated in Visual Studio 2019 version 16.8 and Visual Studio 2019 for Mac version 8.8, and 
+> The iOS Designer was deprecated in Visual Studio 2019 version 16.8 and Visual Studio 2019 for Mac version 8.8, and
 > removed in Visual Studio 2019 version 16.9 and Visual Studio for Mac version 8.9.
-> The recommended way to build iOS user interfaces is directly on a Mac running Xcode's Interface Builder. For more information, see [Designing user interfaces with Xcode](~/ios/user-interface/storyboards/index.md). 
+> The recommended way to build iOS user interfaces is directly on a Mac running Xcode's Interface Builder. For more information, see [Designing user interfaces with Xcode](~/ios/user-interface/storyboards/index.md).
 
 Apple has released the 5th generation of the Apple TV, the Apple TV 4K, which runs tvOS 11.
 
@@ -494,7 +494,6 @@ This article provided a quick start to developing apps for tvOS with Visual Stud
 
 ## Related Links
 
-- [tvOS Samples](/samples/browse/?products=xamarin&term=Xamarin.iOS%2btvOS)
 - [tvOS](https://developer.apple.com/tvos/)
 - [tvOS Human Interface Guides](https://developer.apple.com/design/human-interface-guidelines/designing-for-tvos)
 - [App Programming Guide for tvOS](https://developer.apple.com/library/prerelease/tvos/documentation/General/Conceptual/AppleTV_PG/)

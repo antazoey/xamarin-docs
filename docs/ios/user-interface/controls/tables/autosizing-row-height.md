@@ -12,9 +12,9 @@ no-loc: [Objective-C]
 
 # Auto-Sizing Row Height in Xamarin.iOS
 > [!WARNING]
-> The iOS Designer was deprecated in Visual Studio 2019 version 16.8 and Visual Studio 2019 for Mac version 8.8, and 
+> The iOS Designer was deprecated in Visual Studio 2019 version 16.8 and Visual Studio 2019 for Mac version 8.8, and
 > removed in Visual Studio 2019 version 16.9 and Visual Studio for Mac version 8.9.
-> The recommended way to build iOS user interfaces is directly on a Mac running Xcode's Interface Builder. For more information, see [Designing user interfaces with Xcode](~/ios/user-interface/storyboards/index.md). 
+> The recommended way to build iOS user interfaces is directly on a Mac running Xcode's Interface Builder. For more information, see [Designing user interfaces with Xcode](~/ios/user-interface/storyboards/index.md).
 
 Starting with iOS 8, Apple added the ability to create a Table View (`UITableView`) that can automatically grow and shrink the height of a given Row based on the size of its content using Auto Layout, Size Classes and Constraints.
 
@@ -108,7 +108,3 @@ This estimate doesn't have to be exact, just a rough estimate of the average hei
 With this code in place, when the app is run, each row will shrink and grow based on the height of the last Label in the Cell Prototype. For example:
 
 [![A sample table run](autosizing-row-height-images/table07.png)](autosizing-row-height-images/table07.png#lightbox)
-
-## Related Links
-
-- [GrowRowTable (sample)](/samples/xamarin/ios-samples/growrowtable)

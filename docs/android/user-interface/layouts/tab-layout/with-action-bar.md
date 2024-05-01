@@ -235,7 +235,6 @@ versions of Android.
 
 ## Related Links
 
-- [ActionBarTabs (sample)](/samples/xamarin/monodroid-samples/userinterface-actionbartabs)
 - [Toolbar](~/android/user-interface/controls/tool-bar/index.md)
 - [Fragments](~/android/platform/fragments/index.md)
 - [ActionBar](https://developer.android.com/guide/topics/ui/actionbar.html)

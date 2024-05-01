@@ -23,9 +23,7 @@ screen:
 Each section contains instructions to write the code from scratch.
 
 Follow the instructions below to add code to the storyboard, and learn about
-the different types of touch events available in iOS. Alternatively, open the
-[finished sample](/samples/xamarin/ios-samples/applicationfundamentals-touch-final) to
-see everything working.
+the different types of touch events available in iOS.
 
 <a name="Touch_Samples"></a>
 
@@ -497,7 +495,3 @@ the **CustomGestureViewController.cs** file and add the following two instance v
 
 The above three sections demonstrated different ways to respond to touch events in iOS: using
 touch events, built-in gesture recognizers, or with a custom gesture recognizer.
-
-## Related Links
-
-- [iOS Touch Final (sample)](/samples/xamarin/ios-samples/applicationfundamentals-touch-final)

@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # The Skew Transform
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)
-
 _See how the skew transform can create tilted graphical objects in SkiaSharp_
 
 In SkiaSharp, the skew transform tilts graphical objects, such as the shadow in this image:
@@ -249,4 +247,3 @@ Now the shadow extends from the bottom of those descenders:
 ## Related Links
 
 - [SkiaSharp APIs](/dotnet/api/skiasharp)
-- [SkiaSharpFormsDemos (sample)](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)

@@ -286,7 +286,7 @@ To create a new Certificate for this Pass Type ID, do the following:
     [![Select Create Certificate](passkit-images/cert-dist.png)](passkit-images/cert-dist.png#lightbox)
 
 2. Follow the steps to create a Certificate Signing Request (CSR).
-  
+
 3. Press the **Continue** button on the developer portal and upload the CSR to generate your certificate.
 
 4. Download the certificate and double-click on it to install it in your keychain.
@@ -308,7 +308,7 @@ on the simulator or a device. The steps to create a pass are:
 - Sign manifest.json with the downloaded certificate .p12 file.
 - ZIP the directory’s contents and rename with .pkpass extension.
 
-There are some source files in the [sample code](/samples/xamarin/ios-samples/passkit) for this article that can be
+There are some source files in the sample code for this article that can be
 used to generate a pass. Use the files in the `CouponBanana.raw`
 directory of the CreateAPassManually directory. The following files are
 present:
@@ -382,7 +382,7 @@ Features of Wallet include:
 Passes can be added to Wallet in the following ways:
 
 - **Conduit Apps** – These do not manipulate passes directly, they simply load pass files
-and present the user with the option of adding them to Wallet. 
+and present the user with the option of adding them to Wallet.
 
 - **Companion Apps** – These are written by providers to distribute passes and offer
 additional functionality to browse or edit them. Xamarin.iOS applications have
@@ -502,8 +502,7 @@ The following PassKit classes are available for apps to access passes:
 
 ## Example
 
-Refer to the PassLibrary project in the [sample
-code](/samples/xamarin/ios-samples/passkit) for this
+Refer to the PassLibrary project in the sample for this
 article. It demonstrates the following common functions that would be
 required in a Wallet Companion Application:
 
@@ -542,7 +541,7 @@ var passes = library.GetPasses ();  // returns PKPass[]
 
 Note that the simulator does not filter the list of passes returned, so this
 method should always be tested on real devices. This list can be
-displayed in a UITableView. The [sample app](/samples/xamarin/ios-samples/passkit) looks like
+displayed in a UITableView. The sample app looks like
 this after two coupons have been added:
 
  [![The sample app look like this after two coupons have been added](passkit-images/image29.png)](passkit-images/image29.png#lightbox)
@@ -566,7 +565,7 @@ string passInfo =
                 + "\nPassUrl:" + pass.PassUrl;
 ```
 
-This string is shown as an alert in the [sample](/samples/xamarin/ios-samples/passkit):
+This string is shown as an alert in the sample:
 
  [![The Coupon Selected alert in the sample](passkit-images/image30.png)](passkit-images/image30.png#lightbox)
 
@@ -650,7 +649,7 @@ notification because PKPassLibrary is not a singleton.
 
 ## Server Processing
 
-A detailed discussion of building a server application to support PassKit is 
+A detailed discussion of building a server application to support PassKit is
 beyond the scope of this introductory article.
 
 See [dotnet-passbook](https://github.com/tomasmcguinness/dotnet-passbook)
@@ -677,7 +676,6 @@ how to access the PassKit APIs from a Xamarin.iOS application.
 ## Related Links
 
 - [Wallet for Developers](https://developer.apple.com/wallet/)
-- [PassKit Sample](/samples/xamarin/ios-samples/passkit)
 - [Wallet Developer Guide](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/PassKit_PG/index.html#//apple_ref/doc/uid/TP40012195-CH1-SW1)
 - [Frameworks – Apple Pay and Wallet (WWDC videos)](https://developer.apple.com/videos/frameworks/apple-pay-and-wallet)
 - [PassKit Framework Reference](https://developer.apple.com/library/prerelease/ios/#documentation/UserExperience/Reference/PassKit_Framework/_index.html)

@@ -102,7 +102,7 @@ The [HomeKit](xref:HomeKit) framework, introduced in iOS 8, provides the ability
 
 In iOS 9, Apple has made setup easier, expanded the types of accessories supported and provided more accessory interactions (such as controlling an accessory remotely via iCloud).
 
-For more information, see our [Introduction to HomeKit](~/ios/platform/homekit.md), [HomeKitIntro iOS Sample App](/samples/xamarin/ios-samples/homekit-homekitintro) and Apple's [HomeKit](https://developer.apple.com/homekit/) documentation.
+For more information, see our [Introduction to HomeKit](~/ios/platform/homekit.md) and Apple's [HomeKit](https://developer.apple.com/homekit/) documentation.
 
 ## Handoff Framework Changes
 
@@ -183,27 +183,8 @@ Apple has deprecated the following APIs and functions in iOS 9:
 For a complete list of specific API deprecations, see Apple's
 [iOS 9.0 API Diffs](https://developer.apple.com/library/prerelease/ios/releasenotes/General/iOS90APIDiffs/index.html#//apple_ref/doc/uid/TP40016222) documentation.
 
-## iOS 9 Sample Apps
-
-We have some [iOS 9-specific samples](/samples/browse/?products=xamarin&term=Xamarin.iOS%2biOS9) to get started:
-
-- [AstroLayout](https://github.com/xamarin/monotouch-samples/tree/master/ios9/AstroLayout)
-- [CollectionView](https://github.com/xamarin/monotouch-samples/tree/master/ios9/CollectionView)
-- [MetalPerformanceShadersHelloWorld](/samples/xamarin/ios-samples/ios9-metalperformanceshadershelloworld)
-- [MusicMotion](/samples/xamarin/ios-samples/ios9-musicmotion)
-- [PhotoProgress](/samples/xamarin/ios-samples/ios9-photoprogress)
-- [SegueCatalog](/samples/xamarin/ios-samples/ios9-seguecatalog)
-- [StackView](https://github.com/xamarin/monotouch-samples/tree/master/ios9/StackView)
-- [StickyCorners](https://github.com/xamarin/monotouch-samples/tree/master/ios9/StickyCorners)
-
-Also check out the iOS portions of these samples (companion Mac OS X versions coming!):
-
-- [AgentsCatalog](https://github.com/xamarin/mac-ios-samples/tree/master/AgentsCatalog)
-- [MetalKitEssentials](https://github.com/xamarin/mac-ios-samples/tree/master/MetalKitEssentials)
-
 ## Related Links
 
-- [iOS 9 Samples](/samples/browse/?products=xamarin&term=Xamarin.iOS%2biOS9)
 - [Introduction to 3D Touch](~/ios/platform/3d-touch.md)
 - [App Transport Security](~/ios/app-fundamentals/ats.md)
 - [Multitasking for iPad](~/ios/platform/multitasking.md)

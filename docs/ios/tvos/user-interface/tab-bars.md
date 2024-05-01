@@ -56,7 +56,7 @@ The easiest way to work with Tab Bars in a Xamarin.tvOS app is to add them to th
 
 # [Visual Studio for Mac](#tab/macos)
 
-1. Start a new Xamarin.tvOS app and select **tvOS** > **App** > **Tabbed App**: 
+1. Start a new Xamarin.tvOS app and select **tvOS** > **App** > **Tabbed App**:
 
     [![Select Tabbed App](tab-bars-images/tab02.png)](tab-bars-images/tab02.png#lightbox)
 1. Follow all of the prompts to create a new Xamarin.tvOS Solution.
@@ -64,14 +64,14 @@ The easiest way to work with Tab Bars in a Xamarin.tvOS app is to add them to th
 1. To change the **Icon** or **Title** for a given Category, select the **Tab Bar Item** for the **View Controller** in the **Document Outline**:
 
     [![The Tab Bar Item for the View Controller in the Document Outline](tab-bars-images/tab03a.png)](tab-bars-images/tab03a.png#lightbox)
-1. Then set the required properties in the **Widget Tab** of the **Properties Explorer**: 
+1. Then set the required properties in the **Widget Tab** of the **Properties Explorer**:
 
     [![The Widget Tab](tab-bars-images/tab03.png)](tab-bars-images/tab03.png#lightbox)
-1. To add a new Category (Tab), drop a **View Controller** onto your design surface: 
+1. To add a new Category (Tab), drop a **View Controller** onto your design surface:
 
     [![A View Controller](tab-bars-images/tab04.png)](tab-bars-images/tab04.png#lightbox)
 1. Control-click and drag from the **Tab View Controller** to the new **View Controller**.
-1. From the popup, select **view controllers** to add the new view as a Tab (Category): 
+1. From the popup, select **view controllers** to add the new view as a Tab (Category):
 
     [![Select Tab](tab-bars-images/tab05.png)](tab-bars-images/tab05.png#lightbox)
 1. Design the layout of the UI for each Caterogies content area as normal, by adding UI elements in the iOS Designer.
@@ -81,7 +81,7 @@ The easiest way to work with Tab Bars in a Xamarin.tvOS app is to add them to th
 
 # [Visual Studio](#tab/windows)
 
-1. Start a new Xamarin.tvOS app and select **tvOS** > **App** > **Tabbed App**: 
+1. Start a new Xamarin.tvOS app and select **tvOS** > **App** > **Tabbed App**:
 
     [![Select Tabbed App](tab-bars-images/tab02vs.png)](tab-bars-images/tab02vs.png#lightbox)
 1. Follow all of the prompts to create a new Xamarin.tvOS Solution.
@@ -89,14 +89,14 @@ The easiest way to work with Tab Bars in a Xamarin.tvOS app is to add them to th
 1. To change the **Icon** or **Title** for a given Category, select the **Tab Bar Item** for the **View Controller** in the **Document Outline**:
 
     [![The View Controller in the Document Outline](tab-bars-images/tab03avs.png)](tab-bars-images/tab03avs.png#lightbox)
-1. Then set the required properties in the **Widget Tab** of the **Properties Explorer**: 
+1. Then set the required properties in the **Widget Tab** of the **Properties Explorer**:
 
     [![The Widget Tab](tab-bars-images/tab03vs.png)](tab-bars-images/tab03vs.png#lightbox)
-1. To add a new Category (Tab), drag a **View Controller** from the **Toolbox** and drop it onto your design surface: 
+1. To add a new Category (Tab), drag a **View Controller** from the **Toolbox** and drop it onto your design surface:
 
     [![A View Controller](tab-bars-images/tab04vs.png)](tab-bars-images/tab04vs.png#lightbox)
 1. Control-click and drag from the **Tab View Controller** to the new **View Controller**.
-1. From the popup, select **view controllers** to add the new view as a Tab (Category): 
+1. From the popup, select **view controllers** to add the new view as a Tab (Category):
 
     [![Select Tab](tab-bars-images/tab05vs.png)](tab-bars-images/tab05vs.png#lightbox)
 1. Design the layout of the UI for each Caterogies content area as normal, by adding UI elements in iOS Designer.
@@ -109,7 +109,7 @@ The easiest way to work with Tab Bars in a Xamarin.tvOS app is to add them to th
 > [!IMPORTANT]
 > While it is possible to assign events such as `TouchUpInside` to a UI element (such as a `UIButton`) in the iOS Designer, it will never be called because Apple TV doesn't have a touch screen or support touch events. You should always use the `Primary Action` event when creating event handlers for tvOS user interface elements.
 
-For more information on working with Storyboards, please see our [Hello, tvOS Quick Start Guide](~/ios/tvos/get-started/hello-tvos.md). 
+For more information on working with Storyboards, please see our [Hello, tvOS Quick Start Guide](~/ios/tvos/get-started/hello-tvos.md).
 
 <a name="Working-with-Tab-Bars"></a>
 
@@ -142,7 +142,6 @@ This article has covered designing and working with Tab Bar Controller inside of
 
 ## Related Links
 
-- [tvOS Samples](/samples/browse/?products=xamarin&term=Xamarin.iOS%2btvOS)
 - [tvOS](https://developer.apple.com/tvos/)
 - [tvOS Human Interface Guides](https://developer.apple.com/design/human-interface-guidelines/designing-for-tvos)
 - [App Programming Guide for tvOS](https://developer.apple.com/library/prerelease/tvos/documentation/General/Conceptual/AppleTV_PG/)

@@ -284,6 +284,5 @@ This code creates a new `UIImageView` and gives it an initial size and position.
 
 ## Related links
 
-- [Working with Images (sample)](/samples/xamarin/ios-samples/workingwithimages)
 - [Hello, iPhone](~/ios/get-started/hello-ios/index.md)
 - [Image Size and Resolution (Apple)](https://developer.apple.com/design/human-interface-guidelines/ios/icons-and-images/image-size-and-resolution/)

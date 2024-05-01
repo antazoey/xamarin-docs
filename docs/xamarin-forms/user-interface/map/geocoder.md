@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms Map Geocoding
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/workingwithmaps)
-
 The [`Xamarin.Forms.Maps`](xref:Xamarin.Forms.Maps) namespace provides a [`Geocoder`](xref:Xamarin.Forms.Maps.Geocoder) class, which converts between string addresses and latitude and longitude coordinates that are stored in [`Position`](xref:Xamarin.Forms.Maps.Position) objects. For more information about the [`Position`](xref:Xamarin.Forms.Maps.Position) struct, see [Map Position and Distance](position-distance.md).
 
 > [!NOTE]
@@ -53,6 +51,5 @@ The [`GetAddressesForPositionAsync`](xref:Xamarin.Forms.Maps.Geocoder.GetAddress
 
 ## Related links
 
-- [Maps Sample](/samples/xamarin/xamarin-forms-samples/workingwithmaps)
 - [Xamarin.Forms Map Position and Distance](position-distance.md)
 - [Geocoder API](xref:Xamarin.Forms.Maps.Geocoder)

@@ -45,6 +45,5 @@ For more information about document types, see Apple’s [Uniform Type Identifie
 
 ## Related Links
 
-- [Working with Images (sample)](/samples/xamarin/ios-samples/workingwithimages)
 - [Hello, iPhone](~/ios/get-started/hello-ios/index.md)
 - [Custom Icon and Image Creation Guidelines](https://developer.apple.com/library/ios/#documentation/UserExperience/Conceptual/MobileHIG/IconsImages/IconsImages.html)

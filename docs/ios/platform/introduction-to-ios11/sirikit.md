@@ -49,9 +49,7 @@ tasks and notes via Siri voice requests.
 
 - Have a title and a content field.
 
-Both tasks and notes can be organized into groups. The rest of this section
-describes how to implement this new domain with SiriKit, using the
-[TasksNotes SiriKit Example](/samples/xamarin/ios-samples/ios11-sirikitsample).
+Both tasks and notes can be organized into groups.
 
 ### How to Process a SiriKit Request
 
@@ -114,9 +112,6 @@ Learn more about these methods and responses in Apple's [SiriKit lists and notes
 
 ### Implementing Lists and Notes
 
-The [TasksNotes SiriKit Example](/samples/xamarin/ios-samples/ios11-sirikitsample) was
-created using the following steps to add SiriKit support to a blank iOS app.
-
 First, to add SiriKit support, follow these steps for your iOS app:
 
 1. Tick **SiriKit** in **Entitlements.plist**.
@@ -165,14 +160,14 @@ going to handling lists and notes intents, it also implements
 > [!NOTE]
 >
 > - There is a convention in .NET for interfaces to be prefixed with a
->   capital `I`, which Xamarin adheres to when binding protocols from the 
+>   capital `I`, which Xamarin adheres to when binding protocols from the
 >   iOS SDK.
-> - Xamarin also preserves type names from iOS, and Apple uses the first two 
->   characters in type names to reflect the framework that a type belongs 
+> - Xamarin also preserves type names from iOS, and Apple uses the first two
+>   characters in type names to reflect the framework that a type belongs
 >   to.
-> - For the `Intents` framework, types are prefixed with `IN*` 
+> - For the `Intents` framework, types are prefixed with `IN*`
 >   (eg. `INExtension`) but these are _not_ interfaces.
-> - It also follows that protocols (which become interfaces in C#) end up 
+> - It also follows that protocols (which become interfaces in C#) end up
 >   with two `I`s, such as `IINAddTasksIntentHandling`.
 
 #### Handling Intents
@@ -266,5 +261,4 @@ _Objective-C exception thrown.  Name: NSInternalInconsistencyException Reason: U
 ## Related Links
 
 - [SiriKit (Apple)](https://developer.apple.com/documentation/sirikit)
-- [TasksNotes SiriKit Sample](/samples/xamarin/ios-samples/ios11-sirikitsample)
 - [What's New in SiriKit (WWDC) (video)](https://developer.apple.com/videos/play/wwdc2017/214/)

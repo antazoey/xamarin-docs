@@ -1,6 +1,6 @@
 ---
 title: "Touch in Android"
-description: Learn about the object created by the Android operating system which holds data about a user's physical touch interaction with the screen. 
+description: Learn about the object created by the Android operating system which holds data about a user's physical touch interaction with the screen.
 ms.service: xamarin
 ms.assetid: 405A1FA0-4EFA-4AEB-B672-F36307B9CF16
 ms.subservice: xamarin-android
@@ -49,7 +49,7 @@ respond to a touch event:
    `OnTouchEvent` and pass it a `MotionEvent` object as a parameter.
 
 > [!NOTE]
-> Not all Android devices support touch screens. 
+> Not all Android devices support touch screens.
 
 Adding the following tag to your manifest file causes Google Play to
 only display your app to those devices that are touch enabled:
@@ -151,7 +151,7 @@ Gesture Tool allows you create a gesture by drawing on the screen and
 assigning a name. After the gestures are created they are saved in a
 binary file on the SD card of your device. This file needs to be
 retrieved from the device, and then packaged with an application in the
-folder /Resources/raw. This file can be retrieved from the emulator using 
+folder /Resources/raw. This file can be retrieved from the emulator using
 the Android Debug Bridge. The following example shows copying the
 file from a Galaxy Nexus to the Resource directory of an application:
 
@@ -236,8 +236,3 @@ With this done, you should have an understanding of how to use touch
 and gestures in a Xamarin.Android application. Let us now move on to a
 walkthrough and see all of the concepts in a working sample
 application.
-
-## Related Links
-
-- [Android Touch Start (sample)](/samples/xamarin/monodroid-samples/applicationfundamentals-touch-start)
-- [Android Touch Final (sample)](/samples/xamarin/monodroid-samples/applicationfundamentals-touch-final)

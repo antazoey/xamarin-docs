@@ -15,10 +15,8 @@ ms.date: 10/05/2018
 
 _This two-part guide expands the Phoneword application to handle a second screen. Along the way, basic Android Application Building Blocks are introduced with a deeper dive into Android architecture._
 
-In the walkthrough portion of this guide, you'll add a second screen to the
-[Phoneword](/samples/xamarin/monodroid-samples/phoneword) application to keep track of
-the history of numbers translated using the app. The
-[final application](/samples/xamarin/monodroid-samples/phonewordmultiscreen) will have
+In the walkthrough portion of this guide, you'll add a second screen to Phoneword application to keep track of
+the history of numbers translated using the app. The final application will have
 a second screen that displays the numbers that were "translated", as illustrated by the
 screenshot on the right:
 
@@ -34,9 +32,6 @@ other new Android concepts encountered along the way.
 Because this guide picks up where [Hello, Android](~/android/get-started/hello-android/index.md)
 leaves off, it requires completion of the
 [Hello, Android Quickstart](~/android/get-started/hello-android/hello-android-quickstart.md).
-If you would like to jump directly into the walkthrough below, you can download the completed version of
-[Phoneword](/samples/xamarin/monodroid-samples/phoneword)
-(from the Hello, Android Quickstart) and use it to start the walkthrough.
 
 ## Walkthrough
 
@@ -140,7 +135,7 @@ for this Activity. This is discussed in more detail in the
 This app collects phone numbers (that the user has translated on the
 first screen) and passes them to the second screen. The phone numbers
 are stored as a list of strings. To support lists (and Intents, which
-are used later), add the following `using` directives to the top of 
+are used later), add the following `using` directives to the top of
 **MainActivity.cs**:
 
 ```csharp
@@ -160,14 +155,14 @@ public class MainActivity : Activity
 }
 ```
 
-In the `MainActivity` class, add the following code to register the 
+In the `MainActivity` class, add the following code to register the
 **Translation History** button (place this line after the `translateButton` declaration):
 
 ```csharp
 Button translationHistoryButton = FindViewById<Button> (Resource.Id.TranslationHistoryButton);
 ```
 
-Add the following code to the end of the `OnCreate` method to wire up 
+Add the following code to the end of the `OnCreate` method to wire up
 the **Translation History** button:
 
 ```csharp
@@ -326,14 +321,14 @@ public class MainActivity : Activity
 }
 ```
 
-In the `MainActivity` class, add the following code to register the 
+In the `MainActivity` class, add the following code to register the
 **TranslationHistory History** button (place this line after the `TranslationHistoryButton` declaration):
 
 ```csharp
 Button translationHistoryButton = FindViewById<Button> (Resource.Id.TranslationHistoryButton);
 ```
 
-Add the following code to the end of the `OnCreate` method to wire up 
+Add the following code to the end of the `OnCreate` method to wire up
 the **Translation History** button:
 
 ```csharp
@@ -384,5 +379,3 @@ learned &ndash; next up is the
 ## Related links
 
 - [Xamarin App Icons & Launch Screens (ZIP)](https://github.com/xamarin/monodroid-samples/blob/master/Phoneword/Resources/XamarinAndroidIcons.zip?raw=true)
-- [Phoneword (sample)](/samples/xamarin/monodroid-samples/phoneword)
-- [PhonewordMultiscreen (sample)](/samples/xamarin/monodroid-samples/phonewordmultiscreen)

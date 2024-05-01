@@ -131,7 +131,3 @@ can easily ship your apps to Google Play.
 
 To learn more about packaging Wear apps, see
 [Working with Packaging](~/android/wear/deploy-test/packaging.md).
-
-## Related Links
-
-- [SkeletonWear (sample)](/samples/xamarin/monodroid-samples/wear-skeletonwear)

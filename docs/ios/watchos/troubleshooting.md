@@ -348,8 +348,3 @@ Example:
 ```bash
 --device=:v2:runtime=com.apple.CoreSimulator.SimRuntime.iOS-8-2,devicetype=com.apple.CoreSimulator.SimDeviceType.iPhone-6
 ```
-
-## Related Links
-
-- [WatchKitCatalog (sample)](/samples/xamarin/ios-samples/watchos-watchkitcatalog)
-- [WatchTables (sample)](/samples/xamarin/ios-samples/watchos-watchtables)

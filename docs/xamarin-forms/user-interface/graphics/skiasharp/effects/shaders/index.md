@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # SkiaSharp shaders
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)
-
 You can set the [`Shader`](xref:SkiaSharp.SKPaint.Shader) property of `SKPaint` to an object of type [`SKShader`](xref:SkiaSharp.SKShader) to create several types of gradients, a tiled bitmap pattern, or Perlin noise.
 
 ## [The SkiaSharp linear gradient](linear-gradient.md)
@@ -35,4 +33,3 @@ Generate Perlin noise shaders and combine with other shaders.
 ## Related links
 
 - [SkiaSharp APIs](/dotnet/api/skiasharp)
-- [SkiaSharpFormsDemos (sample)](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)

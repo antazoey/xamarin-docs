@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms Material Visual
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-visualdemos)
-
 [Material Design](https://material.io) is an opinionated design system created by Google, that prescribes the size, color, spacing, and other aspects of how views and layouts should look and behave.
 
 Xamarin.Forms Material Visual can be used to apply Material Design rules to Xamarin.Forms applications, creating applications that look largely identical on iOS and Android. When Material Visual is enabled, supported views adopt the same design cross-platform, creating a unified look and feel.
@@ -150,7 +148,6 @@ For more information about custom renderers, see [Custom Renderers](~/xamarin-fo
 
 ## Related links
 
-- [Material Visual (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-visualdemos)
 - [Create a Xamarin.Forms Visual Renderer](create.md)
 - [Xamarin.Forms Effects](~/xamarin-forms/app-fundamentals/effects/index.md)
 - [Custom Renderers](~/xamarin-forms/app-fundamentals/custom-renderer/index.md)

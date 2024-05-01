@@ -112,6 +112,5 @@ No layout would be complete without the `Label`, `Image`,
 
 ## Related Links
 
-- [WatchKitCatalog (sample)](/samples/xamarin/ios-samples/watchos-watchkitcatalog)
 - [Apple's Layout reference](https://developer.apple.com/design/human-interface-guidelines/layout)
 - [Apple's Foundations reference](https://developer.apple.com/design/human-interface-guidelines/foundations)

@@ -151,7 +151,7 @@ public override void ViewDidLayoutSubviews ()
 {
     base.ViewDidLayoutSubviews ();
 
-    if (UIDevice.CurrentDevice.CheckSystemVersion (7, 0)) { 
+    if (UIDevice.CurrentDevice.CheckSystemVersion (7, 0)) {
         nfloat displacement_y = this.TopLayoutGuide.Length;
 
         //load subviews with displacement
@@ -163,8 +163,6 @@ public override void ViewDidLayoutSubviews ()
 We can use the value calculated above to set our `ImageView`'s displacement from the top of the screen, so the whole image is visible:
 
  [![Example ImageViews displacement from the top of the screen](ios7-ui-images/good2.png)](ios7-ui-images/good2.png#lightbox)
-
-Refer to the [ImageViewer](/samples/xamarin/ios-samples/ios7-ui-updates/) for a working sample.
 
 The displacement value is generated dynamically after the View has been added to the hierarchy, so attempting to read `TopLayoutGuide` and `BottomLayoutGuide` values in `ViewDidLoad` will return 0. Calculate the value after the View has loaded - for example, in the `ViewDidLayoutSubviews`.
 
@@ -188,7 +186,7 @@ Because full-screen content is the default, applications configured for iOS 6 wi
 Modifying the `UIViewController.EdgesForExtendedLayout` property adjusts for this behavior. We can specify that the view not fill any edges, so our view will avoid displaying content in the space occupied by navigation or toolbars (at every orientation):
 
 ```csharp
-if (UIDevice.CurrentDevice.CheckSystemVersion (7, 0)) { 
+if (UIDevice.CurrentDevice.CheckSystemVersion (7, 0)) {
     this.EdgesForExtendedLayout = UIRectEdge.None;
 }
 ```
@@ -198,8 +196,6 @@ In our app, we'll see the view is again repositioned, so the whole image is visi
  [![Example with whole image visible](ios7-ui-images/good.png)](ios7-ui-images/good.png#lightbox)
 
 Note that while the effects of the `TopLayoutGuide/BottomLayoutGuide` and `EdgesForExtendedLayout` APIs are similar, they are meant to fill different goals. Changing the `EdgesForExtendedLayout` setting from the default may fix clipped views in applications designed for iOS 6, but a good iOS 7 design should honor the full-screen aesthetic and provide a full-screen viewing experience, relying on `TopLayoutGuide` and `BottomLayoutGuide` to properly position content that's meant to be manipulated into a comfortable place for the user.
-
-Refer to the [ImageViewer](/samples/xamarin/ios-samples/ios7-ui-updates/) for a working sample.
 
 ### Status and Navigation Bars
 
@@ -257,7 +253,3 @@ In iOS 7, the user can specify text size in the system settings. With dynamic ty
 ## Summary
 
 This article covers the changes to user interface elements in iOS 7. It examines several of the changes made to views and controls in UIKit, highlighting both the visual changes as well as changes to related APIs. Finally, it introduces new APIs to work with full screen content, new tint color support, and dynamic type.
-
-## Related Links
-
-- [ImageViewer (sample)](/samples/xamarin/ios-samples/ios7-ui-updates)

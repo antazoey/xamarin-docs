@@ -18,9 +18,7 @@ and the user's interaction with it.
 
 ## Sample app: RedGreenNotifications
 
-The code snippets in this guide come from the
-[RedGreenNotifications](/samples/xamarin/ios-samples/ios12-redgreennotifications)
-sample app, which demonstrates how to use Xamarin.iOS to work with
+The code snippets in this guide come from a sample app, which demonstrates how to use Xamarin.iOS to work with
 notification action buttons in iOS 12.
 
 This sample app sends two types of local notifications: red and green.
@@ -229,7 +227,6 @@ stay open.
 
 ## Related links
 
-- [Sample app – RedGreenNotifications](/samples/xamarin/ios-samples/ios12-redgreennotifications)
 - [User Notifications framework in Xamarin.iOS](~/ios/platform/user-notifications/index.md)
 - [Declaring Your Actionable Notification Types](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types?language=objc)
 - [UserNotifications (Apple)](https://developer.apple.com/documentation/usernotifications?language=objc)

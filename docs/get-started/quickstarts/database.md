@@ -14,8 +14,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Store data in a local SQLite.NET database
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/getstarted-notes-database/)
-
 In this quickstart, you will learn how to:
 
 - Store data locally in a SQLite.NET database.
@@ -27,7 +25,7 @@ The quickstart walks through how to store data in a local SQLite.NET database, f
 
 ## Prerequisites
 
-You should successfully complete the [previous quickstart](navigation.md) before attempting this quickstart. Alternatively, download the [previous quickstart sample](/samples/xamarin/xamarin-forms-samples/getstarted-notes-navigation/) and use it as the starting point for this quickstart.
+You should successfully complete the [previous quickstart](navigation.md) before attempting this quickstart.
 
 ::: zone pivot="windows"
 
@@ -564,5 +562,4 @@ Continue to the next quickstart to style the application with XAML styles.
 
 ## Related links
 
-- [Notes (sample)](/samples/xamarin/xamarin-forms-samples/getstarted-notes-database/)
 - [Xamarin.Forms Shell Quickstart Deep Dive](deepdive.md)

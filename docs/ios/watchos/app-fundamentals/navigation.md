@@ -60,12 +60,7 @@ Presents scenes like a stack that can be
 
 ![Scenes can be pushed onto the navigation stack](navigation-images/hierarchy-1.png) ![Scenes can be popped off of the navigation stack](navigation-images/hierarchy-2.png)
 
-As with iOS, a left-edge-swipe navigates back to the
-  parent controller in a hierarchical navigation stack.
-
-Both the [WatchKitCatalog](/samples/xamarin/ios-samples/watchos-watchkitcatalog) and
-  [WatchTables](/samples/xamarin/ios-samples/watchos-watchtables) samples include hierarchical
-  navigation.
+As with iOS, a left-edge-swipe navigates back to the parent controller in a hierarchical navigation stack.
 
 ### Pushing and Popping in Code
 
@@ -141,8 +136,3 @@ var controllerNames = new [] { "pageController", "pageController", "pageControll
 var contexts = new [] { "First", "Second", "Third", "Fourth", "Fifth" };
 PresentController (controllerNames, contexts);
 ```
-
-## Related Links
-
-- [WatchKitCatalog (sample)](/samples/xamarin/ios-samples/watchos-watchkitcatalog)
-- [WatchTables (sample)](https://developer.xamarin.com//samples/monotouch/watchOS/WatchTables/)

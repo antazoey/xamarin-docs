@@ -95,7 +95,7 @@ Sticker Packs can provide stickers in one of three available sizes:
 
 Use Xcode's Attributes Inspector to set the size for the entire Sticker Pack and only provide image assets that match the requested size, for the best results in the Sticker Browser inside of the Messages app.
 
-For more information, please see our [Ice cream Builder](/samples/xamarin/ios-samples/ios10-icecreambuilder) app and Apple's [Messages Reference](https://developer.apple.com/reference/messages).
+For more information, please see Apple's [Messages Reference](https://developer.apple.com/reference/messages).
 
 ## Creating a Custom Sticker Experience
 
@@ -707,6 +707,5 @@ This article has covered include a Message App Extension in a Xamarin.iOS soluti
 
 ## Related Links
 
-- [Ice cream Builder (sample)](/samples/xamarin/ios-samples/ios10-icecreambuilder)
 - [Messages Reference](https://developer.apple.com/reference/messages)
 - [App Extension Programming Guide](https://developer.apple.com/library/prerelease/content/documentation/General/Conceptual/ExtensibilityPG/index.html#//apple_ref/doc/uid/TP40014214)

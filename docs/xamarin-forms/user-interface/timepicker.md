@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms TimePicker
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-timepicker)
-
 _A Xamarin.Forms view that allows the user to select a time._
 
 The Xamarin.Forms [`TimePicker`](xref:Xamarin.Forms.TimePicker) invokes the platform's time-picker control and allows the user to select a time. `TimePicker` defines the following properties:
@@ -76,7 +74,7 @@ However, this is not recommended. Depending on the setting of the [`Format`](xre
 
 ## TimePicker in an application
 
-The [**SetTimer**](/samples/xamarin/xamarin-forms-samples/userinterface-timepicker) sample includes [`TimePicker`](xref:Xamarin.Forms.TimePicker), [`Entry`](xref:Xamarin.Forms.Entry), and [`Switch`](xref:Xamarin.Forms.Switch) views on its page. The `TimePicker` can be used to select a time, and when that time occurs an alert dialog is displayed that reminds the user of the text in the `Entry`, provided the `Switch` is toggled on. Here's the XAML file:
+The sample includes [`TimePicker`](xref:Xamarin.Forms.TimePicker), [`Entry`](xref:Xamarin.Forms.Entry), and [`Switch`](xref:Xamarin.Forms.Switch) views on its page. The `TimePicker` can be used to select a time, and when that time occurs an alert dialog is displayed that reminds the user of the text in the `Entry`, provided the `Switch` is toggled on. Here's the XAML file:
 
 ```xaml
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
@@ -176,5 +174,4 @@ As soon as the alert dialog is displayed, the [`Switch`](xref:Xamarin.Forms.Swit
 
 ## Related links
 
-- [SetTimer sample](/samples/xamarin/xamarin-forms-samples/userinterface-timepicker)
 - [TimePicker API](xref:Xamarin.Forms.TimePicker)

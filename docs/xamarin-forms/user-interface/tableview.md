@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms TableView
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-tableview)
-
 [`TableView`](xref:Xamarin.Forms.TableView) is a view for displaying scrollable lists of data or choices where there are rows that don't share the same template. Unlike [ListView](~/xamarin-forms/user-interface/listview/index.md), `TableView` does not have the concept of an `ItemsSource`, so items must be manually added as children.
 
 ![TableView Example](tableview-images/tableview-all-sml.png)
@@ -243,7 +241,3 @@ The following screenshots show the cell after being tapped upon:
 
 > [!IMPORTANT]
 > There is a strong possibility of performance degradation if this feature is overused.
-
-## Related links
-
-- [TableView (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-tableview)

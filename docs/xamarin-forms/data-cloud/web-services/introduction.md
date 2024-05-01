@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms Web Services Introduction
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/webservices-todorest)
-
 _This topic provides a walkthrough of the Xamarin.Forms sample application that demonstrates how to communicate with different web services. While each web service uses a separate sample application, they are functionally similar and share common classes._
 
 The sample to-do list application described below is used to demonstrate how to access different types of web service backends with Xamarin.Forms. It provides functionality to:
@@ -88,9 +86,3 @@ Web service operations are accessed through the `TodoItemManager` class, and an 
 In addition, some sample applications contain additional methods in the `TodoItemManager` class, which are used to manage the user authentication process.
 
 Rather than invoke the web service operations directly, the `TodoItemManager` methods invoke methods on a dependent class that is injected into the `TodoItemManager` constructor. For example, one sample application injects the `RestService` class into the `TodoItemManager` constructor to provide the implementation that uses REST APIs to access data.
-
-## Related links
-
-- [ASMX (sample)](/samples/xamarin/xamarin-forms-samples/webservices-todoasmx)
-- [WCF (sample)](/samples/xamarin/xamarin-forms-samples/webservices-todowcf)
-- [REST (sample)](/samples/xamarin/xamarin-forms-samples/webservices-todorest)

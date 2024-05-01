@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Theme a Xamarin.Forms Application
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-theming/)
-
 Xamarin.Forms applications can respond to style changes dynamically at runtime by using the `DynamicResource` markup extension. This markup extension is similar to the `StaticResource` markup extension, in that both use a dictionary key to fetch a value from a [`ResourceDictionary`](xref:Xamarin.Forms.ResourceDictionary). However, while the `StaticResource` markup extension performs a single dictionary lookup, the `DynamicResource` markup extension maintains a link to the dictionary key. Therefore, if the value associated with the key is replaced, the change is applied to the [`VisualElement`](xref:Xamarin.Forms.VisualElement). This enables runtime theming to be implemented in Xamarin.Forms applications.
 
 The process for implementing runtime theming in a Xamarin.Forms application is as follows:
@@ -218,7 +216,6 @@ void OnPickerSelectionChanged(object sender, EventArgs e)
 
 ## Related links
 
-- [Theming (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-theming/)
 - [Respond to system theme changes](system-theme-changes.md)
 - [Resource Dictionaries](~/xamarin-forms/xaml/resource-dictionaries.md)
 - [Dynamic Styles in Xamarin.Forms](~/xamarin-forms/user-interface/styles/xaml/dynamic.md)

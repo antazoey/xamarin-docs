@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms WebView
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/workingwithwebview)
-
 [`WebView`](xref:Xamarin.Forms.WebView) is a view for displaying web and HTML content in your app:
 
 ![In App Browser](webview-images/in-app-browser.png)
@@ -486,7 +484,7 @@ Grid *without* WidthRequest & HeightRequest. Grid is one of the few layouts that
 
 ## Invoking JavaScript
 
-[`WebView`](xref:Xamarin.Forms.WebView) includes the ability to invoke a JavaScript function from C#, and return any result to the calling C# code. This is accomplished with the [`WebView.EvaluateJavaScriptAsync`](xref:Xamarin.Forms.WebView.EvaluateJavaScriptAsync*) method, which is shown in the following example from the [WebView](/samples/xamarin/xamarin-forms-samples/userinterface-webview) sample:
+[`WebView`](xref:Xamarin.Forms.WebView) includes the ability to invoke a JavaScript function from C#, and return any result to the calling C# code. This is accomplished with the [`WebView.EvaluateJavaScriptAsync`](xref:Xamarin.Forms.WebView.EvaluateJavaScriptAsync*) method:
 
 ```csharp
 var numberEntry = new Entry { Text = "5" };
@@ -596,6 +594,4 @@ Now when you create a new (release) build and submit it to the App Store, there 
 
 ## Related Links
 
-- [Working with WebView (sample)](/samples/xamarin/xamarin-forms-samples/workingwithwebview)
-- [WebView (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-webview)
 - [UIWebView deprecation](~/ios/user-interface/controls/webview.md#uiwebview-deprecation)
