@@ -2285,7 +2285,7 @@ public class LinkWithAttribute : Attribute {
 ```
 
 This attribute is applied at the assembly level, for example, this is what
-the [CorePlot bindings](https://github.com/mono/monotouch-bindings/tree/master/CorePlot) use:
+the [CorePlot bindings](https://github.com/mono/monotouch-bindings/tree/main/CorePlot) use:
 
 ```csharp
 [assembly: LinkWith ("libCorePlot-CocoaTouch.a", LinkTarget.ArmV7 | LinkTarget.ArmV7s | LinkTarget.Simulator, Frameworks = "CoreGraphics QuartzCore", ForceLoad = true)]
