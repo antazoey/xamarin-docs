@@ -715,7 +715,7 @@ but exposing it to the library. Then you can write a method like this:
 ```csharp
 public void AppendWorkers(params Worker[] workers)
 {
-    if (workers == null)
+    if (workers is null)
          throw new ArgumentNullException ("workers");
 
     var pNativeArr = Marshal.AllocHGlobal(workers.Length * IntPtr.Size);
@@ -1296,7 +1296,7 @@ interface XyzPanel {
     [Export ("playback:withOptions:")]
     void Playback (string fileName, [NullAllowed] NSDictionary options);
 
-    [Wrap ("Playback (fileName, options == null ? null : options.Dictionary")]
+    [Wrap ("Playback (fileName, options?.Dictionary")]
     void Playback (string fileName, XyzOptions options);
 }
 ```
@@ -1372,7 +1372,7 @@ interface XyzPanel {
     [Export ("playback:withOptions:")]
     void Playback (string fileName, [NullAllowed] NSDictionary options);
 
-    [Wrap ("Playback (fileName, options == null ? null : options.Dictionary")]
+    [Wrap ("Playback (fileName, options?.Dictionary")]
     void Playback (string fileName, XyzOptions options);
 }
 ```

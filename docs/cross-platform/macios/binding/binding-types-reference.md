@@ -1885,7 +1885,7 @@ interface XyzPanel {
     [Export ("playback:withOptions:")]
     void Playback (string fileName, [NullAllowed] NSDictionary options);
 
-    [Wrap ("Playback (fileName, options == null ? null : options.Dictionary")]
+    [Wrap ("Playback (fileName, options?.Dictionary")]
     void Playback (string fileName, XyzOptions options);
 }
 ```
