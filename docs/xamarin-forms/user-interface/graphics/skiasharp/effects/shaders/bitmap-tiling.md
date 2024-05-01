@@ -12,10 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # SkiaSharp bitmap tiling
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)
-
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/catclock)
-
 As you've seen in the two previous articles, the [`SKShader`](xref:SkiaSharp.SKShader) class can create linear or circular gradients. This article focuses on the `SKShader` object that uses a bitmap to tile an area. The bitmap can be repeated horizontally and vertically, either in its original orientation or alternately flipped horizontally and vertically. The flipping avoids discontinuities between the tiles:
 
 ![Bitmap Tiling Sample](bitmap-tiling-images/BitmapTilingSample.png "Bitmap Tiling Sample")
@@ -38,7 +34,7 @@ This article contains several examples of using this matrix transform with tiled
 
 ## Exploring the tile modes
 
-The first program in the **Bitmap Tiling** section of the **Shaders and other Effects** page of the [**SkiaSharpFormsDemos**](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos) sample demonstrates the effects of the two `SKShaderTileMode` arguments. The **Bitmap Tile Flip Modes** XAML file instantiates an `SKCanvasView` and two `Picker` views that allow you to select an `SKShaderTilerMode` value for horizontal and vertical tiling. Notice that an array of the `SKShaderTileMode` members is defined in the `Resources` section:
+The first program in the **Bitmap Tiling** section of the **Shaders and other Effects** page of the sample demonstrates the effects of the two `SKShaderTileMode` arguments. The **Bitmap Tile Flip Modes** XAML file instantiates an `SKCanvasView` and two `Picker` views that allow you to select an `SKShaderTilerMode` value for horizontal and vertical tiling. Notice that an array of the `SKShaderTileMode` members is defined in the `Resources` section:
 
 ```xaml
 <?xml version="1.0" encoding="utf-8" ?>
@@ -296,7 +292,7 @@ Notice that the `SKShaderTileMode` arguments to `CreateBitmap` are both `Mirror`
 
 Some work is required to get a suitable bitmap for the tile. This one doesn't work very well because the darker brick stands out too much. It appears regularly within the repeated images, revealing the fact that this brick wall was constructed from a smaller bitmap.
 
-The **Media** folder of the [**SkiaSharpFormsDemos**](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos) sample also includes this image of a stone wall:
+The **Media** folder of the sample also includes this image of a stone wall:
 
 ![Stone Wall Tile](bitmap-tiling-images/StoneWallTile.jpg "Stone Wall Tile")
 
@@ -347,7 +343,7 @@ An `SKMatrix` value is created to scale the image to half its original size:
 
 [![Stone Wall](bitmap-tiling-images/StoneWall.png "Stone Wall")](bitmap-tiling-images/StoneWall-Large.png#lightbox)
 
-Does the transform operate on the original bitmap used in the `CreateBitmap` method? Or does it transform the resultant array of tiles? 
+Does the transform operate on the original bitmap used in the `CreateBitmap` method? Or does it transform the resultant array of tiles?
 
 An easy way to answer this question is to include a rotation as part of the transform:
 
@@ -362,7 +358,7 @@ If the transform is applied to the individual tile, then each repeated image of 
 
 In the section [**Tile alignment**](#tile-alignment), you'll see an example a translate transform applied to the shader.
 
-The standalone [**Cat Clock**](/samples/xamarin/xamarin-forms-samples/catclock) sample (not part of **SkiaSharpFormsDemos**) simulates a wood-grain background using bitmap tiling based on this 240-pixel square bitmap:
+The sample simulates a wood-grain background using bitmap tiling based on this 240-pixel square bitmap:
 
 ![Wood Grain](bitmap-tiling-images/WoodGrain.png "Wood Grain")
 
@@ -484,9 +480,9 @@ public class CenteredTilesPage : ContentPage
         {
             // ... but use them to create a translate transform
             SKMatrix matrix = SKMatrix.MakeTranslation(x, y);
-            paint.Shader = SKShader.CreateBitmap(bitmap, 
-                                                 SKShaderTileMode.Repeat, 
-                                                 SKShaderTileMode.Repeat, 
+            paint.Shader = SKShader.CreateBitmap(bitmap,
+                                                 SKShaderTileMode.Repeat,
+                                                 SKShaderTileMode.Repeat,
                                                  matrix);
 
             // Use that tiled bitmap pattern to fill a circle
@@ -631,12 +627,12 @@ public class ChainLinkFencePage : ContentPage
 
         canvas.Clear();
 
-        canvas.DrawBitmap(monkeyBitmap, info.Rect, BitmapStretch.UniformToFill, 
+        canvas.DrawBitmap(monkeyBitmap, info.Rect, BitmapStretch.UniformToFill,
                             BitmapAlignment.Center, BitmapAlignment.Start);
 
         using (SKPaint paint = new SKPaint())
         {
-            paint.Shader = SKShader.CreateBitmap(tileBitmap, 
+            paint.Shader = SKShader.CreateBitmap(tileBitmap,
                                                  SKShaderTileMode.Repeat,
                                                  SKShaderTileMode.Repeat,
                                                  SKMatrix.MakeRotationDegrees(45));
@@ -654,9 +650,9 @@ Notice that the shader is rotated 45 degrees so it is oriented like a real chain
 
 You can animate an entire bitmap-tile pattern by animating the matrix transform. Perhaps you want the pattern to move horizontally or vertically or both. You can do that by creating a translation transform based on the shifting coordinates.
 
-It's also possible to draw on a small bitmap, or to manipulate the bitmap's pixel bits at the rate of 60 times a second. That bitmap can then be used for tiling, and the entire tiled pattern can seem to be animated. 
+It's also possible to draw on a small bitmap, or to manipulate the bitmap's pixel bits at the rate of 60 times a second. That bitmap can then be used for tiling, and the entire tiled pattern can seem to be animated.
 
-The **Animated Bitmap Tile** page demonstrates this approach. A bitmap is instantiated as a field to be 64-pixels square. The constructor calls `DrawBitmap` to give it an initial appearance. If the `angle` field is zero (as it is when the method is first called), then the bitmap contains two lines crossed as an X. The lines are made long enough to always reach to the edge of the bitmap regardless of the `angle` value: 
+The **Animated Bitmap Tile** page demonstrates this approach. A bitmap is instantiated as a field to be 64-pixels square. The constructor calls `DrawBitmap` to give it an initial appearance. If the `angle` field is zero (as it is when the method is first called), then the bitmap contains two lines crossed as an X. The lines are made long enough to always reach to the edge of the bitmap regardless of the `angle` value:
 
 ```csharp
 public class AnimatedBitmapTilePage : ContentPage
@@ -675,7 +671,7 @@ public class AnimatedBitmapTilePage : ContentPage
         // Initialize bitmap prior to animation
         DrawBitmap();
 
-        // Create SKCanvasView 
+        // Create SKCanvasView
         canvasView = new SKCanvasView();
         canvasView.PaintSurface += OnCanvasViewPaintSurface;
         Content = canvasView;
@@ -776,5 +772,3 @@ The `SKShaderTileMode.Mirror` options ensure that the arms of the X in each bitm
 ## Related links
 
 - [SkiaSharp APIs](/dotnet/api/skiasharp)
-- [SkiaSharpFormsDemos (sample)](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)
-- [CatClock (sample)](/samples/xamarin/xamarin-forms-samples/catclock)

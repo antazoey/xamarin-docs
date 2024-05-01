@@ -947,7 +947,3 @@ Apple has included several user-facing features in macOS Sierra that allow the d
 ## Summary
 
 This article has covered several tips, features and techniques a developer can use to build a modern macOS app in Xamarin.Mac.
-
-## Related Links
-
-- [macOS Samples](/samples/browse/?products=xamarin&term=Xamarin.Mac)

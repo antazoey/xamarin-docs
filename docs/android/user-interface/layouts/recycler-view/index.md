@@ -136,6 +136,5 @@ For more information about `RecyclerView`, see the
 
 ## Related Links
 
-- [RecyclerViewer (sample)](/samples/xamarin/monodroid-samples/android50-recyclerviewer)
 - [Introduction to Lollipop](~/android/platform/lollipop.md)
 - [RecyclerView](https://developer.android.com/reference/android/support/v7/widget/RecyclerView.html)

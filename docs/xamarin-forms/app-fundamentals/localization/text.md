@@ -13,8 +13,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms String and Image Localization
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/usingresxlocalization)
-
 Localization is the process of adapting an application to meet the specific language or cultural requirements of a target market. To accomplish localization, the text and images in an application may need to be translated into multiple languages. A localized application automatically displays translated text based on the culture settings of the mobile device:
 
 ![Screenshots of the localization application on iOS and Android](text-images/localizationdemo-screenshots.png)
@@ -315,7 +313,6 @@ On Android, the language settings are detected and cached when the application s
 
 ## Related links
 
-- [Localization Sample Project](/samples/xamarin/xamarin-forms-samples/usingresxlocalization)
 - [Create resource files for .NET apps](/dotnet/framework/resources/creating-resource-files-for-desktop-apps)
 - [Cross-Platform Localization](~/cross-platform/app-fundamentals/localization.md)
 - [Using the CultureInfo class (MSDN)](/dotnet/api/system.globalization.cultureinfo)

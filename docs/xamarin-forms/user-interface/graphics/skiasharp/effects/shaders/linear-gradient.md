@@ -12,13 +12,11 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # The SkiaSharp linear gradient
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)
-
 The [`SKPaint`](xref:SkiaSharp.SKPaint) class defines a [`Color`](xref:SkiaSharp.SKPaint.Color) property that is used to stroke lines or fill areas with a solid color. You can alternatively stroke lines or fill areas with _gradients_, which are gradual blends of colors:
 
 ![Linear Gradient Sample](linear-gradient-images/LinearGradientSample.png "Linear Gradient Sample")
 
-The most basic type of gradient is a _linear_ gradient. The blend of colors occurs on a line (called the _gradient line_) from one point to another. Lines that are perpendicular to the gradient line have the same color. You create a linear gradient using one of the two static [`SKShader.CreateLinearGradient`](xref:SkiaSharp.SKShader.CreateLinearGradient*) methods. The difference between the two overloads is that one includes a matrix transform and the other does not. 
+The most basic type of gradient is a _linear_ gradient. The blend of colors occurs on a line (called the _gradient line_) from one point to another. Lines that are perpendicular to the gradient line have the same color. You create a linear gradient using one of the two static [`SKShader.CreateLinearGradient`](xref:SkiaSharp.SKShader.CreateLinearGradient*) methods. The difference between the two overloads is that one includes a matrix transform and the other does not.
 
 These methods return an object of type [`SKShader`](xref:SkiaSharp.SKShader) that you set to the [`Shader`](xref:SkiaSharp.SKPaint.Shader) property of `SKPaint`. If the `Shader` property is non-null, it overrides the `Color` property. Any line that is stroked or any area that is filled using this `SKPaint` object is based on the gradient rather than the solid color.
 
@@ -33,7 +31,7 @@ Often a linear gradient extends from one corner of a rectangle to another. If th
 - horizontally to the upper-right corner
 - diagonally to the lower-right corner
 
-The diagonal linear gradient is demonstrated in the first page in the **SkiaSharp Shaders and Other Effects** section of the [**SkiaSharpFormsDemos**](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos) sample. The **Corner-to-Corner Gradient** page creates an `SKCanvasView` in its constructor. The `PaintSurface` handler creates an `SKPaint` object in a `using` statement and then defines a 300-pixel square rectangle centered in the canvas:
+The diagonal linear gradient is demonstrated in the first page in the **SkiaSharp Shaders and Other Effects** section of the sample. The **Corner-to-Corner Gradient** page creates an `SKCanvasView` in its constructor. The `PaintSurface` handler creates an `SKPaint` object in a `using` statement and then defines a 300-pixel square rectangle centered in the canvas:
 
 ```csharp
 public class CornerToCornerGradientPage : ContentPage
@@ -106,7 +104,7 @@ Now the whole first quarter of the gradient line is pure red, and the last quart
 
 Generally, you'll want to space these position values equally from 0 to 1. If that is the case, you can simply supply `null` as the fourth argument to `CreateLinearGradient`.
 
-Although this gradient is defined between two corners of the 300-pixel square rectangle, it isn't restricted to filling that rectangle. The **Corner-to-Corner Gradient** page includes some extra code that responds to taps or mouse clicks on the page. The `drawBackground` field is toggled between `true` and `false` with each tap. If the value is `true`, then the `PaintSurface` handler uses the same `SKPaint` object to fill the entire canvas, and then draws a black rectangle indicating the smaller rectangle: 
+Although this gradient is defined between two corners of the 300-pixel square rectangle, it isn't restricted to filling that rectangle. The **Corner-to-Corner Gradient** page includes some extra code that responds to taps or mouse clicks on the page. The `drawBackground` field is toggled between `true` and `false` with each tap. If the value is `true`, then the `PaintSurface` handler uses the same `SKPaint` object to fill the entire canvas, and then draws a black rectangle indicating the smaller rectangle:
 
 ```csharp
 public class CornerToCornerGradientPage : ContentPage
@@ -186,9 +184,9 @@ The XAML file attaches the `TouchEffect` to a parent of the `SKCanvasView` and a
             </Grid.Effects>
         </Grid>
 
-        <Picker x:Name="tileModePicker" 
+        <Picker x:Name="tileModePicker"
                 Grid.Row="1"
-                Title="Shader Tile Mode" 
+                Title="Shader Tile Mode"
                 Margin="10"
                 SelectedIndexChanged="OnPickerSelectedIndexChanged">
             <Picker.ItemsSource>
@@ -219,7 +217,7 @@ public partial class InteractiveLinearGradientPage : InteractivePage
         touchPoints = new TouchPoint[2];
 
         for (int i = 0; i < 2; i++)
-        { 
+        {
             touchPoints[i] = new TouchPoint
             {
                 Center = new SKPoint(100 + i * 200, 100 + i * 200)
@@ -298,8 +296,8 @@ public partial class InteractiveLinearGradientPage : InteractivePage
             rotate90.X *= 200;
             rotate90.Y *= 200;
 
-            canvas.DrawLine(touchPoints[0].Center, 
-                            touchPoints[0].Center + rotate90, 
+            canvas.DrawLine(touchPoints[0].Center,
+                            touchPoints[0].Center + rotate90,
                             paint);
 
             canvas.DrawLine(touchPoints[0].Center,
@@ -471,7 +469,7 @@ public class GradientAnimationPage : ContentPage
 }
 ```
 
-The `OnTimerTick` method calculates an `angle` value that is animated from 0 to 2π every 3 seconds. 
+The `OnTimerTick` method calculates an `angle` value that is animated from 0 to 2π every 3 seconds.
 
 Here's one way to calculate the two gradient points. An `SKPoint` value named `vector` is calculated to extend from the center of the canvas to a point on the radius of the circle. The direction of this vector is based on the sine and cosine values of the angle. The two opposite gradient points are then calculated: One point is calculated by subtracting that vector from the center point, and other point is calculated by adding the vector to the center point:
 
@@ -507,7 +505,7 @@ public class GradientAnimationPage : ContentPage
 }
 ```
 
-A somewhat different approach requires less code. This approach makes use of the [`SKShader.CreateLinearGradient`](xref:SkiaSharp.SKShader.CreateLinearGradient(SkiaSharp.SKPoint,SkiaSharp.SKPoint,SkiaSharp.SKColor[],System.Single[],SkiaSharp.SKShaderTileMode,SkiaSharp.SKMatrix)) overload method with a matrix transform as the last argument. This approach is the version in the [**SkiaSharpFormsDemos**](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos) sample:
+A somewhat different approach requires less code. This approach makes use of the [`SKShader.CreateLinearGradient`](xref:SkiaSharp.SKShader.CreateLinearGradient(SkiaSharp.SKPoint,SkiaSharp.SKPoint,SkiaSharp.SKColor[],System.Single[],SkiaSharp.SKShaderTileMode,SkiaSharp.SKMatrix)) overload method with a matrix transform as the last argument. This approach is the version in the sample:
 
 ```csharp
 public class GradientAnimationPage : ContentPage
@@ -525,7 +523,7 @@ public class GradientAnimationPage : ContentPage
         {
             paint.Shader = SKShader.CreateLinearGradient(
                                 new SKPoint(0, 0),
-                                info.Width < info.Height ? new SKPoint(info.Width, 0) : 
+                                info.Width < info.Height ? new SKPoint(info.Width, 0) :
                                                            new SKPoint(0, info.Height),
                                 new SKColor[] { SKColors.White, SKColors.Black },
                                 new float[] { 0, 1 },
@@ -600,7 +598,7 @@ public class RainbowGradientPage : ContentPage
                 }
 
                 paint.Shader = SKShader.CreateLinearGradient(
-                                    new SKPoint(0, rainbowWidth / 2), 
+                                    new SKPoint(0, rainbowWidth / 2),
                                     new SKPoint(rainbowWidth / 2, 0),
                                     colors,
                                     null,
@@ -619,7 +617,7 @@ The two gradient points in the `CreateLinearGradient` method are based on two of
 
 This is an interesting image, but it's not quite the intent. The problem is that when creating a linear gradient, the lines of constant color are perpendicular to the gradient line. The gradient line is based on the points where the figure touches the top and left sides, and that line is generally not perpendicular to the edges of the figure that extend to the bottom-right corner. This approach would work only if the canvas were square.
 
-To create a proper rainbow gradient, the gradient line must be perpendicular to the edge of the rainbow. That's a more involved calculation. A vector must be defined that is parallel to the long side of the figure. The vector is rotated 90 degrees so that it's perpendicular to that side. It is then lengthened to be the width of the figure by multiplying by `rainbowWidth`. The two gradient points are calculated based on a point on the side of the figure, and that point plus the vector. Here is the code that appears in the **Rainbow Gradient** page in the [**SkiaSharpFormsDemos**](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos) sample:
+To create a proper rainbow gradient, the gradient line must be perpendicular to the edge of the rainbow. That's a more involved calculation. A vector must be defined that is parallel to the long side of the figure. The vector is rotated 90 degrees so that it's perpendicular to that side. It is then lengthened to be the width of the figure by multiplying by `rainbowWidth`. The two gradient points are calculated based on a point on the side of the figure, and that point plus the vector. Here is the code that appears in the **Rainbow Gradient** page in the sample:
 
 ```csharp
 public class RainbowGradientPage : ContentPage
@@ -634,8 +632,8 @@ public class RainbowGradientPage : ContentPage
             using (SKPaint paint = new SKPaint())
             {
                 ···
-                // Vector on lower-left edge, from top to bottom 
-                SKPoint edgeVector = new SKPoint(info.Width - rainbowWidth / 2, info.Height) - 
+                // Vector on lower-left edge, from top to bottom
+                SKPoint edgeVector = new SKPoint(info.Width - rainbowWidth / 2, info.Height) -
                                      new SKPoint(0, rainbowWidth / 2);
 
                 // Rotate 90 degrees counter-clockwise:
@@ -684,7 +682,7 @@ public class InfinityColorsPage : ContentPage
     ···
     SKCanvasView canvasView;
 
-    // Path information 
+    // Path information
     SKPath infinityPath;
     SKRect pathBounds;
     float gradientCycleLength;
@@ -710,7 +708,7 @@ public class InfinityColorsPage : ContentPage
         infinityPath.CubicTo( -95,  100, - 50,   50,    0,    0);   // Back to center
         infinityPath.Close();
 
-        // Calculate path information 
+        // Calculate path information
         pathBounds = infinityPath.Bounds;
         gradientCycleLength = pathBounds.Width +
             pathBounds.Height * pathBounds.Height / pathBounds.Width;
@@ -773,7 +771,7 @@ public class InfinityColorsPage : ContentPage
 }
 ```
 
-Finally, the `PaintSurface` handler renders the infinity sign. Because the path contains negative and positive coordinates surrounding a center point of (0, 0), a `Translate` transform on the canvas is used to shift it to the center. The translate transform is followed by a `Scale` transform that applies a scaling factor that makes the infinity sign as large as possible while still staying within 95% of the width and height of the canvas. 
+Finally, the `PaintSurface` handler renders the infinity sign. Because the path contains negative and positive coordinates surrounding a center point of (0, 0), a `Translate` transform on the canvas is used to shift it to the center. The translate transform is followed by a `Scale` transform that applies a scaling factor that makes the infinity sign as large as possible while still staying within 95% of the width and height of the canvas.
 
 Notice that the `STROKE_WIDTH` constant is added to the width and height of the path bounding rectangle. The path will be stroked with a line of this width, so the size of the rendered infinity size is increased by half that width on all four sides:
 
@@ -792,7 +790,7 @@ public class InfinityColorsPage : ContentPage
 
         // Set transforms to shift path to center and scale to canvas size
         canvas.Translate(info.Width / 2, info.Height / 2);
-        canvas.Scale(0.95f * 
+        canvas.Scale(0.95f *
             Math.Min(info.Width / (pathBounds.Width + STROKE_WIDTH),
                      info.Height / (pathBounds.Height + STROKE_WIDTH)));
 
@@ -824,7 +822,7 @@ With that last argument to `CreateLinearGradient`, the gradient pattern continuo
 
 ## Transparency and gradients
 
-The colors that contribute to a gradient can incorporate transparency. Instead of a gradient that fades from one color to another, the gradient can fade from a color to transparent. 
+The colors that contribute to a gradient can incorporate transparency. Instead of a gradient that fades from one color to another, the gradient can fade from a color to transparent.
 
 You can use this technique for some interesting effects. One of the classic examples shows a graphical object with its reflection:
 
@@ -913,4 +911,3 @@ The `CreateLinearGradient` call defines a gradient from the top of that rectangl
 ## Related links
 
 - [SkiaSharp APIs](/dotnet/api/skiasharp)
-- [SkiaSharpFormsDemos (sample)](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)

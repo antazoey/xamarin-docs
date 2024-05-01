@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms Grid
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-griddemos)
-
 [![Xamarin.Forms Grid](grid-images/layouts.png "Xamarin.Forms Grid")](grid-images/layouts-large.png#lightbox "Xamarin.Forms Grid")
 
 The [`Grid`](xref:Xamarin.Forms.Grid) is a layout that organizes its children into rows and columns, which can have proportional or absolute sizes. By default, a `Grid` contains one row and one column. In addition, a `Grid` can be used as a parent layout that contains other child layouts.
@@ -745,7 +743,6 @@ public class ColorSlidersGridPageCS : ContentPage
 
 ## Related links
 
-- [Grid demos (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-griddemos)
 - [Layout Options in Xamarin.Forms](layout-options.md)
 - [Choose a Xamarin.Forms Layout](choose-layout.md)
 - [Improve Xamarin.Forms App Performance](~/xamarin-forms/deploy-test/performance.md)

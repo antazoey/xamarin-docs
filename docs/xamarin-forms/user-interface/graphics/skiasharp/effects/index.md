@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # SkiaSharp effects
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)
-
 The SkiaSharp [`SKPaint`](xref:SkiaSharp.SKPaint) class defines six properties that can be classified under the general term of _effects_. These are properties that alter the normal display of graphics in some way. The SkiaSharp effects fall into six categories:
 
 ## [Path Effects](../curves/effects.md)
@@ -40,9 +38,8 @@ Set the [`ImageFilter`](xref:SkiaSharp.SKPaint.ImageFilter) property of `SKPaint
 
 Set the [`ColorFilter`](xref:SkiaSharp.SKPaint.ColorFilter) property of `SKPaint` to an object of type [`SKColorFilter`](xref:SkiaSharp.SKColorFilter) to alter colors using tables or matrix transforms.
 
-All the sample code for these articles are in the [**SkiaSharpFormsDemos**](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos). From the home page, select **SkiaSharp Effects**.
+All the sample code for these articles are in the sample. From the home page, select **SkiaSharp Effects**.
 
 ## Related links
 
 - [SkiaSharp APIs](/dotnet/api/skiasharp)
-- [SkiaSharpFormsDemos (sample)](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)

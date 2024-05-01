@@ -90,7 +90,7 @@ To find out the progress of a download task, override the `DidWriteData` method 
 The session delegate API provides a broad toolkit for interacting with tasks. For a full list of session delegate methods, refer to the `NSUrlSessionDelegate` API documentation.
 
 > [!IMPORTANT]
-> Background sessions are started on a background thread, so any calls to update the UI must be explicitly run on the UI thread by calling `InvokeOnMainThread` to avoid iOS terminating the app. 
+> Background sessions are started on a background thread, so any calls to update the UI must be explicitly run on the UI thread by calling `InvokeOnMainThread` to avoid iOS terminating the app.
 
 ## Handling transfer completion
 
@@ -135,7 +135,3 @@ public void DidFinishEventsForBackgroundSession (NSUrlSession session) {
 ```
 
 This walkthrough covered the basic steps to implement the Background Transfer Service in iOS 7 and newer.
-
-## Related links
-
-- [Simple Background Transfer (sample)](/samples/xamarin/ios-samples/simplebackgroundtransfer)

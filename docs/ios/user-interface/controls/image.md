@@ -75,7 +75,3 @@ imageview1.Image = UIImage.FromBundle("Pics/SF Monkey.png");
 ```
 
 Resource file references never need to include the **Resources** folder.
-
-## Related links
-
-- [Controls (sample)](/samples/xamarin/ios-samples/controls)

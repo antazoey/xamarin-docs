@@ -17,8 +17,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 ## Step-by-step instructions for Windows
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/getstarted-firstapp/)
-
 Follow these steps along with the video above:
 
 1. Choose **File > New > Project...** or press the **Create new project...** button.
@@ -31,7 +29,7 @@ Follow these steps along with the video above:
 
     ![Android and iOS Blank App](images/win-2022/04.png)
 
-5. Wait until the NuGet packages are restored (a "Restore completed" message will appear in the status bar). 
+5. Wait until the NuGet packages are restored (a "Restore completed" message will appear in the status bar).
 
 6. New Visual Studio 2022 installations won't have Android SDKs installed, you may be prompted to install the most recent Android SDK:
 
@@ -90,8 +88,6 @@ It's possible to build and debug the iOS app from Visual Studio with a networked
 ::: zone pivot="windows-vs2019"
 
 ## Step-by-step instructions for Windows
-
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/getstarted-firstapp/)
 
 Follow these steps along with the video above:
 
@@ -174,8 +170,6 @@ This video covers the process of building and testing an iOS app using Visual St
 
 ## Step-by-step instructions for Mac
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/getstarted-firstapp/)
-
 Follow these steps along with the video above:
 
 1. Choose **File > New Solution...** or press the **New Project...** button, then select **Multiplatform > App > Blank Forms App**:
@@ -227,8 +221,6 @@ Follow these steps along with the video above:
 
 ## Step-by-step instructions for Mac
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/getstarted-firstapp/)
-
 Follow these steps along with the video above:
 
 1. Choose **File > New Solution...** or press the **New Project...** button, then select **Multiplatform > App > Blank Forms App**:
@@ -279,7 +271,7 @@ Follow these steps along with the video above:
 
 ::: zone-end
 
-You can download the completed code from the [samples gallery](/samples/xamarin/xamarin-forms-samples/getstarted-firstapp/) or view it on [GitHub](https://github.com/xamarin/xamarin-forms-samples/tree/master/GetStarted/FirstApp).
+You can view the completed code on [GitHub](https://github.com/xamarin/xamarin-forms-samples/tree/master/GetStarted/FirstApp).
 
 ## Next Steps
 

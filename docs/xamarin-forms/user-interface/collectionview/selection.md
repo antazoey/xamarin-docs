@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms CollectionView Selection
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-collectionviewdemos/)
-
 [`CollectionView`](xref:Xamarin.Forms.CollectionView) defines the following properties that control item selection:
 
 - [`SelectionMode`](xref:Xamarin.Forms.SelectableItemsView.SelectionMode), of type [`SelectionMode`](xref:Xamarin.Forms.SelectionMode), the selection mode.
@@ -331,5 +329,4 @@ When the [`SelectionMode`](xref:Xamarin.Forms.SelectableItemsView.SelectionMode)
 
 ## Related links
 
-- [CollectionView (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-collectionviewdemos/)
 - [Xamarin.Forms Visual State Manager](~/xamarin-forms/user-interface/visual-state-manager.md)

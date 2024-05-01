@@ -51,8 +51,8 @@ As a result, your Xamarin.tvOS app must store any user data in an iCloud Data St
 - **CloudKit** - For the storage of larger pieces of information (greater than 1MB), use Apple's CloudKit Framework. Unlike iCloud KVS Storage, CloudKit data can be shared amongst all the users of your app (as well as being private to a single user). Form more information, please see our [Introduction to CloudKit](~/ios/data-cloud/intro-to-cloudkit.md) documentation or Apple's [CloudKit Quick Start](https://developer.apple.com/library/prerelease/tvos/documentation/DataManagement/Conceptual/CloudKitQuickStart/Introduction/Introduction.html#//apple_ref/doc/uid/TP40014987).
 
 > [!IMPORTANT]
-> Apple [provides tools](https://developer.apple.com/support/allowing-users-to-manage-data/) 
-> to help developers properly handle the European Union's General Data 
+> Apple [provides tools](https://developer.apple.com/support/allowing-users-to-manage-data/)
+> to help developers properly handle the European Union's General Data
 > Protection Regulation (GDPR).
 
 <a name="On-Demand-Resources"></a>
@@ -78,7 +78,6 @@ This article has covered the size, resource and data storage limitations placed 
 
 ## Related Links
 
-- [tvOS Samples](/samples/browse/?products=xamarin&term=Xamarin.iOS%2btvOS)
 - [tvOS](https://developer.apple.com/tvos/)
 - [tvOS Human Interface Guides](https://developer.apple.com/design/human-interface-guidelines/designing-for-tvos)
 - [App Programming Guide for tvOS](https://developer.apple.com/library/prerelease/tvos/documentation/General/Conceptual/AppleTV_PG/)

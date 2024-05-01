@@ -41,7 +41,7 @@ When attempting to submit a Xamarin.tvOS app to the Apple TV App Store, you migh
 To solve this issue, do the following:
 
 1. In Visual Studio for Mac, right-click on your Xamarin.tvOS Project File in the **Solution Explorer** and select **Options**.
-2. Select **tvOS Build** and ensure that you are on the **Release** configuration: 
+2. Select **tvOS Build** and ensure that you are on the **Release** configuration:
 
     [![Select tvOS Build options](troubleshooting-images/ts01.png)](troubleshooting-images/ts01.png#lightbox)
 3. Add `--bitcode=asmonly` to the **Additional mtouch arguments** field and click the **OK** button.
@@ -88,7 +88,7 @@ For apps or libraries that include valid bitcode the `size` will be greater than
       size 0x0000000000000001
 ```
 
-**Valid Bitcode** 
+**Valid Bitcode**
 
 ```csharp
 $ otool -l -arch arm64 libDownloadableAgent-tvos.a |grep __bitcode -A 3
@@ -134,7 +134,7 @@ If you get a message in the form "ITMS-90471 error. The Large icon is missing" w
 
 ### Invalid bundle – An app that supports game controllers must also support the Apple TV remote
 
-or 
+or
 
 ### Invalid bundle – Apple TV apps with the GameController framework must include the GCSupportedGameControllers key in the app’s Info.plist
 
@@ -146,7 +146,7 @@ _We have discovered one or more issues with your recent delivery for “app name
 
 _Invalid bundle – An app that supports game controllers must also support the Apple TV remote._
 
-or 
+or
 
 _Invalid bundle – Apple TV apps with the GameController framework must include the GCSupportedGameControllers key in the app’s Info.plist._
 
@@ -198,7 +198,6 @@ With this file in place, you should be able to successfully add the PCL file to 
 
 ## Related Links
 
-- [tvOS Samples](/samples/browse/?products=xamarin&term=Xamarin.iOS%2btvOS)
 - [tvOS](https://developer.apple.com/tvos/)
 - [tvOS Human Interface Guides](https://developer.apple.com/design/human-interface-guidelines/designing-for-tvos)
 - [App Programming Guide for tvOS](https://developer.apple.com/library/prerelease/tvos/documentation/General/Conceptual/AppleTV_PG/)

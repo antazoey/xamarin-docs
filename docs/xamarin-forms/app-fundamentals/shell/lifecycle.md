@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms Shell lifecycle
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-xaminals/)
-
 Shell applications respect the Xamarin.Forms lifecycle, and additionally fire an [`Appearing`](xref:Xamarin.Forms.BaseShellItem.Appearing) event when a page is about to appear on the screen, and a [`Disappearing`](xref:Xamarin.Forms.BaseShellItem.Disappearing) event when a page is about to disappear from the screen. These events are propagated to pages, and can be handled by overriding the [`OnAppearing`](xref:Xamarin.Forms.Page.OnAppearing) or [`OnDisappearing`](xref:Xamarin.Forms.Page.OnDisappearing) methods on the page.
 
 > [!NOTE]
@@ -35,6 +33,5 @@ For more information about modal navigation, see [Xamarin.Forms modal pages](~/x
 
 ## Related links
 
-- [Xaminals (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-xaminals/)
 - [Xamarin.Forms app lifecycle](~/xamarin-forms/app-fundamentals/app-lifecycle.md)
 - [Xamarin.Forms modal pages](~/xamarin-forms/app-fundamentals/navigation/modal.md)

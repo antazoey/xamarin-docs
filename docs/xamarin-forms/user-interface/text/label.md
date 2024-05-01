@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms Label
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-text)
-
 _Display text in Xamarin.Forms_
 
 The [`Label`](xref:Xamarin.Forms.Label) view is used for displaying text, both single and multi-line. Labels can have text decorations, colored text, and use custom fonts (families, sizes, and options).
@@ -459,7 +457,7 @@ The text displayed by [`Label`](xref:Xamarin.Forms.Label) and [`Span`](xref:Xama
 1. Define the `ICommand` that will be executed by the [`TapGestureRecognizer`](xref:Xamarin.Forms.TapGestureRecognizer).
 1. Write the code that will be executed by the `ICommand`.
 
-The following code example, taken from the [Hyperlink Demos](/samples/xamarin/xamarin-forms-samples/userinterface-hyperlinks/) sample, shows a [`Label`](xref:Xamarin.Forms.Label) whose content is set from multiple [`Span`](xref:Xamarin.Forms.Span) instances:
+The following code example shows a [`Label`](xref:Xamarin.Forms.Label) whose content is set from multiple [`Span`](xref:Xamarin.Forms.Span) instances:
 
 ```xaml
 <Label>
@@ -508,7 +506,7 @@ The `TapCommand` executes the `Launcher.OpenAsync` method, passing the [`TapGest
 
 The previous approach to creating a hyperlink requires writing repetitive code every time you require a hyperlink in your application. However, both the [`Label`](xref:Xamarin.Forms.Label) and [`Span`](xref:Xamarin.Forms.Span) classes can be subclassed to create `HyperlinkLabel` and `HyperlinkSpan` classes, with the gesture recognizer and text formatting code added there.
 
-The following code example, taken from the [Hyperlink Demos](/samples/xamarin/xamarin-forms-samples/userinterface-hyperlinks/) sample, shows a `HyperlinkSpan` class:
+The following code example shows a `HyperlinkSpan` class:
 
 ```csharp
 public class HyperlinkSpan : Span
@@ -566,8 +564,6 @@ The previous sections covered setting [`Label`](xref:Xamarin.Forms.Label) and [`
 
 ## Related links
 
-- [Text (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-text)
-- [Hyperlinks (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-hyperlinks)
 - [Creating Mobile Apps with Xamarin.Forms, Chapter 3 free download](https://aka.ms/xamformsebook)
 - [Label API](xref:Xamarin.Forms.Label)
 - [Span API](xref:Xamarin.Forms.Span)

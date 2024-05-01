@@ -181,8 +181,6 @@ The following enhancements have been made to the ScrollView control in iOS 10.3:
   - `Automatic` - The index display is controlled by the OS.
   - `AlwaysHidden` - The index display is always hidden.
 
-See the [iOSTenThree Sample](/samples/xamarin/ios-samples/ios10-iostenthree) for usage.
-
 ## UIKit Enhancements
 
 The following enhancements have been made to the UIKit framework in iOS 10:
@@ -209,5 +207,4 @@ The following enhancements have been made to the WebKit framework in iOS 10:
 
 ## Related Links
 
-- [iOS 10 Samples](/samples/browse/?products=xamarin&term=Xamarin.iOS%2biOS10)
 - [What's new in iOS 10](https://developer.apple.com/library/prerelease/content/releasenotes/General/WhatsNewIniOS/Articles/iOS10.html#//apple_ref/doc/uid/TP40017084-SW1)

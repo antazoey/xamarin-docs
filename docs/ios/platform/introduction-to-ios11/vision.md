@@ -32,8 +32,7 @@ Rectangle Detection and Face Detection are discussed in more detail below.
 
 ## Rectangle Detection
 
-The [VisionRects sample](/samples/xamarin/ios-samples/ios11-visionrectangles) shows
-how to process an image and draw the detected rectangles on it.
+The sample shows how to process an image and draw the detected rectangles on it.
 
 ### 1. Initialize the Vision request
 
@@ -94,9 +93,6 @@ The `OverlayRectangles` method in the **VisionRectangles** sample has three func
 - Drawing a rectangle to indicate where each one was detected, and
 - Adding a text label for each rectangle using CoreGraphics.
 
-View the [sample's source](/samples/xamarin/ios-samples/ios11-visionrectangles)
-for the exact CoreGraphics method.
-
 ![Photograph with three rectangles detected on a mobile device.](vision-images/found-rectangles-phone-sml.png)
 
 ### 5. Further processing
@@ -109,9 +105,7 @@ where the rectangles are passed to a CoreML model to parse handwritten digits.
 
 ## Face Detection
 
-The [VisionFaces sample](/samples/xamarin/ios-samples/ios11-visionfaces) works in
-a similar fashion to the **VisionRectangles** sample, using a different
-Vision request class.
+This sample works in a similar fashion to the **VisionRectangles** sample, using a different Vision request class.
 
 ### 1. Initialize the Vision request
 
@@ -174,8 +168,6 @@ The `OverlayRectangles` method in the **VisionFaces** sample has three functions
 - Drawing a rectangle for each face detected, and
 - Adding a text label for each face using CoreGraphics.
 
-View the [sample's source](/samples/xamarin/ios-samples/ios11-visionfaces) for the exact CoreGraphics method.
-
 ![Photograph with two faces detected on a mobile device.](vision-images/found-faces-phone-sml.png)
 
 ### 5. Further processing
@@ -188,6 +180,4 @@ facial features, such as the eyes and mouth. Use the
 
 ## Related Links
 
-- [Vision Rectangles (sample)](/samples/xamarin/ios-samples/ios11-visionrectangles)
-- [Vision Faces (sample)](/samples/xamarin/ios-samples/ios11-visionfaces)
 - [Advances in Core Image - Filters, Metal, Vision, and More (WWDC) (video)](https://developer.apple.com/videos/play/wwdc2017/510/)

@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # The Rotate Transform
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)
-
 _Explore the effects and animations possible with the SkiaSharp rotate transform_
 
 With the rotate transform, SkiaSharp graphics objects break free of the constraint of alignment with the horizontal and vertical axes:
@@ -369,4 +367,3 @@ For a more attractive clock, see the article [**SVG Path Data in SkiaSharp**](..
 ## Related Links
 
 - [SkiaSharp APIs](/dotnet/api/skiasharp)
-- [SkiaSharpFormsDemos (sample)](/samples/xamarin/xamarin-forms-samples/skiasharpforms-demos)

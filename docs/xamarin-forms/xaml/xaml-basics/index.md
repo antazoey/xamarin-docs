@@ -13,8 +13,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms XAML Basics
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/xamlsamples)
-
 The eXtensible Application Markup Language (XAML) is an XML-based language created by Microsoft as an alternative to programming code for instantiating and initializing objects, and organizing those objects in parent-child hierarchies. XAML has been adapted to several technologies within the .NET framework, but it has found its greatest utility in defining the layout of user interfaces within the Windows Presentation Foundation (WPF), Silverlight, the Windows Runtime, and the Universal Windows Platform (UWP).
 
 XAML allows developers to define user interfaces in Xamarin.Forms applications using markup rather than code. XAML is never required in a Xamarin.Forms program, but it is often more succinct and more visually coherent than equivalent code, and potentially toolable. XAML is well suited for use with the popular MVVM (Model-View-ViewModel) application architecture: XAML defines the View that is linked to ViewModel code through XAML-based data bindings.
@@ -35,7 +33,7 @@ There are also disadvantages, mostly related to limitations that are intrinsic t
 - XAML generally cannot instantiate classes that do not define a parameterless constructor. (However, there is sometimes a way around this restriction.)
 - XAML generally cannot call methods. (Again, this restriction can sometimes be overcome.)
 
-There is not yet a visual designer for generating XAML in Xamarin.Forms applications. All XAML must be hand-written, but you can use [XAML Hot Reload](~/xamarin-forms/xaml/hot-reload.md) in Visual Studio 2019 or 
+There is not yet a visual designer for generating XAML in Xamarin.Forms applications. All XAML must be hand-written, but you can use [XAML Hot Reload](~/xamarin-forms/xaml/hot-reload.md) in Visual Studio 2019 or
 Visual Studio for Mac to view your screen designs as you edit them. Even developers with lots of experience in XAML know that experimentation is rewarding.
 
 XAML is basically XML, but XAML has some unique syntax features. The most important are:
@@ -54,9 +52,7 @@ When you're familiar with Xamarin.Forms and XML, start reading [Part 1. Getting 
 
 ## Related links
 
-- [XamlSamples](/samples/xamarin/xamarin-forms-samples/xamlsamples)
 - [Creating Mobile Apps book](~/xamarin-forms/creating-mobile-apps-xamarin-forms/index.md)
-- [Xamarin.Forms Samples](/samples/browse/?products=xamarin&term=Xamarin.Forms)
 
 ## Related video
 

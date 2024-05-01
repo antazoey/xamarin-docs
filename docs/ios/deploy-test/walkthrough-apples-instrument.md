@@ -15,8 +15,6 @@ no-loc: [Objective-C]
 _This article walks through how to use Apple’s Instruments tool to diagnose memory issues in an iOS application built with Xamarin. It demonstrates how to launch Instruments, take heap snapshots and analyze memory growth. It also shows how to use Instruments to display and pinpoint the exact lines of code that cause the memory issue._
 
 This page demonstrates how to use **Xcode's Instruments tool** to diagnose a memory issue in an iOS application.
-First, download the [MemoryDemo Sample](/samples/xamarin/ios-samples/profiling-memorydemo) and open the
-**before** solution in Visual Studio for Mac.
 
 ## Diagnosing the Memory Issues
 
@@ -84,9 +82,6 @@ fixing the code:
 
 ![Showing the app memory usage](walkthrough-apples-instrument-images/06-reduced-memory.png)
 
-The improved code is available in the [MemoryDemo Sample](/samples/xamarin/ios-samples/profiling-memorydemo) in the
-**after** solution in Visual Studio for Mac.
-
 The article [Xamarin.iOS Garbage Collection](/xamarin/android/internals/garbage-collection)
 is a useful reference for dealing with memory issues with Xamarin.iOS.
 
@@ -99,5 +94,4 @@ Finally, the application was re-examined to verify the problem was corrected.
 
 ## Related Links
 
-- [MemoryDemo Sample](/samples/xamarin/ios-samples/profiling-memorydemo)
 - [Xamarin.iOS Garbage Collection](/xamarin/android/internals/garbage-collection)

@@ -1,0 +1,15 @@
+- name: Xamarin Documentation
+  href: index.yml
+  items:
+    - name: Android
+      href: android/index.yml
+    - name: iOS
+      href: ios/index.yml
+    - name: Mac
+      href: mac/index.yml
+    - name: Xamarin.Forms
+      href: xamarin-forms/index.yml
+    - name: Cross-Platform
+      href: cross-platform/index.yml
+    - name: Tools
+      href: tools/index.md

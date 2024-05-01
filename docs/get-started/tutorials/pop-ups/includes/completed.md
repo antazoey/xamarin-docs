@@ -14,6 +14,5 @@ To learn more about the basics of creating mobile applications with Xamarin.Form
 
 ## Related links
 
-- [PopupsTutorial (sample)](/samples/xamarin/xamarin-forms-samples/getstarted-tutorials-popupstutorial/)
 - [Display Pop-ups (guide)](~/xamarin-forms/user-interface/pop-ups.md)
 - [Page API](xref:Xamarin.Forms.Page)

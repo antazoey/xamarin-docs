@@ -19,7 +19,7 @@ E.g. parameters, environment, missing tools.
 
 <!--
  MT0xxx mtouch itself, e.g. parameters, environment (e.g. missing tools)
- https://github.com/xamarin/xamarin-macios/blob/master/tools/mtouch/error.cs
+ https://github.com/xamarin/xamarin-macios/blob/main/tools/mtouch/error.cs
   -->
 
 <a name="MT0000"></a>

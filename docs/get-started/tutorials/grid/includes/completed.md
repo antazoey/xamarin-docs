@@ -15,7 +15,6 @@ To learn more about the basics of creating mobile applications with Xamarin.Form
 
 ## Related links
 
-- [GridTutorial (sample)](/samples/xamarin/xamarin-forms-samples/getstarted-tutorials-gridtutorial/)
 - [Xamarin.Forms Grid (guide)](~/xamarin-forms/user-interface/layouts/grid.md)
 - [Margin and Padding (guide)](~/xamarin-forms/user-interface/layouts/margin-and-padding.md)
 - [Grid API](xref:Xamarin.Forms.Grid)

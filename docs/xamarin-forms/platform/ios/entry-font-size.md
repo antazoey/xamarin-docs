@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Entry Font Size on iOS
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-platformspecifics)
-
 This iOS platform-specific is used to scale the font size of an [`Entry`](xref:Xamarin.Forms.Entry) to ensure that the inputted text fits in the control. It's consumed in XAML by setting the [`Entry.AdjustsFontSizeToFitWidth`](xref:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Entry.AdjustsFontSizeToFitWidthProperty) attached property to a `boolean` value:
 
 ```xaml
@@ -51,6 +49,5 @@ The result is that the font size of the [`Entry`](xref:Xamarin.Forms.Entry) is s
 
 ## Related links
 
-- [PlatformSpecifics (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-platformspecifics)
 - [Creating Platform-Specifics](~/xamarin-forms/platform/platform-specifics/index.md#creating-platform-specifics)
 - [iOSSpecific API](xref:Xamarin.Forms.PlatformConfiguration.iOSSpecific)

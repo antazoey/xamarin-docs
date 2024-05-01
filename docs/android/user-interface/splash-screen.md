@@ -11,8 +11,6 @@ ms.date: 10/02/2019
 
 # Splash Screen
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/monodroid-samples/splashscreen)
-
 _An Android app takes some time to start up, especially when the app is first launched on a device. A splash screen may display start up progress to the user or to indicate branding._
 
 ## Overview
@@ -42,10 +40,6 @@ This guide assumes that the application targets Android API level
 **Xamarin.Android.Support.v4** and
 **Xamarin.Android.Support.v7.AppCompat** NuGet packages added to the
 project.
-
-All of the code and XML in this guide may be found in the
-[SplashScreen](/samples/xamarin/monodroid-samples/splashscreen) sample project for this
-guide.
 
 ## Implementing A Splash Screen
 
@@ -308,6 +302,5 @@ launch activity.
 
 ## Related Links
 
-- [SplashScreen (sample)](/samples/xamarin/monodroid-samples/splashscreen)
 - [layer-list Drawable](https://developer.android.com/guide/topics/resources/drawable-resource.html#LayerList)
 - [Material Design Patterns - Launch Screens](https://material.io/design/communication/launch-screen.html#usage)

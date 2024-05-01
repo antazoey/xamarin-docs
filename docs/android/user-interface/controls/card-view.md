@@ -207,14 +207,6 @@ in the following screenshot:
 
 [![CardView with an image and caption below the image](card-view-images/03-photo-cardview-sml.png)](card-view-images/03-photo-cardview.png#lightbox)
 
-This screenshot is taken from the
-[RecyclerViewer](/samples/xamarin/monodroid-samples/android50-recyclerviewer)
-sample app, which uses a `RecyclerView` widget to present a scrolling
-list of `CardView` images for viewing photos. For more information
-about `RecyclerView`, see the
-[RecyclerView](~/android/user-interface/layouts/recycler-view/index.md)
-guide.
-
 Notice that a `CardView` can display more than one child view in its
 content area. For example, in the above photo viewing app example,
 the content area is comprised of a `ListView` that contains an
@@ -315,7 +307,7 @@ In this diagram, `cardCornerRadius` is set to a more rounded 10dp and
 You can use `CardView` on versions of Android earlier than Android 5.0
 Lollipop. Because `CardView` is part of the Android v7 support library,
 you can use `CardView` with Android 2.1 (API level 7) and higher.
-However, you must install the `Xamarin.Android.Support.v7.CardView` package 
+However, you must install the `Xamarin.Android.Support.v7.CardView` package
 as described in [Requirements](#requirements), above.
 
 `CardView` exhibits slightly different behavior on devices before
@@ -362,6 +354,5 @@ Lollipop. For more information about `CardView`, see the
 
 ## Related Links
 
-- [RecyclerView (sample)](/samples/xamarin/monodroid-samples/android50-recyclerviewer)
 - [Introduction to Lollipop](~/android/platform/lollipop.md)
 - [CardView class reference](https://developer.android.com/reference/android/support/v7/widget/CardView.html)

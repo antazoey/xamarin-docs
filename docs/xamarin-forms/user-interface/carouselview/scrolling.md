@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms CarouselView Scrolling
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/userinterface-carouselviewdemos/)
-
 [`CarouselView`](xref:Xamarin.Forms.CarouselView) defines the following scroll related properties:
 
 - `HorizontalScrollBarVisibility`, of type `ScrollBarVisibility`, which specifies when the horizontal scroll bar is visible.
@@ -325,7 +323,3 @@ CarouselView carouselView = new CarouselView
 When a user swipes to initiate a scroll in a horizontally scrolling [`CarouselView`](xref:Xamarin.Forms.CarouselView), the right item will be aligned with the right of the view.
 
 [![Screenshot of a CarouselView with end snap points, on iOS and Android](scrolling-images/snappoints-end.png "CarouselView with end snap points")](scrolling-images/snappoints-end-large.png#lightbox "CarouselView with end snap points")
-
-## Related links
-
-- [CarouselView (sample)](/samples/xamarin/xamarin-forms-samples/userinterface-carouselviewdemos/)

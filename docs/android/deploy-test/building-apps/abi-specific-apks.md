@@ -252,6 +252,5 @@ that has it's build scripted using Rake.
 
 ## Related Links
 
-- [OneABIPerAPK (sample)](/samples/xamarin/monodroid-samples/oneabiperapk)
 - [Publishing an Application](~/android/deploy-test/publishing/index.md)
 - [Multiple APK Support for Google Play](https://developer.android.com/google/play/publishing/multiple-apks.html)

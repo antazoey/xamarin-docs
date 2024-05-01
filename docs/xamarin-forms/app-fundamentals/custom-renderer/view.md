@@ -11,8 +11,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 ---
 # Implementing a View
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/customrenderers-view)
-
 _Xamarin.Forms custom user interface controls should derive from the View class, which is used to place layouts and controls on the screen. This article demonstrates how to create a custom renderer for a Xamarin.Forms custom control that's used to display a preview video stream from the device's camera._
 
 Every Xamarin.Forms view has an accompanying renderer for each platform that creates an instance of a native control. When a [`View`](xref:Xamarin.Forms.View) is rendered by a Xamarin.Forms application in iOS, the `ViewRenderer` class is instantiated, which in turn instantiates a native `UIView` control. On the Android platform, the `ViewRenderer` class instantiates a native `View` control. On the Universal Windows Platform (UWP), the `ViewRenderer` class instantiates a native `FrameworkElement` control. For more information about the renderer and native control classes that Xamarin.Forms controls map to, see [Renderer Base Classes and Native Controls](~/xamarin-forms/app-fundamentals/custom-renderer/renderers.md).
@@ -362,7 +360,3 @@ Provided that the `Control` property is `null`, a new `CaptureElement` is instan
 ## Summary
 
 This article has demonstrated how to create a custom renderer for a Xamarin.Forms custom control that's used to display a preview video stream from the device's camera. Xamarin.Forms custom user interface controls should derive from the [`View`](xref:Xamarin.Forms.View) class, which is used to place layouts and controls on the screen.
-
-## Related Links
-
-- [CustomRendererView (sample)](/samples/xamarin/xamarin-forms-samples/customrenderers-view)

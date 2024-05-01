@@ -2,10 +2,14 @@
   tocHref: /
   topicHref: /
   items:
-  - name: Xamarin
-    tocHref: /xamarin/
-    topicHref: /xamarin/index
+  - name: Previous Versions
+    tocHref:  /previous-versions/
+    topicHref: /previous-versions/
     items:
-    - name: Xamarin.Forms
-      tocHref: /xamarin/xamarin-forms/
-      topicHref: /xamarin/xamarin-forms/index
+    - name: Xamarin
+      tocHref: /previous-versions/xamarin/
+      topicHref: /previous-versions/xamarin/index
+      items:
+      - name: Xamarin.Forms
+        tocHref: /previous-versions/xamarin/xamarin-forms/
+        topicHref: /previous-versions/xamarin/xamarin-forms/index

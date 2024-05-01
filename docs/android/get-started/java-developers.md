@@ -71,7 +71,7 @@ However, there are many differences between Java and C#. For example:
 - Java does not support operator overloading; in C# you can overload
     operators and conversions.
 
-- In a Java `switch` statement, code can fall through into the 
+- In a Java `switch` statement, code can fall through into the
     next switch section, but in C# the end of every `switch` section must
     terminate the switch (the end of each section must close with a
     `break` statement).
@@ -225,7 +225,7 @@ makes type information available only at compile time, but not at run time. By
 contrast, the .NET common language runtime (CLR) provides explicit
 support for generic types, which means that C# has access to type
 information at runtime. In day-to-day Xamarin.Android development, the
-importance of this distinction is not often apparent, but if you 
+importance of this distinction is not often apparent, but if you
 are using [reflection](/dotnet/csharp/programming-guide/concepts/reflection),
 you will depend on this feature to access type information at
 run time.
@@ -243,7 +243,7 @@ In this code example, `FindViewById` gets a reference to the `TextView`
 control that is defined in the layout as **Label**, then returns it as
 a `TextView` type.
 
-For more information about generics, see the 
+For more information about generics, see the
 [Generics](/dotnet/csharp/programming-guide/generics/index) topic.
 Note that there are some limitations in Xamarin.Android support for
 generic C# classes; for more information, see
@@ -371,7 +371,7 @@ millimeters) when the `MeasuredWidth` and `MeasuredHeight` properties
 are accessed.
 
 The `rulerView` object also has a property called `DrawingCacheEnabled`
-&ndash; the example code sets this property to `true` to 
+&ndash; the example code sets this property to `true` to
 enable the drawing cache in `rulerView`. Behind the scenes, an
 associated hidden field is updated with the new value, and possibly
 other aspects of `rulerView` state are modified. For example, when
@@ -380,7 +380,7 @@ any drawing cache information already accumulated in the object.
 
 Access to properties can be read/write, read-only, or write-only. Also,
 you can use different access modifiers for reading and writing. For
-example, you can define a property that has public read access 
+example, you can define a property that has public read access
 but private write access.
 
 For more information about C# properties, see the
@@ -603,7 +603,7 @@ sender and event arguments and returns void. However, because we don't
 want to go to the trouble to explicitly define such a delegate or its
 method, we declare the signature of the method with `(sender, e)` and
 use a lambda expression to implement the body of the event handler.
-Note that we have to declare this parameter list even though we 
+Note that we have to declare this parameter list even though we
 aren't using the `sender` and `e` parameters.
 
 It is important to remember that you can unsubscribe a delegate (via
@@ -719,8 +719,7 @@ counterpart in C#, as listed in this table:
 Also, there are many keywords that are unique to C# and have no
 counterpart in the Java used on Android. Xamarin.Android code often makes use of the
 following C# keywords (this table is useful to refer to when you
-are reading through Xamarin.Android
-[sample code](/samples/browse/?products=xamarin&term=Xamarin.Android)):
+are reading through Xamarin.Android sample code.
 
 |C#|Description|
 |---|---|

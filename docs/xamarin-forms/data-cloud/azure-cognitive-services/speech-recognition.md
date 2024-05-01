@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Speech recognition using Azure Speech Service
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/webservices-cognitivespeechservice)
-
 Azure Speech Service is a cloud-based API that offers the following functionality:
 
 - **Speech-to-text** transcribes audio files or streams to text.
@@ -131,7 +129,7 @@ async void TranscribeClicked(object sender, EventArgs e)
         return;
     }
 
-    // initialize speech recognizer 
+    // initialize speech recognizer
     if (recognizer == null)
     {
         var config = SpeechConfig.FromSubscription(Constants.CognitiveServicesApiKey, Constants.CognitiveServicesRegion);
@@ -311,7 +309,7 @@ public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompa
 {
     IMicrophoneService micService;
     internal static MainActivity Instance { get; private set; }
-    
+
     protected override void OnCreate(Bundle savedInstanceState)
     {
         Instance = this;
@@ -464,7 +462,6 @@ Run the app and click the **Transcribe** button. The app should request micropho
 
 ## Related links
 
-- [Azure Speech Service sample](/samples/xamarin/xamarin-forms-samples/webservices-cognitivespeechservice)
 - [Azure Speech Service overview](/azure/cognitive-services/speech-service/overview)
 - [Create a Cognitive Services resource](/azure/cognitive-services/cognitive-services-apis-create-account)
 - [Quickstart: Recognize speech from a microphone](/azure/cognitive-services/speech-service/quickstarts/speech-to-text-from-microphone)

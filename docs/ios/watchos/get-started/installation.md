@@ -34,8 +34,7 @@ A watch app consists of three projects:
 - **Watch App project** - This contains the User Interface
   storyboard file with all the UI resources for the Watch App.
 
-The [Watch Kit Catalog sample](/samples/xamarin/ios-samples/watchos-watchkitcatalog)
-  solution looks like this in Xamarin.Studio:
+The sample solution looks like this in Xamarin.Studio:
 
 # [Visual Studio for Mac](#tab/macos)
 
@@ -47,9 +46,7 @@ The [Watch Kit Catalog sample](/samples/xamarin/ios-samples/watchos-watchkitcata
 
 -----
 
-Download and run the [WatchKitCatalog](/samples/xamarin/ios-samples/watchos-watchkitcatalog) sample to get started.
-  Screens from the sample can be found on the [Controls](~/ios/watchos/user-interface/index.md)
-  page.
+Screens from the sample can be found on the [Controls](~/ios/watchos/user-interface/index.md) page.
 
 ## Creating a New Project
 
@@ -273,7 +270,7 @@ After following the launch instructions you will end up with
 ### Debugging Lifecycle Event Handlers
 
 <!--
-To test the functionality in your  and 
+To test the functionality in your  and
   methods, use the **Hardware > Lock** command in the iOS Simulator.
   Locking will trigger the `DidDeactivate` method and the watch simulator
   will indicate that it has been locked. Swipe the iOS Simulator to unlock,
@@ -288,6 +285,5 @@ The watchOS template files (such as `InterfaceController`,
 
 ## Related Links
 
-- [WatchKitCatalog (sample)](/samples/xamarin/ios-samples/watchos-watchkitcatalog)
 - [First Watch App video](https://blog.xamarin.com/your-first-watch-kit-app/)
 - [Apple's WatchKit Documentation](https://developer.apple.com/documentation/watchkit/)

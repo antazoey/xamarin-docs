@@ -12,8 +12,6 @@ no-loc: [Xamarin.Forms, Xamarin.Essentials]
 
 # Xamarin.Forms Device Class
 
-[![Download Sample](~/media/shared/download.png) Download the sample](/samples/xamarin/xamarin-forms-samples/workingwithdevice)
-
 The [`Device`](xref:Xamarin.Forms.Device) class contains a number of properties and methods to help developers customize layout and functionality on a per-platform basis.
 
 In addition to methods and properties to target code at specific hardware types and sizes, the `Device` class includes methods that can be used to interact with UI controls from background threads. For more information, see [Interact with the UI from background threads](#interact-with-the-ui-from-background-threads).
@@ -266,6 +264,4 @@ Device.BeginInvokeOnMainThread (() =>
 
 ## Related links
 
-- [Device Sample](/samples/xamarin/xamarin-forms-samples/workingwithdevice)
-- [Styles Sample](/samples/xamarin/xamarin-forms-samples/workingwithstyles)
 - [Device API](xref:Xamarin.Forms.Device)
