@@ -1,6 +1,6 @@
 # Xamarin Documentation
 
-The documentation in this repo is hosted at [Xamarin documentation](https://learn.microsoft.com/previous-versions/xamarin). Support for Xamarin ended on the 1st May 2024 and so this documentation won't be updated, and any pull requests will be closed. For more information, see [Xamarin Support Policy](https://dotnet.microsoft.com/platform/support/policy/xamarin).
+The documentation in this repo is hosted at [Xamarin documentation](https://learn.microsoft.com/previous-versions/xamarin). Support for Xamarin ended on the 1st May 2024 and so this documentation won't be updated. For more information, see [Xamarin Support Policy](https://dotnet.microsoft.com/platform/support/policy/xamarin).
 
 ## Microsoft Open Source Code of Conduct
 
