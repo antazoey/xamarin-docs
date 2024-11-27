@@ -428,17 +428,17 @@ Enter the following command in the Terminal app:
 sharpie bind --output=InfColorPicker --namespace=InfColorPicker --sdk=[iphone-os] -scope [full-path-to-project]/InfColorPicker/InfColorPicker [full-path-to-project]/InfColorPicker/InfColorPicker/*.h
 ```
 
-Where `[full-path-to-project]` is the full path to the directory where the **InfColorPicker** Xcode project file is located on our computer, and [iphone-os] is the iOS SDK that we have installed, as noted by the `sharpie xcode -sdks` command. Note that in this example we've passed **\*.h** as a parameter, which includes *all* the header files in this directory - normally you should NOT do this, but instead carefully read through the header files to find the top-level **.h** file that references all the other relevant files, and just pass that to Objective Sharpie. 
+Where `[full-path-to-project]` is the full path to the directory where the **InfColorPicker** Xcode project file is located on our computer, and [iphone-os] is the iOS SDK that we have installed, as noted by the `sharpie xcode -sdks` command. Note that in this example we've passed **\*.h** as a parameter, which includes *all* the header files in this directory - normally you should NOT do this, but instead carefully read through the header files to find the top-level **.h** file that references all the other relevant files, and just pass that to Objective Sharpie.
 
-> [!TIP] 
-> For the `-scope` argument, pass in the folder that has the headers you want to bind. 
-> Without the `-scope` argument, Objective Sharpie will try to generate bindings for any 
-> iOS SDK headers that are imported, e.g. `#import <UIKit.h>`, resulting in a huge definitions 
-> file that will likely generate errors when compiling the binding project. With the `-scope` 
-> argument set, Objective Sharpie will not generate bindings for any headers outside of the 
-> scoped folder. 
+> [!TIP]
+> For the `-scope` argument, pass in the folder that has the headers you want to bind.
+> Without the `-scope` argument, Objective Sharpie will try to generate bindings for any
+> iOS SDK headers that are imported, e.g. `#import <UIKit.h>`, resulting in a huge definitions
+> file that will likely generate errors when compiling the binding project. With the `-scope`
+> argument set, Objective Sharpie will not generate bindings for any headers outside of the
+> scoped folder.
 
-The following [output](walkthrough-images/os05.png) will be generated in the terminal:
+The following output will be generated in the terminal:
 
 ```bash
 Europa:Resources kmullins$ sharpie bind -output InfColorPicker -namespace InfColorPicker -sdk iphoneos8.1 /Users/kmullins/Projects/InfColorPicker/InfColorPicker/InfColorPicker.h -unified
@@ -506,7 +506,7 @@ You may also find that Objective Sharpie has annotated the binding with `[Verify
 
 At this point, our binding project should be complete and ready to build. Let's build our binding project and make sure that we ended up with no errors:
 
-[Build the binding project and make sure there are no errors](walkthrough-images/os12.png)
+![Build the binding project and make sure there are no errors](walkthrough-images/os12.png)
 
 # [Visual Studio](#tab/windows)
 
