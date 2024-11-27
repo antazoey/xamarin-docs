@@ -252,10 +252,11 @@ We must also create a resource layout for **SecondActivity**. Add a new
 ### Add a notification icon
 
 Finally, add a small icon that will appear in the notification area
-when the notification is launched. You can copy
-[this icon](local-notifications-walkthrough-images/ic-stat-button-click.png)
-to your project or create your own custom icon. Name the icon file
-**ic\_stat\_button\_click.png** and copy it to the
+when the notification is launched. You can copy the following icon to your project or create your own custom icon:
+
+![this icon](local-notifications-walkthrough-images/ic-stat-button-click.png)
+
+Name the icon file **ic\_stat\_button\_click.png** and copy it to the
 **Resources/drawable** folder. Remember to use **Add > Existing Item
 ...** to include this icon file in your project.
 

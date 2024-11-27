@@ -399,7 +399,7 @@ public partial class PressAndReleaseButtonPage : ContentPage
 
 The result is that the `Label` only rotates while a finger is in contact with the `Button`, and stops when the finger is released:
 
-[![Press and Release Button](button-images/PressAndReleaseButton.png "Press and Release Button")](button-images/PressAndReleaseButton-Large.png)
+[![Press and Release Button](button-images/PressAndReleaseButton.png "Press and Release Button")](button-images/PressAndReleaseButton-Large.png#lightbox)
 
 This kind of behavior has applications for games: A finger held on a `Button` might make an on-screen object move in a particular direction.
 
@@ -530,7 +530,7 @@ The `Button` at the top of the page has its three `Color` properties bound to `P
 
 This program allows you to experiment with combinations of all these properties:
 
-[![Button Appearance](button-images/ButtonAppearance.png "Button Appearance")](button-images/ButtonAppearance-Large.png)
+[![Button Appearance](button-images/ButtonAppearance.png "Button Appearance")](button-images/ButtonAppearance-Large.png#lightbox)
 
 To see the `Button` border, you'll need to set a `BorderColor` to something other than `Default`, and the `BorderWidth` to a positive value.
 
