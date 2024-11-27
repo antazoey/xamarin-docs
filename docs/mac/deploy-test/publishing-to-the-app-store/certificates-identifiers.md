@@ -193,7 +193,7 @@ To self-release a Xamarin.Mac application (not release via the Apple App Store),
 
 Once you have created, downloaded, and installed certificates, they'll be visible in **Keychain Access**:
 
-[Keychain Access certificate list](certificates-identifiers-images/certif09.png)
+![Keychain Access certificate list](certificates-identifiers-images/certif09.png)
 
 ## Related links
 

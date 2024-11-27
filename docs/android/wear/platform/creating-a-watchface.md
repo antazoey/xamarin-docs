@@ -97,8 +97,9 @@ Also, enable the **Internet** and **WakeLock** permissions:
 
 -----
 
-Next, download [preview.png](creating-a-watchface-images/preview.png) &ndash; this will
-be added to the **drawables** folder later in this walkthrough.
+Next, download the following file, which will be added to the **drawables** folder later in this walkthrough:
+
+![preview.png](creating-a-watchface-images/preview.png) &ndash
 
 ## Add the Xamarin.Android Wear Package
 
@@ -428,7 +429,10 @@ Set this file's build action to **AndroidResource**:
 This resource file defines a simple `wallpaper` element that will be
 used for the watch face.
 
-If you have not yet done so, download [preview.png](creating-a-watchface-images/preview.png).
+If you have not yet done so, download the following image:
+
+![preview.png](creating-a-watchface-images/preview.png).
+
 Install it at **Resources/drawable/preview.png**. Be sure to add this file
 to the `WatchFace` project. This preview image is displayed to the user
 in the watch face picker on the Wear device. To create a preview image for

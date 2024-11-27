@@ -79,9 +79,7 @@ to add it to the app's UI using the iOS Designer.
    properties of the activity indicator such as its **Style**,
    **Behavior**, and **Name**:
 
-    ![The Widget tab for an activity
-    indicator](progress-indicators-images/activity02.png "The Widget tab for
-    an activity indicator")
+    ![The Widget tab for an activity indicator](progress-indicators-images/activity02.png "The Widget tab for an activity indicator")
 
     The **Name** determines the name of the property that represents the
     activity indicator in C# code.
@@ -95,9 +93,7 @@ to add it to the app's UI using the iOS Designer.
    several properties of the progress view such as its **Style**,
    **Progress** (percent complete), and **Name**:
 
-    ![The Widget tab for a progress
-    view](progress-indicators-images/activity04.png "The Widget tab for a
-    progress view")
+    ![The Widget tab for a progress view](progress-indicators-images/activity04.png "The Widget tab for a progress view")
 
     The **Name** determines the name of the property that represents the
     progress view in C# code.
@@ -119,9 +115,7 @@ to add it to the app's UI using the iOS Designer.
    several properties of the activity indicator such as its **Style**,
    **Behavior**, and **Name**:
 
-    ![The Widget tab for an activity
-    indicator](progress-indicators-images/activity02-vs.png "The Widget tab
-    for an activity indicator")
+    ![The Widget tab for an activity indicator](progress-indicators-images/activity02-vs.png "The Widget tab for an activity indicator")
 
     The **Name** determines the name of the property that represents
     the activity indicator in C# code.
@@ -135,9 +129,7 @@ to add it to the app's UI using the iOS Designer.
    several properties of the progress view such as its **Style**,
    **Progress** (percent complete), and **Name**:
 
-    ![The Widget tab for a progress
-    view](progress-indicators-images/activity04-vs.png "The Widget tab for a
-    progress view")
+    ![The Widget tab for a progress view](progress-indicators-images/activity04-vs.png "The Widget tab for a progress view")
 
     The **Name** determines the name of the property that represents the
     progress view in C# code.
