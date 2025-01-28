@@ -23,6 +23,8 @@ landingContent:
             url: data/files.md
           - text: Local databases
             url: data/databases.md
+          - text: Entity Framework
+            url: data/entity-framework.md
 
   - title: Azure services
     linkLists:

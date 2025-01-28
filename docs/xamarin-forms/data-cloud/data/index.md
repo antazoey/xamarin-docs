@@ -19,3 +19,7 @@ File handling with Xamarin.Forms can be achieved using code in a .NET Standard l
 ## [Local Databases](databases.md)
 
 Xamarin.Forms supports database-driven applications using the SQLite database engine, which makes it possible to load and save objects in shared code. This article describes how Xamarin.Forms applications can read and write data to a local SQLite database using SQLite.Net.
+
+## [Entity Framework](entity-framework.md)
+
+Xamarin.Forms supports performing data access against a SQLite databases using Entity Framework Core.
