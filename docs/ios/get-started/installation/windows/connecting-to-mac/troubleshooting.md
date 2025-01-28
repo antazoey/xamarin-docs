@@ -56,7 +56,7 @@ The Xamarin Build Host from older versions of Xamarin.iOS is no longer required.
 
     You can find your _username_ by running the `whoami` command in **Terminal.app**.
 
-    For example, from the screenshot below, the account name will be **amyb** and not **Amy Burns**:
+    For example, from the screenshot below, the account name will be **zoed** and not **Zoe Drakou**:
 
     [![Getting the account name from the Terminal app](troubleshooting-images/troubleshooting-image5a.png)](troubleshooting-images/troubleshooting-image5a.png#lightbox)
 
@@ -75,7 +75,7 @@ The Xamarin Build Host from older versions of Xamarin.iOS is no longer required.
 8. Next, test if the `ssh` client from OpenSSH can connect successfully to the Mac from Windows. One way to install this program is to install [Git for Windows](https://git-for-windows.github.io/). You can then start a **Git Bash** command prompt and attempt to `ssh` in to the Mac with your username and IP address:
 
     ```bash
-    ssh amyb@10.1.8.95
+    ssh zoed@10.1.8.95
     ```
 
     <a name="stepnine"></a>
@@ -83,7 +83,7 @@ The Xamarin Build Host from older versions of Xamarin.iOS is no longer required.
 9. If **step 8 succeeds**, you can try running a simple command like `ls` over the connection:
 
     ```bash
-    ssh amyb@10.1.8.95 'ls'
+    ssh zoed@10.1.8.95 'ls'
     ```
     
     This should list the contents of your home directory on the Mac. If the `ls` command works correctly but the Visual Studio connection still fails, you can check the [Known Issues and Limitations](#knownissues) section about complications specific to Xamarin. If none of those match your problem, please file a new bug report on Developer Community by going to **Help > Send Feedback > Report a problem** in Visual Studio and attach the logs described under [Check the Verbose Log Files](#verboselogs).

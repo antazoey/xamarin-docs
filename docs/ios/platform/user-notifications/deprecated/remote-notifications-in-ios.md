@@ -68,7 +68,7 @@ Each of the environments mentioned in the previous section require their own cer
 
 7. Next, you must create the certificate for the app ID. In the left hand navigation, browse to **Certificates > All** and select the `+` button, as shown in the following screenshot:
 
-    [![Create the certificate for the app ID](remote-notifications-in-ios-images/image10new.png)](remote-notifications-in-ios-images/image8.png#lightbox)
+    [![Create the certificate for the app ID](remote-notifications-in-ios-images/image10new.png)](remote-notifications-in-ios-images/image10new.png#lightbox)
 
 8. Select whether you would like to use a Development or Production certificate:
 
