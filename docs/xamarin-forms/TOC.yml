@@ -910,6 +910,8 @@
               href: data-cloud/data/files.md
             - name: Local Databases
               href: data-cloud/data/databases.md
+            - name: Entity Framework
+              href: data-cloud/data/entity-framework.md
         - name: Azure Services
           items:
             - name: Azure services overview
